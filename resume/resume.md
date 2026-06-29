@@ -4,42 +4,59 @@
 
 **Infrastructure & Automation Engineer** · Köln, Deutschland
 
----
-
-## Wer ich bin
-
-**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise-Software und medizinischen Informationssystemen bis hin zu Kubernetes-Plattformen und Self-hosted-Infrastrukturen.
-
-Ich bringe komplexe Systeme zuverlässig in den produktiven Betrieb und begleite sie von der Implementierung bis zum stabilen Langzeitbetrieb. Über 18 Jahre. Selbstständig unter [borissov-it.de](https://borissov-it.de/).
-
----
-
-## In einem Absatz
-
-Ich arbeitete 2007–2008 bei **CDC** an der Einführung von **Optimum ERP**, wechselte **2008 zu Medcore** und war dort bis **2022** mit **Intramed MIS** und kleineren Informationssystemen beschäftigt (Einführung und Betrieb, 40.000 Patienten/Jahr). Ab etwa **2016** parallel dazu **projektbezogene** Infrastrukturaufgaben — Linux, WildFly u. a. **2022–2025** Umzug nach Köln, Deutsch lernen und berufliche Integration. Seit **Februar 2025** selbstständig unter [borissov-it.de](https://borissov-it.de/).
-
----
-
-## Was ich tue
-
-- **Implementieren** — Enterprise- und Kliniksoftware einführen
-- **Integrieren** — MIS, Labor, Histopathologie, Dokumentenerkennung
-- **Betreiben** — Produktionssupport über Jahre, nicht nur bis Go-live
-- **Automatisieren** — CI/CD, n8n, Self-hosted Plattformen, wenn manuelle Arbeit nicht skaliert
-
----
-
-## Mehr erfahren
-
-| | |
-|---|---|
-| [Über mich](../01-about/) | Hintergrund, Philosophie, Kontakt |
-| [Karriere](../02-career/) | Zeitstrahl und Erfahrung |
-| [Projekte](../03-projects/) | Case Studies mit Architektur |
-| [Website](https://borissov-it.de/) | Aktuelle Arbeit und Referenzen |
-
----
-
-## Kontakt
-
 [borissov-it.de](https://borissov-it.de/) · [alxboriss@gmail.com](mailto:alxboriss@gmail.com) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc)
+
+---
+
+**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise- und Kliniksoftware bis zu Kubernetes und Self-hosted-Infrastruktur. Kernkompetenz: Systeme zuverlässig in den Produktionsbetrieb bringen und langfristig begleiten — kein DevOps-only-Profil.
+
+*Kurzprofil aus diesem Repository — keine Bewerbung auf eine bestimmte Stelle. Details: [01-about](../01-about/) · [02-career](../02-career/) · [03-projects](../03-projects/)*
+
+---
+
+## Karriere
+
+| Zeitraum | Rolle / Schwerpunkt |
+|----------|---------------------|
+| Feb 2025–heute | **Freelance** — BORISSOV Engineering · K8s, Self-hosted, Automatisierung |
+| 2022–2025 | Umzug nach Köln, Deutsch, berufliche Integration |
+| 2008–2022 | **Medcore** — Intramed MIS + kleinere IS · Einführung & Betrieb (40k Patienten/Jahr) |
+| ab ~2016 | parallel: Infrastruktur projektbezogen — Linux, WildFly, air-gapped |
+| 2007–2008 | **CDC** — Optimum ERP Einführung |
+
+---
+
+## Ausgewählte Projekte
+
+| Projekt | Kurz |
+|---------|------|
+| [Medizinisches IS](../03-projects/02-medical-information-system/) | Intramed, 14+ Jahre, Klinikintegrationen |
+| [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped |
+| [BI-Plattform](../03-projects/07-bi-platform/) | Metabase, Prometheus, Backups (Freelance) |
+| [KI-Lernplattform](../03-projects/06-ai-learning-platform/) | K8s, GitLab CI, Keycloak (Freelance) |
+
+[Alle Projekte →](../03-projects/)
+
+---
+
+## Ausbildung & Zertifikate
+
+| Jahr | Abschluss / Nachweis |
+|------|----------------------|
+| 2006 | Hochschulabschluss **Wirtschaftsinformatik** — Staatliche Universität Wladimir |
+| 2001 | Studium **Informatik** — Universität Ust-Kamenogorsk, Kasachstan |
+| 2024 | **DevSecOps im Cloud-CI/CD** — Yandex Cloud Training · [Zertifikat](../05-certificates/yandex-course-certificate.pdf) |
+
+---
+
+## Kerntechnologien
+
+`Linux` · `Kubernetes` · `Docker` · `WildFly` · `PostgreSQL` · `MS SQL Server` · `GitLab CI` · `GitHub Actions` · `Keycloak` · `Metabase` · `n8n` · `Prometheus` · `Intramed` / InterSystems Caché
+
+→ [Vollständige Skills-Matrix](../02-career/skills.md)
+
+---
+
+## Sprachen
+
+Russisch (Muttersprache) · Deutsch · Englisch

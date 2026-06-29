@@ -4,14 +4,21 @@
 
 Dies ist **kein stellenspezifischer Lebenslauf**.
 
-Es ist eine kurze Zusammenfassung für alle, die einen Überblick auf einer Seite wünschen. Das vollständige Bild — wer ich bin, wie ich arbeite, Projektdokumentation — steht in diesem Repository.
+Es ist eine **einseitige Zusammenfassung** mit den wichtigsten Fakten — Karriere, Projekte, Ausbildung, Stack. Wer mehr will, folgt den Links ins Repository.
 
-| Dokument | Zweck |
-|----------|-------|
-| [resume.md](resume.md) | Kurzprofil auf einer Seite |
-| [01-about/](../01-about/) | Wer ich bin — hier starten |
-| [02-career/](../02-career/) | Karriereverlauf und Erfahrung |
-| [03-projects/](../03-projects/) | Technische Case Studies |
+| Inhalt in `resume.md` | |
+|-----------------------|---|
+| Positionierung & Kontakt | Wer, wo, wie erreichbar |
+| Karriere (Tabelle) | Phasen mit echten Daten |
+| Ausgewählte Projekte | 4 Highlights mit Links |
+| Ausbildung & Zertifikate | Hochschule + Yandex |
+| Kerntechnologien | Kompakt, Link zu `skills.md` |
+
+| Mehr Detail | Link |
+|-------------|------|
+| Philosophie, Hintergrund | [01-about/](../01-about/) |
+| Zeitstrahl, Erfahrung, Skills | [02-career/](../02-career/) |
+| Case Studies mit Architektur | [03-projects/](../03-projects/) |
 
 ## PDF
 
