@@ -4,11 +4,11 @@ Karriere strukturiert nach Verantwortung — nicht als reine DevOps- oder Linux-
 
 ---
 
-## Freelance · BORISSOV Engineering · 2024 – heute
+## Freelance · BORISSOV Engineering · Feb 2025 – heute
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Unabhängiges Engineering für den deutschen Mittelstand. Feste Scope, dokumentierte Übergabe, Self-hosted und DSGVO-bewusste Architekturen.
+Gewerbeanmeldung **Februar 2025**. Unabhängiges Engineering für den deutschen Mittelstand. Feste Scope, dokumentierte Übergabe, Self-hosted und DSGVO-bewusste Architekturen.
 
 ### Ausgewählte Aufträge
 
@@ -21,11 +21,21 @@ Unabhängiges Engineering für den deutschen Mittelstand. Feste Scope, dokumenti
 
 ---
 
-## Medcore · 2008 – 2024
+## Deutschland · 2022 – 2025 · Umzug und berufliche Integration
+
+Nach Beendigung des operativen MIS-Betriebs bei Medcore:
+
+- **Umzug** von Russland nach **Köln**
+- **Deutsch lernen** und Integration in Deutschland
+- Vorbereitung der **Selbstständigkeit** (Positionierung, technische Weiterentwicklung)
+
+---
+
+## Medcore · 2008 – 2022
 
 **Spezialist — Einführung und Betrieb medizinischer Informationssysteme**
 
-Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Intramed** (InterSystems Caché) sowie **weiteren, kleineren Informationssystemen** — nicht als DevOps-Ingenieur, sondern als MIS-Spezialist mit wachsender technischer Breite.
+Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Intramed** (InterSystems Caché) sowie **weiteren, kleineren Informationssystemen** — nicht als DevOps-Ingenieur, sondern als MIS-Spezialist mit wachsender technischer Breite. Operativer MIS-Betrieb endete **2022** mit dem Umzug nach Deutschland.
 
 ### Schwerpunkte (2008–2015)
 
@@ -39,7 +49,7 @@ Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Int
 
 ### Erweiterung ab 2016 — Infrastruktur projektbezogen
 
-Ab etwa **2016** kamen zusätzliche Aufgaben und Technologien hinzu — **Linux, WildFly, air-gapped Deployments** u. a. — aber **nicht als durchgängiger Linux-/Infrastruktur-Job**, sondern **von Projekt zu Projekt**, parallel zur MIS-Arbeit:
+Ab etwa **2016** kamen zusätzliche Aufgaben und Technologien hinzu — **Linux, WildFly, air-gapped Deployments** u. a. — **von Projekt zu Projekt**, parallel zur MIS-Arbeit:
 
 | Projekt | Beteiligung | Zeitraum |
 |---------|-------------|----------|
@@ -69,9 +79,10 @@ Erste berufliche Rolle bei [CDC](https://cdc.ru/). Einführung des **Optimum**-S
 
 ```
 2007–08   CDC · Optimum ERP
-2008–24   Medcore · Intramed MIS + kleinere IS
+2008–22   Medcore · Intramed MIS + kleinere IS
               └─ ab ~2016 parallel: Infrastruktur (Linux, WildFly, …)
-2024–     Freelance · BORISSOV
+2022–25   Deutschland · Umzug, Sprache, Integration
+Feb 25–   Freelance · BORISSOV
 ```
 
 ## Positionierung

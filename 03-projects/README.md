@@ -7,7 +7,7 @@ Technische Case Studies — Kontext, Architektur, Rolle, Technologien und Erkenn
 | # | Projekt | Zeitraum | Rolle | Domäne |
 |---|---------|----------|-------|--------|
 | 01 | [Optimum ERP](01-optimum/) | 2007–2008 | Einführungsspezialist | Enterprise-Software |
-| 02 | [Medizinisches IS](02-medical-information-system/) | 2008–2024 | Einführung & Betrieb bei Medcore | Healthcare / MIS |
+| 02 | [Medizinisches IS](02-medical-information-system/) | 2008–2022 | Einführung & Betrieb bei Medcore | Healthcare / MIS |
 | 03 | [Referenzdaten-Plattform](03-reference-data-platform/) | ~2020 | WildFly-Cluster, air-gapped | Verkehr / MDM |
 | 04 | [Histopathologie-LIS](04-histopathology/) | ~2018 | Test, Deployment, Support | Labor |
 | 05 | [Dokumentenerkennung](05-document-recognition/) | ~2016 | Deployment & Support | Healthcare / OCR |

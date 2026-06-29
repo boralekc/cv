@@ -8,7 +8,7 @@ Zusätzlich Einführung und Betrieb von Intramed an **weiteren großen Kliniken 
 
 | | |
 |---|---|
-| **Zeitraum** | 2008 – 2024 |
+| **Zeitraum** | 2008 – 2022 |
 | **Arbeitgeber** | Medcore |
 | **Rolle** | Einführung, Anpassung, langfristiger Support |
 | **Patienten** | 40.000 / Jahr |
@@ -51,7 +51,7 @@ flowchart TB
 
 ## Herausforderungen
 
-1. **Langfristige Systemevolution** — kontinuierliche Anpassung über 16+ Jahre ohne Störung des Klinikbetriebs
+1. **Langfristige Systemevolution** — kontinuierliche Anpassung über 14+ Jahre ohne Störung des Klinikbetriebs
 2. **Multi-System-Integration** — Labor, Pathologie und Scanning müssen mit dem MIS synchron bleiben
 3. **Produktion mit hohem Einsatz** — Ausfallzeit wirkt sich direkt auf die Patientenversorgung aus
 

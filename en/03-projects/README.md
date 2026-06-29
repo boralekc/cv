@@ -7,7 +7,7 @@ Engineering case studies — context, architecture, role, technologies, and less
 | # | Project | Period | Role | Domain |
 |---|---------|--------|------|--------|
 | 01 | [Optimum ERP](01-optimum/) | 2007–2008 | Implementation specialist | Enterprise software |
-| 02 | [Medical Information System](02-medical-information-system/) | 2008–2024 | Implementation & support at Medcore | Healthcare / MIS |
+| 02 | [Medical Information System](02-medical-information-system/) | 2008–2022 | Implementation & support at Medcore | Healthcare / MIS |
 | 03 | [Reference Data Platform](03-reference-data-platform/) | ~2020 | WildFly cluster, air-gapped | Transport / MDM |
 | 04 | [Histopathology LIS](04-histopathology/) | ~2018 | Testing, deployment, support | Laboratory |
 | 05 | [Document Recognition](05-document-recognition/) | ~2016 | Deployment & support | Healthcare / OCR |

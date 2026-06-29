@@ -54,7 +54,7 @@ Enterprise-Monolith-Modell — integrierte Module für organisatorische Workflow
 
 - Enterprise-Software betrifft **Organisationen**, nicht nur Technologie
 - Qualität der Einführung entscheidet, ob ein System genutzt oder aufgegeben wird
-- Diese Rolle legte den Grundstein für über 18 Jahre Systemdenken
+- Diese Rolle legte den Grundstein für eine langjährige Laufbahn im Systemdenken
 
 ## Verwandt
 

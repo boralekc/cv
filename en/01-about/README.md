@@ -23,17 +23,18 @@ My value is not in writing as much code as possible. It is in making complex sys
 ## The thread of my career
 
 ```
-Implement  →  Integrate & Operate (+ infra in parallel)  →  Automate
-   CDC                    Medcore                              Freelance
-(Optimum ERP)    (Intramed, smaller IS; from ~2016 infra)  (borissov-it.de)
+Implement  →  Integrate & Operate (+ infra in parallel)  →  Integration  →  Automate
+   CDC                    Medcore                              Germany           Freelance
+(Optimum ERP)    (Intramed, smaller IS; from ~2016 infra)   (2022–2025)      (from Feb 2025)
 ```
 
 | Phase | What I did |
 |-------|------------|
 | CDC 2007–2008 | **Optimum ERP** — implementation |
-| Medcore 2008–2024 | **Intramed MIS** + smaller IS — implementation & support |
+| Medcore 2008–2022 | **Intramed MIS** + smaller IS — implementation & support |
 | from ~2016 (parallel) | **Infrastructure per project** — alongside ongoing MIS |
-| BORISSOV from 2024 | **Freelance** — K8s, self-hosted |
+| Germany 2022–2025 | **Relocation to Cologne**, learning German, integration |
+| BORISSOV from Feb 2025 | **Freelance** — K8s, self-hosted |
 
 For 18+ years I have accompanied IT systems through their full lifecycle — from implementation to stable operation.
 
@@ -62,7 +63,7 @@ What has stayed constant:
 |------|-------------|
 | **Implement** | Enterprise ERP, hospital MIS, clinical workflows |
 | **Integrate** | MIS, lab, histopathology, OCR, external platforms |
-| **Operate** | Production support over years — 16+ years MIS at Medcore |
+| **Operate** | Production support over years — 14+ years MIS at Medcore |
 | **Automate** | CI/CD, n8n workflows, self-hosted platforms, Kubernetes |
 
 → [Projects](../03-projects/) · [Experience](../02-career/experience.md)

@@ -15,13 +15,14 @@ Core: **enterprise and clinical system implementation and operation** — not a 
 | Phase | Focus |
 |-------|-------|
 | CDC (2007–2008) | **Optimum ERP** — implementation |
-| Medcore (2008–2024) | **Intramed MIS** + smaller IS |
-| from ~2016 (parallel) | **Infrastructure per project** — Linux, WildFly — alongside ongoing MIS |
-| BORISSOV (2024–present) | **Freelance** — K8s, self-hosted |
+| Medcore (2008–2022) | **Intramed MIS** + smaller IS |
+| from ~2016 (parallel) | **Infrastructure per project** — alongside ongoing MIS |
+| Germany (2022–2025) | **Relocation to Cologne**, language, integration |
+| BORISSOV (from Feb 2025) | **Freelance** — K8s, self-hosted |
 
 ## How I work
 
-- **Stay with systems** — 16+ years MIS at Medcore
+- **Stay with systems** — 14+ years MIS at Medcore
 - **Grow project by project** — infrastructure when the project needs it
 - **Not DevOps-only** — MIS specialist with infrastructure experience
 

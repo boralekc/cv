@@ -23,17 +23,18 @@ Mein Wert liegt nicht darin, möglichst viel Code zu schreiben. Er liegt darin, 
 ## Der rote Faden meiner Karriere
 
 ```
-Implementieren  →  Integrieren & Betreiben (+ Infra parallel)  →  Automatisieren
-     CDC                      Medcore                              Freelance
-  (Optimum ERP)         (Intramed, kleinere IS; ab ~2016 Infra)   (borissov-it.de)
+Implementieren  →  Integrieren & Betreiben (+ Infra parallel)  →  Integration  →  Automatisieren
+     CDC                      Medcore                              Deutschland         Freelance
+  (Optimum ERP)         (Intramed, kleinere IS; ab ~2016 Infra)   (2022–2025)      (ab Feb 2025)
 ```
 
 | Phase | Was ich tat |
 |-------|-------------|
 | [CDC](https://cdc.ru/) 2007–2008 | **Optimum ERP** — Einführung |
-| Medcore 2008–2024 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
+| Medcore 2008–2022 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
 | ab ~2016 (parallel) | **Infrastruktur projektbezogen** — Linux, WildFly u. a., neben laufendem MIS |
-| [BORISSOV](https://borissov-it.de/) ab 2024 | **Freelance** — K8s, Self-hosted, Automatisierung |
+| Deutschland 2022–2025 | **Umzug nach Köln**, Deutsch lernen, berufliche Integration |
+| [BORISSOV](https://borissov-it.de/) ab Feb 2025 | **Freelance** — K8s, Self-hosted, Automatisierung |
 
 Seit über 18 Jahren begleite ich IT-Systeme über ihren gesamten Lebenszyklus — von der Implementierung bis zum stabilen Betrieb.
 
@@ -62,7 +63,7 @@ Was sich durchgehend bewährt hat:
 |---------|---------------|
 | **Implementieren** | Enterprise-ERP, Krankenhaus-MIS, Klinik-Workflows |
 | **Integrieren** | MIS, Labor, Histopathologie, OCR, externe Plattformen |
-| **Betreiben** | Produktionssupport über Jahre — 16+ Jahre MIS bei Medcore |
+| **Betreiben** | Produktionssupport über Jahre — 14+ Jahre MIS bei Medcore |
 | **Automatisieren** | CI/CD, n8n-Workflows, Self-hosted Plattformen, Kubernetes |
 
 → [Projekte](../03-projects/) · [Erfahrung](../02-career/experience.md)

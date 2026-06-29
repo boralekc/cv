@@ -15,11 +15,11 @@ Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 
 ---
 
-## 2008 – 2024 · Medcore · Medizinische Informationssysteme
+## 2008 – 2022 · Medcore · Medizinische Informationssysteme
 
 **Wechsel zu Medcore (2008):** Einführung und Betrieb von **MIS Intramed** (InterSystems Caché) und **weiteren, kleineren Informationssystemen**.
 
-- 16+ Jahre — durchgehender MIS-Betrieb; ab ~2016 **zusätzlich** Infrastrukturprojekte im Parallelbetrieb (siehe unten)
+- 14+ Jahre — durchgehender MIS-Betrieb bis zum Umzug nach Deutschland; ab ~2016 **zusätzlich** Infrastrukturprojekte im Parallelbetrieb (siehe unten)
 - Krankenhaus mit **40.000 Patienten pro Jahr**
 - Integration: Labor, Histopathologie, Dokumentenerkennung
 - Einführungen an **weiteren großen Kliniken in Russland**
@@ -38,13 +38,22 @@ Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 | ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Sync |
 | ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped |
 
-Infrastruktur-Kenntnisse wuchsen **schrittweise und projektweise** — nicht über eine dedizierte DevOps-Stelle.
+Infrastruktur-Kenntnisse wuchsen **schrittweise und projektweise** — nicht über eine dedizierte DevOps-Stelle. Letzte Infrastrukturprojekte parallel zum MIS-Betrieb bis **2022**.
 
 ---
 
-## 2024 – heute · Freelance · [BORISSOV Engineering](https://borissov-it.de/)
+## 2022 – 2025 · Deutschland · Umzug und Integration
 
-Hier werden Infrastruktur, Kubernetes und Automatisierung **bewusst und explizit** zum Kerngeschäft.
+Nach dem Ausstieg aus dem operativen MIS-Betrieb bei Medcore: **Umzug von Russland nach Köln**, **Deutsch lernen** und **berufliche Integration** in Deutschland — Vorbereitung auf die Selbstständigkeit.
+
+- Spracherwerb und Anpassung an den deutschen Arbeitsmarkt
+- Vorbereitung der Selbstständigkeit (Recherche, Positionierung, technische Weiterentwicklung)
+
+---
+
+## ab Feb 2025 · Freelance · [BORISSOV Engineering](https://borissov-it.de/)
+
+Gewerbeanmeldung **Februar 2025**. Infrastruktur, Kubernetes und Automatisierung werden **bewusst und explizit** zum Kerngeschäft.
 
 | Jahr | Projekt | Rolle |
 |------|---------|-------|
@@ -67,11 +76,14 @@ gantt
     Optimum ERP :done, 2007-01-01, 2008-12-31
 
     section Medcore
-    Intramed MIS & kleinere IS :active, 2008-01-01, 2024-12-31
+    Intramed MIS & kleinere IS :active, 2008-01-01, 2022-12-31
 
     section Infrastruktur
-    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2024-12-31
+    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2022-12-31
+
+    section Deutschland
+    Umzug · Sprache · Integration :de, 2022-01-01, 2025-02-01
 
     section Freelance
-    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
+    BORISSOV Engineering :crit, 2025-02-01, 2027-01-01
 ```

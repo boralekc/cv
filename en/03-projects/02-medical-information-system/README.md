@@ -8,7 +8,7 @@ From **2008 at Medcore**: implementation and long-term support of **Intramed** a
 
 | | |
 |---|---|
-| **Period** | 2008 – 2024 |
+| **Period** | 2008 – 2022 |
 | **Employer** | Medcore |
 | **Role** | Implementation, customisation, long-term support |
 

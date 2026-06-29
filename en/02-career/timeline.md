@@ -12,13 +12,14 @@ First role: **Optimum ERP implementation**.
 
 ---
 
-## 2008 – 2024 · Medcore · Medical Information Systems
+## 2008 – 2022 · Medcore · Medical Information Systems
 
 **Joined Medcore in 2008:** implementation and support of **Intramed MIS** and **smaller information systems**.
 
-- 16+ years — continuous MIS support; from ~2016 **additionally** infrastructure projects in parallel (see below)
+- 14+ years — continuous MIS support until relocation to Germany; from ~2016 **additionally** infrastructure projects in parallel (see below)
 - 40,000 patients per year
 - Integrations: lab, histopathology, document recognition
+- Deployments at additional major clinics in Russia
 
 → [Medical IS](../03-projects/02-medical-information-system/)
 
@@ -34,11 +35,33 @@ First role: **Optimum ERP implementation**.
 | ~2018 | [Histopathology](../03-projects/04-histopathology/) |
 | ~2020 | [Reference Data Platform](../03-projects/03-reference-data-platform/) |
 
+Last infrastructure projects ran in parallel with MIS support until **2022**.
+
 ---
 
-## 2024 – Present · Freelance · [BORISSOV](https://borissov-it.de/)
+## 2022 – 2025 · Germany · Relocation and integration
 
-Infrastructure and Kubernetes become explicit deliverables.
+After leaving operational MIS support at Medcore: **relocation from Russia to Cologne**, **learning German**, and **professional integration** in Germany — preparation for self-employment.
+
+- Language acquisition and adaptation to the German job market
+- Preparation for freelancing (research, positioning, technical upskilling)
+
+---
+
+## from Feb 2025 · Freelance · [BORISSOV](https://borissov-it.de/)
+
+Business registered **February 2025**. Infrastructure and Kubernetes become explicit deliverables.
+
+| Year | Project |
+|------|---------|
+| 2025 | [AI Learning Platform](../03-projects/06-ai-learning-platform/) |
+| 2025 | [BI Platform](../03-projects/07-bi-platform/) |
+| 2025 | [Investment Platform](../03-projects/08-investment-platform/) |
+| 2025 | [Microservice Platform](../03-projects/09-microservice-platform/) *(in progress)* |
+
+---
+
+## Visual overview
 
 ```mermaid
 gantt
@@ -50,11 +73,14 @@ gantt
     Optimum ERP :done, 2007-01-01, 2008-12-31
 
     section Medcore
-    Intramed MIS & smaller IS :active, 2008-01-01, 2024-12-31
+    Intramed MIS & smaller IS :active, 2008-01-01, 2022-12-31
 
     section Infrastructure
-    Parallel to MIS — per project :infra, 2016-01-01, 2024-12-31
+    Parallel to MIS — per project :infra, 2016-01-01, 2022-12-31
+
+    section Germany
+    Relocation · language · integration :de, 2022-01-01, 2025-02-01
 
     section Freelance
-    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
+    BORISSOV Engineering :crit, 2025-02-01, 2027-01-01
 ```

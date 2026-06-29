@@ -9,7 +9,7 @@ Skills from enterprise implementation, medical systems, infrastructure, and free
 | Skill | Experience | Context |
 |-------|------------|---------|
 | Enterprise software implementation | 18+ years | Optimum ERP, business analysis, rollout |
-| Medical Information Systems | 16+ years | Intramed at Medcore (2008–2024), clinical workflows |
+| Medical Information Systems | 14+ years | Intramed at Medcore (2008–2022), clinical workflows |
 | System integration | 15+ years | MIS ↔ lab, histopathology, document systems, WCF |
 | Laboratory & hospital workflows | 10+ years | LIS, OCR pipelines, high-throughput clinics |
 
@@ -43,5 +43,5 @@ Skills from enterprise implementation, medical systems, infrastructure, and free
 
 - End-to-end system ownership — requirements to production support
 - Communication with clinical staff, business stakeholders, and engineering teams
-- Long-term partnerships (16+ years MIS at Medcore)
+- Long-term partnerships (14+ years MIS at Medcore)
 - Documentation and structured handover to client teams

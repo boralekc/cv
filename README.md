@@ -26,21 +26,25 @@ gantt
     Optimum ERP :done, 2007-01-01, 2008-12-31
 
     section Medcore
-    Intramed MIS & kleinere IS :active, 2008-01-01, 2024-12-31
+    Intramed MIS & kleinere IS :active, 2008-01-01, 2022-12-31
 
     section Infrastruktur
-    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2024-12-31
+    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2022-12-31
+
+    section Deutschland
+    Umzug · Sprache · Integration :de, 2022-01-01, 2025-02-01
 
     section Freelance
-    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
+    BORISSOV Engineering :crit, 2025-02-01, 2027-01-01
 ```
 
 | Phase | Schwerpunkt |
 |-------|-------------|
 | [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum-Einführung |
-| [Medcore / Intramed](03-projects/02-medical-information-system/) | 2008–2024 — MIS-Betrieb + kleinere IS |
-| [Infrastruktur-Projekte](03-projects/) | ab ~2016 **parallel** zum MIS — Linux, WildFly, Deployment |
-| [BORISSOV](https://borissov-it.de/) | ab 2024 — K8s, Self-hosted BI, Full-Stack-Automatisierung |
+| [Medcore / Intramed](03-projects/02-medical-information-system/) | 2008–2022 — MIS-Betrieb + kleinere IS |
+| [Infrastruktur-Projekte](03-projects/) | ab ~2016 **parallel** zum MIS — bis 2022 |
+| Deutschland | 2022–2025 — Umzug nach Köln, Sprache, Integration |
+| [BORISSOV](https://borissov-it.de/) | ab **Feb 2025** — K8s, Self-hosted BI, Automatisierung |
 
 → Vollständiger Verlauf: [02-career/timeline.md](02-career/timeline.md)
 
@@ -50,7 +54,7 @@ gantt
 
 | Projekt | Rolle | Highlight |
 |---------|-------|-----------|
-| [Medizinisches IS](03-projects/02-medical-information-system/) | Einführung & Betrieb bei Medcore | Intramed, 16+ Jahre, 40k Patienten/Jahr |
+| [Medizinisches IS](03-projects/02-medical-information-system/) | Einführung & Betrieb bei Medcore | Intramed, 14+ Jahre, 40k Patienten/Jahr |
 | [BI-Plattform](03-projects/07-bi-platform/) | Freelance — Infra + Analytics | Self-hosted Metabase, Prometheus, Backups |
 | [KI-Lernplattform](03-projects/06-ai-learning-platform/) | Freelance DevOps | 7 Microservices, K8s, Keycloak, GitLab CI |
 | [Investment-Plattform](03-projects/08-investment-platform/) | Solo — Full Stack | Next.js, 16 n8n-Workflows, Docker, CI/CD |

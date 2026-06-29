@@ -16,7 +16,7 @@ I bring complex systems reliably into production and support them from implement
 
 ## In one paragraph
 
-I worked at **CDC** (2007–2008) on **Optimum ERP implementation**, joined **Medcore** in **2008** for **Intramed MIS** and smaller information systems until 2024. From **~2016**, **project-based** infrastructure work (Linux, WildFly, etc.) **in parallel** with ongoing MIS support. **Freelance** since 2024 at [borissov-it.de](https://borissov-it.de/).
+I worked at **CDC** (2007–2008) on **Optimum ERP implementation**, joined **Medcore** in **2008** for **Intramed MIS** and smaller information systems until **2022**. From **~2016**, **project-based** infrastructure work (Linux, WildFly, etc.) **in parallel** with MIS support. **2022–2025**: relocation to Cologne, learning German, and professional integration. **Self-employed since February 2025** at [borissov-it.de](https://borissov-it.de/).
 
 ---
 

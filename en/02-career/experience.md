@@ -6,9 +6,11 @@ Career by responsibility — not a pure DevOps or Linux career path. Infrastruct
 
 ---
 
-## Freelance · BORISSOV Engineering · 2024 – Present
+## Freelance · BORISSOV Engineering · Feb 2025 – Present
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
+
+Business registered **February 2025**. Independent engineering for the German mid-market. Fixed scope, documented handover, self-hosted and GDPR-aware architectures.
 
 ### Selected engagements
 
@@ -21,11 +23,21 @@ Career by responsibility — not a pure DevOps or Linux career path. Infrastruct
 
 ---
 
-## Medcore · 2008 – 2024
+## Germany · 2022 – 2025 · Relocation and integration
+
+After ending operational MIS support at Medcore:
+
+- **Relocation** from Russia to **Cologne**
+- **Learning German** and integration in Germany
+- Preparation for **self-employment** (positioning, technical upskilling)
+
+---
+
+## Medcore · 2008 – 2022
 
 **Specialist — implementation and support of medical information systems**
 
-From **2008 at Medcore**: implementation and long-term **operation of Intramed MIS** (InterSystems Caché) and **other, smaller information systems** — as an MIS specialist, not a DevOps engineer.
+From **2008 at Medcore**: implementation and long-term **operation of Intramed MIS** (InterSystems Caché) and **other, smaller information systems** — as an MIS specialist, not a DevOps engineer. Operational MIS support ended in **2022** with relocation to Germany.
 
 ### Core focus (2008–2015)
 
@@ -53,6 +65,16 @@ From **2008 at Medcore**: implementation and long-term **operation of Intramed M
 → [Optimum](../03-projects/01-optimum/)
 
 ---
+
+## Career arc (summary)
+
+```
+2007–08   CDC · Optimum ERP
+2008–22   Medcore · Intramed MIS + smaller IS
+              └─ from ~2016 in parallel: infrastructure
+2022–25   Germany · relocation, language, integration
+Feb 25–   Freelance · BORISSOV
+```
 
 ## Positioning
 
