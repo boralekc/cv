@@ -1,14 +1,8 @@
-<div class="cv-header">
-
 # Alex Borissov
 
 **Infrastructure & Automation Engineer** · Köln
 
-</div>
-
-<div class="cv-grid">
-
-<aside class="cv-side">
+<!-- pdf-sidebar -->
 
 ## Persönliche Daten
 
@@ -38,9 +32,7 @@ Universität Ust-Kamenogorsk, Kasachstan
 **März 2024** — **DevSecOps im Cloud-CI/CD**  
 Yandex Cloud Training
 
-</aside>
-
-<main class="cv-main">
+<!-- pdf-main -->
 
 ## Kurzprofil
 
@@ -115,8 +107,6 @@ Einführung des ERP-Systems **Optimum** bei Unternehmenskunden. Mehrwöchige Pro
 
 **Development (selektiv):** Python/Bash · Next.js/React · Kotlin/Spring Boot
 
-</main>
+<!-- pdf-footer -->
 
-</div>
-
-<p class="cv-footer"><em>Stand: Juni 2026 · Engineering Portfolio und Case Studies: <a href="https://github.com/boralekc/cv">github.com/boralekc/cv</a></em></p>
+*Stand: Juni 2026 · Engineering Portfolio und Case Studies: [github.com/boralekc/cv](https://github.com/boralekc/cv)*
