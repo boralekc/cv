@@ -59,4 +59,4 @@
 
 ## Languages
 
-Russian (native) · German · English
+Russian (native) · German (**B2**) · English (fluent)

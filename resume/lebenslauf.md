@@ -123,7 +123,7 @@ Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-ho
 |---------|--------|
 | Russisch | Muttersprache |
 | Englisch | Verhandlungssicher |
-| Deutsch | Berufliche Kommunikation (Integration in Deutschland seit 2022) |
+| Deutsch | **B2** (CEFR) |
 
 ---
 

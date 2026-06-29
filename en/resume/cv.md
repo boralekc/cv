@@ -122,7 +122,7 @@ Independent engineering for the German mid-market — Kubernetes, self-hosted pl
 |----------|-------|
 | Russian | Native |
 | English | Fluent (professional) |
-| German | Professional communication (in Germany since 2022) |
+| German | **B2** (CEFR) |
 
 ---
 

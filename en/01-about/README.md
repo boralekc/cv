@@ -100,7 +100,7 @@ Linux · Kubernetes · Docker · PostgreSQL · WildFly · InterSystems Caché ·
 | GitHub | [github.com/boralekc](https://github.com/boralekc) |
 | Location | Cologne, Germany |
 
-**Languages:** Russian (native) · English (professional) · German
+**Languages:** Russian (native) · English (professional) · German (**B2**)
 
 ---
 

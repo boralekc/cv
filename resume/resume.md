@@ -59,4 +59,4 @@
 
 ## Sprachen
 
-Russisch (Muttersprache) · Deutsch · Englisch
+Russisch (Muttersprache) · Deutsch (**B2**) · Englisch (verhandlungssicher)
