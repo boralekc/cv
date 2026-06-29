@@ -1,22 +1,41 @@
-# About
+# About Me
 
 ## Alex Borissov
 
-Infrastructure & Automation Engineer with 18+ years of experience building and operating enterprise systems at scale.
+**Infrastructure & Automation Engineer** based in Cologne, Germany.
 
-## Summary
+For more than 18 years I have been helping organizations implement, integrate and operate business-critical IT systems. My career started with enterprise software implementation and gradually evolved towards infrastructure engineering, automation, Kubernetes and cloud-native technologies.
 
-<!-- 3–5 sentences: who you are, what you do, what you're known for -->
+Unlike a traditional DevOps engineer, my experience covers the complete lifecycle of IT systems:
 
-I design, build, and automate infrastructure for complex enterprise environments. My focus spans Kubernetes platforms, CI/CD pipelines, system integration, and cloud-native architectures. I bridge development and operations — turning business requirements into reliable, observable, and maintainable systems.
+- understanding business requirements;
+- implementing enterprise software;
+- integrating multiple systems;
+- designing and operating infrastructure;
+- automating deployments and operations;
+- supporting production environments.
 
-## Core Competencies
+This combination allows me to communicate effectively with both business stakeholders and engineering teams while delivering reliable technical solutions.
 
-- **Infrastructure** — Kubernetes, Docker, Linux, networking, high availability
-- **Automation** — GitOps, CI/CD, Infrastructure as Code, configuration management
-- **Integration** — Enterprise service buses, APIs, message queues, legacy modernization
-- **Cloud** — Multi-cloud and hybrid deployments, container orchestration
-- **Architecture** — Microservices, event-driven systems, platform engineering
+## Areas of Expertise
+
+- Enterprise Software Implementation
+- Medical Information Systems
+- Infrastructure Engineering
+- Kubernetes & Containers
+- CI/CD & DevSecOps
+- Cloud Infrastructure
+- Self-hosted Platforms
+- System Integration
+- Automation
+
+## Core Technologies
+
+Linux · Kubernetes · Docker · GitHub Actions · GitLab CI · Jenkins · Terraform · Helm · Keycloak · PostgreSQL · MS SQL Server · WildFly · Nginx · AWS · DigitalOcean · Hetzner · Next.js · n8n
+
+## Professional Philosophy
+
+I enjoy solving complex infrastructure and integration challenges by combining modern technologies with practical engineering. My goal is to build systems that are reliable, maintainable and easy to operate.
 
 ## Contact
 
@@ -26,11 +45,12 @@ I design, build, and automate infrastructure for complex enterprise environments
 | LinkedIn | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
 | GitHub | [github.com/boralekc](https://github.com/boralekc) |
 | Website | [borissov-it.de](https://borissov-it.de/) |
-| Location | <!-- City, Country --> |
+| Location | Cologne, Germany |
 
 ## Languages
 
 | Language | Level |
 |----------|-------|
 | Russian | Native |
-| English | <!-- Fluent / Professional --> |
+| English | Professional |
+| German | <!-- Level --> |

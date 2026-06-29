@@ -11,7 +11,7 @@ Downloadable resume versions.
 
 ## Quick Links
 
-- [Career overview](../02-career/career.md)
+- [Executive summary](../02-career/executive-summary.md)
 - [Experience](../02-career/experience.md)
 - [Skills](../02-career/skills.md)
 - [Projects](../03-projects/)
