@@ -4,9 +4,18 @@
 
 ## Wer ich bin
 
-Ein Ingenieur, der Verantwortung für Systeme end-to-end übernimmt — vom Geschäftskontext bis zum Produktionsbetrieb.
+**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme.**
 
-Dies ist kein Profil für eine konkrete Stellenanzeige. Es ist eine ehrliche Landkarte von über 18 Jahren: Enterprise-Software, medizinische Informationssysteme, Infrastruktur, Integration und Automatisierung — mit DevOps und Kubernetes als Werkzeugen bei Bedarf, nicht als Identität.
+Ich bringe komplexe Systeme zuverlässig in den produktiven Betrieb — und begleite sie von der Implementierung bis zum stabilen Langzeitbetrieb. Das ist keine Stellenbeschreibung. Es ist, was ich seit über 18 Jahren tue.
+
+## Der rote Faden
+
+| Phase | Schwerpunkt |
+|-------|-------------|
+| CDC (~2007) | **Implementieren** — Optimum ERP |
+| Medcore (2004–2024) | **Integrieren** — Intramed MIS, Kliniksysteme |
+| M-Soft (2016–2020) | **Betreiben** — Infrastruktur, air-gapped, Labor |
+| BORISSOV (2024–heute) | **Implementieren + Automatisieren** — Freelance, K8s, Self-hosted |
 
 ## Wie ich arbeite
 
@@ -15,19 +24,21 @@ Dies ist kein Profil für eine konkrete Stellenanzeige. Es ist eine ehrliche Lan
 - **Für den Betrieb bauen** — Monitoring, Backups, Dokumentation, Übergabe
 - **Pragmatismus wählen** — zuverlässig und wartbar vor modisch
 
+DevOps und Kubernetes sind Werkzeuge bei Bedarf — nicht meine Identität.
+
 ## Karriereentwicklung
 
 ```
-~2007  CDC — Optimum ERP
+~2007  CDC — Optimum ERP (implementieren)
            │
            ▼
-       Medizinisches IS (Intramed) — 2004–2024
+       Medizinisches IS — Intramed (integrieren, betreiben)
            │
            ▼
-       Infrastruktur-Projekte — 2016–2020
+       Infrastruktur-Projekte (betreiben, automatisieren)
            │
            ▼
-       Freelance — BORISSOV (2024–heute)
+       Freelance — BORISSOV (implementieren + betreiben)
 ```
 
 Details: [timeline.md](timeline.md)
@@ -36,11 +47,10 @@ Details: [timeline.md](timeline.md)
 
 | Bereich | Referenz |
 |---------|----------|
-| Enterprise-Software | [Optimum @ CDC](../03-projects/01-optimum/) |
-| Medizinische Systeme | [MIS — 20+ Jahre](../03-projects/02-medical-information-system/) |
-| Air-gapped Infrastruktur | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) |
-| Self-hosted BI | [BI-Plattform](../03-projects/07-bi-platform/) |
-| Volle Verantwortung | [Investment-Plattform](../03-projects/08-investment-platform/) |
+| Implementieren | [Optimum @ CDC](../03-projects/01-optimum/) |
+| Integrieren & Betreiben | [MIS — 20+ Jahre](../03-projects/02-medical-information-system/) |
+| Infrastruktur | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) |
+| Automatisieren | [BI-Plattform](../03-projects/07-bi-platform/) · [Investment-Plattform](../03-projects/08-investment-platform/) |
 | Kubernetes & DevSecOps | [KI-Lernplattform](../03-projects/06-ai-learning-platform/) |
 
 ## Siehe auch

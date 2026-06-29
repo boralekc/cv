@@ -4,13 +4,38 @@
 
 **Infrastructure & Automation Engineer** · Köln, Deutschland
 
+**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise-Software und medizinischen Informationssystemen bis hin zu modernen Kubernetes-Plattformen und Self-hosted-Infrastrukturen.
+
 ---
 
-Ich entwickle und betreue Systeme, von denen Organisationen jeden Tag abhängen.
+## Meine zentrale Aufgabe
 
-Keine Demos. Keine Proof-of-Concepts. Produktion — dort, wo ein Ausfall bedeutet, dass eine Klinik nicht arbeiten kann, eine Plattform keine Nutzer mehr bedient oder ein Geschäftsprozess stoppt.
+**Ich bringe IT-Systeme zuverlässig in den produktiven Betrieb.**
 
-Seit über 18 Jahren bewege ich mich durch den gesamten Lebenszyklus von IT-Systemen: vom Verständnis dessen, was ein Unternehmen wirklich braucht, über Implementierung und Integration bis hin zu Infrastruktur, Automatisierung und langfristigem Betrieb. Dieser Weg begann bei [CDC](https://cdc.ru/) mit Enterprise-Software (Optimum ERP), führte über zwei Jahrzehnte in Krankenhaus-Medizininformationssystemen (Intramed) und setzt sich heute als unabhängiges Engineering über [borissov-it.de](https://borissov-it.de/) fort.
+Nicht Demos. Nicht Proof-of-Concepts. Produktion — dort, wo ein Ausfall bedeutet, dass eine Klinik nicht arbeiten kann, eine Plattform keine Nutzer mehr bedient oder ein Geschäftsprozess stoppt.
+
+Mein Wert liegt nicht darin, möglichst viel Code zu schreiben. Er liegt darin, dass komplexe Systeme **tatsächlich funktionieren** — integriert, automatisiert und im Alltag zuverlässig betrieben werden.
+
+---
+
+## Der rote Faden meiner Karriere
+
+```
+Implementieren  →  Integrieren  →  Betreiben  →  Automatisieren
+     CDC              Medcore          M-Soft         Freelance
+  (Optimum ERP)    (MIS, Kliniken)  (Infrastruktur)  (borissov-it.de)
+```
+
+| Phase | Was ich tat |
+|-------|-------------|
+| [CDC](https://cdc.ru/) | **Implementieren** — Optimum ERP einführen |
+| Medcore | **Integrieren** — medizinische Informationssysteme, Labor, Histopathologie |
+| M-Soft | **Betreiben** — MIS und Infrastruktur im Produktionsalltag verantworten |
+| [BORISSOV](https://borissov-it.de/) | **Implementieren + Betreiben** — Freelance, Self-hosted, Kubernetes |
+
+Seit über 18 Jahren begleite ich IT-Systeme über ihren gesamten Lebenszyklus — von der Implementierung bis zum stabilen Betrieb.
+
+→ [Vollständiger Zeitstrahl](../02-career/timeline.md)
 
 ---
 
@@ -29,36 +54,14 @@ Was sich durchgehend bewährt hat:
 
 ---
 
-## Der Bogen meiner Arbeit
-
-```
-Enterprise-Software (Optimum)
-        │
-        ▼
-Medizinische Informationssysteme (Intramed) — 20+ Jahre
-        │
-        ▼
-Infrastruktur- & Integrationsprojekte
-        │
-        ▼
-Freelance Engineering (BORISSOV)
-```
-
-Der rote Faden ist kein Jobtitel. Es ist **eine Frage**: Kann ich dieses System für die Menschen funktionsfähig machen, die davon abhängen?
-
-→ [Vollständiger Zeitstrahl](../02-career/timeline.md)
-
----
-
 ## Womit ich mich beschäftige
 
 | Bereich | In der Praxis |
 |---------|---------------|
-| Enterprise- & Kliniksysteme | ERP-Einführung, Krankenhaus-MIS, Labor- und Dokumenten-Workflows |
-| Integration | MIS, Labor, Histopathologie, OCR, externe Plattformen verbinden |
-| Infrastruktur | Linux, WildFly-Cluster, air-gapped Netzwerke, Kubernetes |
-| Automatisierung | CI/CD, n8n-Workflows, Scripting, Self-hosted Plattformen |
-| Verantwortung | Von Anforderungen bis Produktion — inkl. Freelance-Projekte end-to-end |
+| **Implementieren** | Enterprise-ERP, Krankenhaus-MIS, Klinik-Workflows |
+| **Integrieren** | MIS, Labor, Histopathologie, OCR, externe Plattformen |
+| **Betreiben** | Produktionssupport über Jahre — 20+ Jahre MIS-Partnerschaft |
+| **Automatisieren** | CI/CD, n8n-Workflows, Self-hosted Plattformen, Kubernetes |
 
 → [Projekte](../03-projects/) · [Erfahrung](../02-career/experience.md)
 
@@ -68,7 +71,7 @@ Der rote Faden ist kein Jobtitel. Es ist **eine Frage**: Kann ich dieses System 
 
 Ich arbeite gern an komplexen Problemen, an denen Technologie, Prozess und Menschen zusammenkommen.
 
-Ein Krankenhaus-MIS, das 20 Jahre läuft, lehrt Geduld. Ein air-gapped Deployment lehrt Selbstständigkeit. Ein Freelance-Auftrag lehrt, dass Übergabe und Dokumentation genauso wichtig sind wie der Build.
+Ein Krankenhaus-MIS, das 20 Jahre läuft, lehrt Geduld. Ein air-gapped Deployment lehrt Selbstständigkeit. Ein Freelance-Auftrag lehrt, dass Übergabe und Dokumentation genauso wichtig sind wie die Einführung selbst.
 
 Mein Ziel ist immer dasselbe: **Systeme, die zuverlässig, verständlich und betreibbar sind** — für das Team, das sie übernimmt.
 

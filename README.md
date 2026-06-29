@@ -2,7 +2,9 @@
 
 **Infrastructure & Automation Engineer** · Köln, Deutschland
 
-Ich entwickle und betreibe Systeme, von denen Organisationen täglich abhängen — Enterprise-Software, Klinikplattformen, Infrastruktur, Integration, Automatisierung. Über 18 Jahre Erfahrung. Standort Köln. Selbstständig unter [borissov-it.de](https://borissov-it.de/).
+**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise-Software und medizinischen Informationssystemen bis hin zu modernen Kubernetes-Plattformen und Self-hosted-Infrastrukturen.
+
+Ich bringe komplexe Systeme zuverlässig in den produktiven Betrieb — und begleite sie von der Implementierung bis zum stabilen Langzeitbetrieb. Über 18 Jahre Erfahrung. Köln. Selbstständig unter [borissov-it.de](https://borissov-it.de/).
 
 Dieses Repository dokumentiert **wer ich bin und wie ich arbeite** — keine Bewerbung auf eine bestimmte Stelle.
 
@@ -64,4 +66,4 @@ flowchart LR
 
 ---
 
-*Dieses Repository ist als technische Dokumentation aufgebaut — wer ich bin, wie ich arbeite und was ich gebaut habe.*
+*Dieses Repository ist als technische Dokumentation aufgebaut — wer ich bin, wie ich arbeite und welche Systeme ich zuverlässig in den Betrieb gebracht habe.*
