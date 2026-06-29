@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import re
 import subprocess
 import sys
 from pathlib import Path
@@ -16,43 +15,84 @@ HTML_FILE = Path(__file__).with_name("lebenslauf.html")
 PDF_FILE = Path(__file__).with_name("lebenslauf.pdf")
 
 CSS = """
-@page { size: A4; margin: 16mm 14mm; }
+@page { size: A4; margin: 12mm 11mm; }
+* { box-sizing: border-box; }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10.5pt;
-  line-height: 1.38;
-  color: #111;
-  max-width: 100%;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 9.8pt;
+  line-height: 1.36;
+  color: #1a1a1a;
+  margin: 0;
 }
-h1 { font-size: 18pt; margin: 0 0 2pt; }
-h2 {
-  font-size: 11.5pt;
-  margin: 12pt 0 5pt;
-  border-bottom: 1px solid #bbb;
+a { color: #1a4f8b; text-decoration: none; }
+.cv-header {
+  border-bottom: 2px solid #1a4f8b;
+  padding-bottom: 8pt;
+  margin-bottom: 10pt;
+}
+.cv-header h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.3pt;
+}
+.cv-header p {
+  margin: 4pt 0 0;
+  font-size: 11pt;
+  color: #444;
+}
+.cv-grid {
+  display: grid;
+  grid-template-columns: 31% 1fr;
+  gap: 16pt;
+  align-items: start;
+}
+.cv-side {
+  background: #f4f6f8;
+  padding: 10pt 10pt 12pt;
+  border-radius: 4pt;
+}
+.cv-side h2 {
+  font-size: 9.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.6pt;
+  color: #1a4f8b;
+  margin: 0 0 6pt;
+  padding-bottom: 3pt;
+  border-bottom: 1px solid #c8d4e0;
+}
+.cv-side h2:not(:first-child) { margin-top: 12pt; }
+.cv-side p, .cv-side li { font-size: 9.2pt; }
+.cv-side ul { margin: 0; padding-left: 14pt; }
+.cv-side li { margin-bottom: 3pt; }
+.cv-main h2 {
+  font-size: 11pt;
+  color: #1a4f8b;
+  margin: 0 0 6pt;
   padding-bottom: 2pt;
+  border-bottom: 1px solid #d0d8e0;
 }
-h3 { font-size: 10.5pt; margin: 9pt 0 3pt; }
-p { margin: 3pt 0; }
-ul { margin: 3pt 0 6pt; padding-left: 16pt; }
-li { margin-bottom: 2pt; }
-table { border-collapse: collapse; width: 100%; margin: 5pt 0 8pt; font-size: 9.5pt; }
-th, td { border: 1px solid #ccc; padding: 3pt 5pt; text-align: left; vertical-align: top; }
-th { background: #f3f3f3; font-weight: 600; }
-a { color: #0b57d0; text-decoration: none; }
-hr { border: none; border-top: 1px solid #e5e5e5; margin: 8pt 0; }
-em { font-size: 9pt; color: #555; }
+.cv-main h2:not(:first-child) { margin-top: 11pt; }
+.cv-main h3 {
+  font-size: 10pt;
+  margin: 9pt 0 2pt;
+  color: #222;
+}
+.cv-main p { margin: 4pt 0; }
+.cv-main ul { margin: 3pt 0 6pt; padding-left: 15pt; }
+.cv-main li { margin-bottom: 2pt; }
+.cv-main strong { font-weight: 600; }
+.cv-footer {
+  margin-top: 10pt;
+  padding-top: 6pt;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 8.5pt;
+  color: #666;
+}
+table { display: none; }
+hr { display: none; }
 """
-
-
-def prepare_markdown(text: str) -> str:
-    lines = []
-    for line in text.splitlines():
-        if "Kurzprofil (Portfolio)" in line or "Vollständige Dokumentation" in line:
-            continue
-        if line.strip().startswith("→ Ausführliche Matrix:"):
-            continue
-        lines.append(line)
-    return "\n".join(lines)
 
 
 def main() -> int:
@@ -63,7 +103,7 @@ def main() -> int:
         print(f"Chrome not found at {CHROME}", file=sys.stderr)
         return 1
 
-    md_text = prepare_markdown(MD_FILE.read_text(encoding="utf-8"))
+    md_text = MD_FILE.read_text(encoding="utf-8")
     body = markdown.markdown(
         md_text,
         extensions=["tables", "sane_lists", "nl2br"],

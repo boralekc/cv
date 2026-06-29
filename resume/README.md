@@ -16,7 +16,7 @@ Das [Portfolio](../README.md) (`01-about`, `02-career`, `03-projects` …) bleib
 ## Inhalt `lebenslauf.md`
 
 - Persönliche Daten & Kontakt
-- Kurzprofil (Positionierung ohne DevOps-only)
+- Kurzprofil (positive Positionierung: DevOps auf Enterprise-/Integrationsbasis)
 - Beruflicher Werdegang (CDC → Medcore → Integration → BORISSOV)
 - Ausbildung & Zertifikate
 - Fachkenntnisse & Sprachen

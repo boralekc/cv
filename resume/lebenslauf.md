@@ -1,32 +1,61 @@
-# Lebenslauf
+<div class="cv-header">
 
-**Alex Borissov** · Infrastructure & Automation Engineer
+# Alex Borissov
 
-[Kurzprofil (Portfolio)](resume.md) · [Englische Version](../en/resume/cv.md) · [Vollständige Dokumentation](../README.md)
+**Infrastructure & Automation Engineer** · Köln
 
----
+</div>
+
+<div class="cv-grid">
+
+<aside class="cv-side">
 
 ## Persönliche Daten
 
-| | |
-|---|---|
-| **Name** | Alex Borissov |
-| **Wohnort** | Köln, Deutschland |
-| **E-Mail** | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
-| **Telefon** | auf Anfrage |
-| **Website** | [borissov-it.de](https://borissov-it.de/) |
-| **LinkedIn** | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
-| **GitHub / Portfolio** | [github.com/boralekc/cv](https://github.com/boralekc/cv) |
+**Wohnort:** Köln, Deutschland  
+**E-Mail:** [alxboriss@gmail.com](mailto:alxboriss@gmail.com)  
+**Telefon:** auf Anfrage  
+**Website:** [borissov-it.de](https://borissov-it.de/)  
+**LinkedIn:** [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc)  
+**Engineering Portfolio:** [github.com/boralekc/cv](https://github.com/boralekc/cv)
 
----
+## Sprachen
+
+- **Russisch** — Muttersprache
+- **Englisch** — Verhandlungssicher
+- **Deutsch** — B2 (CEFR)
+
+## Ausbildung
+
+**2006** — Hochschulabschluss **Wirtschaftsinformatik**  
+Staatliche Universität Wladimir, Russland
+
+**2001** — Studium **Informatik**  
+Universität Ust-Kamenogorsk, Kasachstan
+
+## Weiterbildung
+
+**März 2024** — **DevSecOps im Cloud-CI/CD**  
+Yandex Cloud Training
+
+</aside>
+
+<main class="cv-main">
 
 ## Kurzprofil
 
 Infrastructure- und Automation Engineer mit über 18 Jahren Erfahrung in der **Einführung, Integration und dem Betrieb geschäftskritischer IT-Systeme** — von Enterprise-ERP und medizinischen Informationssystemen bis zu Kubernetes-Plattformen und Self-hosted-Infrastruktur.
 
-Schwerpunkt: Systeme **zuverlässig in den Produktionsbetrieb bringen** und langfristig begleiten. Kein reines DevOps-Profil — MIS- und Enterprise-Hintergrund, Infrastruktur und Automatisierung **projektbezogen** gewachsen; seit 2025 selbstständig unter BORISSOV Engineering.
+Schwerpunkt: Systeme **zuverlässig in den Produktionsbetrieb bringen** und langfristig begleiten. **DevOps-Kompetenzen aufbauend auf langjähriger Erfahrung in Enterprise-Software, Systemintegration und Infrastruktur** — seit 2025 selbstständig unter BORISSOV Engineering.
 
----
+## Schwerpunkte
+
+- ✔ Enterprise Software
+- ✔ Medical IT
+- ✔ Infrastructure
+- ✔ Kubernetes
+- ✔ Automation
+- ✔ System Integration
 
 ## Beruflicher Werdegang
 
@@ -38,12 +67,10 @@ Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-ho
 
 **Ausgewählte Aufträge (2025):**
 
-- **KI-Lernplattform** — DevOps: Kubernetes (DigitalOcean), GitLab CI, DevSecOps, Keycloak, 7 Microservices
+- **KI-Lernplattform** — Kubernetes (DigitalOcean), GitLab CI, DevSecOps, Keycloak, 7 Microservices
 - **BI-Plattform** — Self-hosted Metabase, PostgreSQL, Prometheus, Alerting, Backups, Certbot
-- **Investment-Plattform** — Full Stack: Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions
-- **Microservice-Plattform** — DevOps: Deployment, CI/CD, DevSecOps *(laufend)*
-
----
+- **Investment-Plattform** — Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions
+- **Microservice-Plattform** — Deployment, CI/CD, DevSecOps *(laufend)*
 
 ### 2022 – 2025 · Umzug und berufliche Integration · Köln
 
@@ -51,84 +78,45 @@ Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-ho
 - Spracherwerb und Eingliederung in den deutschen Arbeitsmarkt
 - Vorbereitung der Selbstständigkeit (technische Weiterentwicklung, Positionierung)
 
----
-
 ### 2008 – 2022 · Medcore · Russland
 
 **Spezialist — Einführung und Betrieb medizinischer Informationssysteme**
 
-- Einführung, Anpassung und **langfristiger Produktionsbetrieb** von **MIS Intramed** (InterSystems Caché) sowie weiterer klinischer Informationssysteme
+Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
+
 - Krankenhaus mit **40.000 Patienten pro Jahr**; Einführungen an weiteren großen Kliniken
 - Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)
-- Produktionssupport, Upgrades, Anpassung von Workflows in Zusammenarbeit mit Klinikpersonal
+- Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal
 
-**Ab ca. 2016 parallel — Infrastruktur projektbezogen** (nicht Vollzeit-Linux-Rolle):
+**Ab ca. 2016 parallel — Infrastruktur projektbezogen:**
 
-| Projekt | Beitrag |
-|---------|---------|
-| Dokumentenerkennung (~2016) | Deployment, Produktionssupport, MIS-Integration |
-| Histopathologie-LIS (~2018) | Test, Deployment, MIS-Synchronisation |
-| Referenzdaten-Plattform (~2020) | WildFly-Cluster, air-gapped Deployment (nationaler Verkehrsbetreiber) |
-
----
+- **Dokumentenerkennung** (~2016) — Deployment, Produktionssupport, MIS-Integration
+- **Histopathologie-LIS** (~2018) — Test, Deployment, MIS-Synchronisation
+- **Referenzdaten-Plattform** (~2020) — WildFly-Cluster, air-gapped Deployment (nationaler Verkehrsbetreiber)
 
 ### 2007 – 2008 · CDC · Russland
 
 **Einführungsspezialist — Optimum ERP**
 
-- Einführung des Optimum-ERP-Systems: Anforderungsanalyse, Konfiguration, Rollout
+Einführung des ERP-Systems **Optimum** bei Unternehmenskunden. Mehrwöchige Projekte vor Ort mit Analyse, Installation, Konfiguration, Rollout und Anwenderschulung.
+
 - Anwendersupport nach Go-live
-- Erste Erfahrung mit Enterprise-Software in produktiven Umgebungen
-
----
-
-## Ausbildung
-
-| Jahr | Abschluss | Institution |
-|------|-----------|-------------|
-| **2006** | Hochschulabschluss **Wirtschaftsinformatik** | Staatliche Universität Wladimir, Russland |
-| **2001** | Studium **Informatik** | Universität Ust-Kamenogorsk, Kasachstan |
-
----
-
-## Weiterbildung & Zertifikate
-
-| Datum | Bezeichnung | Anbieter |
-|-------|-------------|----------|
-| März 2024 | **DevSecOps im Cloud-CI/CD** | Yandex Cloud Training · [Nachweis](../05-certificates/yandex-course-certificate.pdf) |
-
----
+- Grundlage für langjährige Arbeit mit Enterprise-Software im Produktionsbetrieb
 
 ## Fachkenntnisse
 
-**Enterprise & Klinik:** Optimum ERP · Intramed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)
+**Infrastructure:** Linux · Docker · Kubernetes · WildFly · PostgreSQL · MS SQL Server · Nginx · Windows Server · Keycloak · TLS/Certbot · air-gapped Deployments
 
-**Infrastruktur & Plattform:** Linux · WildFly · Docker · Kubernetes · PostgreSQL · MS SQL Server · Nginx · Windows Server
+**Automation:** GitLab CI · GitHub Actions · CI/CD · DevSecOps · Terraform · Helm · n8n · GitOps
 
-**Automatisierung & DevOps:** GitLab CI · GitHub Actions · CI/CD · DevSecOps · Terraform · Helm · n8n · GitOps
+**Enterprise Systems:** Optimum ERP · IntraMed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)
 
-**Identity & Security:** Keycloak · TLS/Certbot · air-gapped Deployments
+**Observability:** Prometheus · Grafana · Metabase · Backup-Automatisierung · Produktionssupport
 
-**Observability & Betrieb:** Prometheus · Grafana · Metabase · Backup-Automatisierung · Produktionssupport
+**Development (selektiv):** Python/Bash · Next.js/React · Kotlin/Spring Boot
 
-**Entwicklung (selektiv):** Python/Bash · Next.js/React · Kotlin/Spring Boot (Deployment & Integration)
+</main>
 
-→ Ausführliche Matrix: [02-career/skills.md](../02-career/skills.md)
+</div>
 
----
-
-## Sprachen
-
-| Sprache | Niveau |
-|---------|--------|
-| Russisch | Muttersprache |
-| Englisch | Verhandlungssicher |
-| Deutsch | **B2** (CEFR) |
-
----
-
-## Ergänzende Unterlagen
-
-Technische Case Studies, Architekturdiagramme und Projektdokumentation: [github.com/boralekc/cv](https://github.com/boralekc/cv)
-
-*Stand: Juni 2026 · Dieses Dokument ist die aktuelle Lebenslauf-Version in diesem Repository.*
+<p class="cv-footer"><em>Stand: Juni 2026 · Engineering Portfolio und Case Studies: <a href="https://github.com/boralekc/cv">github.com/boralekc/cv</a></em></p>

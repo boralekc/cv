@@ -8,7 +8,7 @@
 
 ---
 
-**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise- und Kliniksoftware bis zu Kubernetes und Self-hosted-Infrastruktur. Kernkompetenz: Systeme zuverlässig in den Produktionsbetrieb bringen und langfristig begleiten — kein DevOps-only-Profil.
+**Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise- und Kliniksoftware bis zu Kubernetes und Self-hosted-Infrastruktur. Kernkompetenz: Systeme zuverlässig in den Produktionsbetrieb bringen und langfristig begleiten. **DevOps-Kompetenzen aufbauend auf langjähriger Erfahrung in Enterprise-Software, Systemintegration und Infrastruktur.**
 
 *Kurzprofil aus diesem Repository — keine Bewerbung auf eine bestimmte Stelle. Details: [01-about](../01-about/) · [02-career](../02-career/) · [03-projects](../03-projects/)*
 
