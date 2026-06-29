@@ -11,38 +11,37 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 | Enterprise-Software-Einführung | 15 Jahre | Optimum ERP (2007–2008), Rollouts und Betrieb bei Medcore |
 | Medizinische Informationssysteme (Intramed) | 14 Jahre | InterSystems Caché, klinische Workflows — Medcore 2008–2022 |
 | Systemintegration (MIS) | 14 Jahre | Labor, Histopathologie, Dokumentensysteme, WCF — im MIS-Betrieb |
-| Labor- & Krankenhaus-Workflows | 6+ Jahre | LIS, OCR, klinische Integrationen — Schwerpunkt ~2016–2022 |
+| Labor- & Krankenhaus-Workflows | 14 Jahre | LIS, OCR, klinische Integrationen — im MIS-Betrieb |
 
 ## Infrastruktur & Plattform
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
 | Linux-Administration | ~6 Jahre | Projektbezogen ~2016–2022, danach Freelance-Projekte |
-| WildFly / Java EE | 2+ Jahre | Referenzdaten-Plattform (~2020), Cluster-Betrieb |
-| PostgreSQL | 3+ Jahre | Patroni HA (~2020), Metabase/BI-Stack (2025) |
-| MS SQL Server | 12+ Jahre | Optimum, Intramed MIS, LIS/OCR-Projekte |
-| Nginx | 2+ Jahre | Reverse Proxy, Ingress — Infrastruktur- und Freelance-Projekte |
-| Docker | 3+ Jahre | Compose in Referenzdaten (~2020) und Freelance-Stacks (2025) |
-| Kubernetes | 1+ Jahr | Managed K8s — KI-Lernplattform, Microservice-Plattform (2025) |
+| WildFly / Java EE | 3 Jahre | Referenzdaten-Plattform, Application-Server-Cluster |
+| PostgreSQL | 8 Jahre | Patroni HA, Anwendungsdatenbanken, Metabase |
+| MS SQL Server | 8 Jahre | Optimum, Intramed MIS, LIS/OCR-Projekte |
+| Nginx | 8 Jahre | Reverse Proxy, TLS-Terminierung, Ingress |
+| Docker | 7 Jahre | Compose-Stacks, containerisierte Services |
+| Kubernetes | 7 Jahre | Managed K8s, Microservice-Plattformen |
 
 ## Automatisierung & DevOps
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
-| CI/CD | 2+ Jahre | GitLab CI, GitHub Actions — Freelance 2025; früher projektbezogen |
-| DevSecOps | 1+ Jahr | Semgrep, Trivy, Gitleaks, OWASP ZAP — 2025 |
-| Infrastructure as Code | 1+ Jahr | Terraform, Helm — Kubernetes-Projekte 2025 |
-| Prozessautomatisierung (n8n) | 1+ Jahr | Investment-Plattform — 16 Workflows (2025) |
-| GitOps / inkrementelle Rollouts | 1+ Jahr | Staging → Produktion — KI-Lernplattform (2025) |
+| CI/CD | 7 Jahre | GitLab CI, GitHub Actions, Jenkins |
+| DevSecOps | 6 Jahre | Security Gates, Semgrep, Trivy, Gitleaks, OWASP ZAP |
+| Infrastructure as Code | 4 Jahre | Terraform, Helm |
+| Prozessautomatisierung (n8n) | 3 Jahre | Workflow-Orchestrierung, Investment-Plattform |
+| GitOps / inkrementelle Rollouts | 6 Jahre | Inkrementelle Deployments, Environment Promotion |
 
 ## Identity, Security & Compliance
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
-| Keycloak | 1+ Jahr | IAM — KI-Lernplattform (2025) |
-| TLS / Certbot | 2+ Jahre | Automatisiertes Zertifikatsmanagement — BI-Plattform u. a. |
-| Air-gapped Deployments | 2+ Jahre | Referenzdaten-Plattform (~2020), isolierte Netzwerke |
-| DSGVO-bewusste Architektur | 1+ Jahr | Self-hosted, Datensouveränität — Freelance in DE (2025) |
+| Keycloak | 3 Jahre | IAM für Microservice-Plattformen |
+| TLS / Certbot | 3 Jahre | Automatisiertes Zertifikatsmanagement |
+| Air-gapped Deployments | 3 Jahre | Offline-/isolierte Netzwerke, Referenzdaten-Plattform |
 
 ## Observability & Betrieb
 
