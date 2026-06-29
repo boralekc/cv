@@ -1,6 +1,6 @@
 # Histopathology Laboratory System
 
-[Deutsch](../../../03-projects/04-histopathology/) · **English**
+[Deutsch](../../../03-projects/04-histopathology/README.md) · **English**
 
 ## Project
 

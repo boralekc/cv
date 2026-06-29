@@ -1,6 +1,6 @@
-# Projekte
+﻿# Projekte
 
-**Deutsch** · [English](../en/03-projects/)
+**Deutsch** · [English](../en/03-projects/README.md)
 
 Technische Case Studies — Kontext, Architektur, Rolle, Technologien und Erkenntnisse.
 

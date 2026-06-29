@@ -1,6 +1,6 @@
 # Investment Portfolio System
 
-[Deutsch](../../../03-projects/08-investment-platform/) · **English**
+[Deutsch](../../../03-projects/08-investment-platform/README.md) · **English**
 
 ## Project
 

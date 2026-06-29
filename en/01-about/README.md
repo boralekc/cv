@@ -1,6 +1,6 @@
 # Who I Am
 
-[Deutsch](../../01-about/) · **English**
+[Deutsch](../../01-about/README.md) · **English**
 
 ## Alex Borissov
 

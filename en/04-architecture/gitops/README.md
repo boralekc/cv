@@ -1,6 +1,6 @@
 # GitOps
 
-[Deutsch](../../../04-architecture/gitops/) · **English**
+[Deutsch](../../../04-architecture/gitops/README.md) · **English**
 
 GitOps workflows and deployment automation.
 

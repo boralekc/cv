@@ -1,6 +1,6 @@
 # AI Learning Platform
 
-[Deutsch](../../../03-projects/06-ai-learning-platform/) · **English**
+[Deutsch](../../../03-projects/06-ai-learning-platform/README.md) · **English**
 
 ## Project
 

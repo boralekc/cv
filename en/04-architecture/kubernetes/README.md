@@ -1,6 +1,6 @@
 # Kubernetes
 
-[Deutsch](../../../04-architecture/kubernetes/) · **English**
+[Deutsch](../../../04-architecture/kubernetes/README.md) · **English**
 
 Reference designs for Kubernetes deployments.
 

@@ -1,6 +1,6 @@
 # Summary
 
-[Deutsch](../../resume/) · **English**
+[Deutsch](../../resume/README.md) · **English**
 
 This is **not a vacancy-targeted CV**.
 

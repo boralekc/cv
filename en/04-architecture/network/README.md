@@ -1,6 +1,6 @@
 # Network
 
-[Deutsch](../../../04-architecture/network/) · **English**
+[Deutsch](../../../04-architecture/network/README.md) · **English**
 
 Network architecture and security segmentation.
 

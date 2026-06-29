@@ -1,6 +1,6 @@
 # Alex Borissov
 
-[Deutsch](../) · **English**
+[Deutsch](../README.md) · **English**
 
 **Infrastructure & Automation Engineer** · Cologne, Germany
 

@@ -1,6 +1,6 @@
-# Karriere
+﻿# Karriere
 
-**Deutsch** · [English](../en/02-career/)
+**Deutsch** · [English](../en/02-career/README.md)
 
 Beruflicher Werdegang — strukturiert nach Systemverantwortung, nicht nur nach Jobtiteln.
 

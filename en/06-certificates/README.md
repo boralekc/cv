@@ -1,6 +1,6 @@
 # Certificates
 
-[Deutsch](../../06-certificates/) · **English**
+[Deutsch](../../06-certificates/README.md) · **English**
 
 Professional certifications and credentials.
 

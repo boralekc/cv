@@ -1,6 +1,6 @@
-# Kurzprofil
+﻿# Kurzprofil
 
-**Deutsch** · [English](../en/resume/)
+**Deutsch** · [English](../en/resume/README.md)
 
 Dies ist **kein stellenspezifischer Lebenslauf**.
 

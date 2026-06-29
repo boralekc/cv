@@ -1,6 +1,6 @@
 # Medical Information System (Intramed)
 
-[Deutsch](../../../03-projects/02-medical-information-system/) · **English**
+[Deutsch](../../../03-projects/02-medical-information-system/README.md) · **English**
 
 ## Project
 

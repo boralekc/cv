@@ -1,6 +1,6 @@
 # Reference Data Platform
 
-[Deutsch](../../../03-projects/03-reference-data-platform/) · **English**
+[Deutsch](../../../03-projects/03-reference-data-platform/README.md) · **English**
 
 ## Project
 

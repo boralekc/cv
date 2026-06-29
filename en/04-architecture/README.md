@@ -1,6 +1,6 @@
 # Architecture
 
-[Deutsch](../../04-architecture/) · **English**
+[Deutsch](../../04-architecture/README.md) · **English**
 
 Reference architecture diagrams and infrastructure patterns.
 

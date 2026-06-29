@@ -1,6 +1,6 @@
 # Self-hosted BI Platform
 
-[Deutsch](../../../03-projects/07-bi-platform/) · **English**
+[Deutsch](../../../03-projects/07-bi-platform/README.md) · **English**
 
 ## Project
 

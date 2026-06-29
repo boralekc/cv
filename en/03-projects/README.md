@@ -1,6 +1,6 @@
 # Projects
 
-[Deutsch](../../03-projects/) · **English**
+[Deutsch](../../03-projects/README.md) · **English**
 
 Engineering case studies — context, architecture, role, technologies, and lessons learned.
 

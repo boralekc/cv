@@ -1,6 +1,6 @@
 # Presentations
 
-[Deutsch](../../07-presentations/) · **English**
+[Deutsch](../../07-presentations/README.md) · **English**
 
 Conference talks and meetup presentations.
 

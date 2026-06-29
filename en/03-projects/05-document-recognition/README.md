@@ -1,6 +1,6 @@
 # Document Recognition System
 
-[Deutsch](../../../03-projects/05-document-recognition/) · **English**
+[Deutsch](../../../03-projects/05-document-recognition/README.md) · **English**
 
 ## Project
 

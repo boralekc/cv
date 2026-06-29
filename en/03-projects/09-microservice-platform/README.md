@@ -1,6 +1,6 @@
 # Microservice Platform (Hexagonal Architecture)
 
-[Deutsch](../../../03-projects/09-microservice-platform/) · **English**
+[Deutsch](../../../03-projects/09-microservice-platform/README.md) · **English**
 
 ## Project
 

@@ -1,6 +1,6 @@
-# Architektur
+﻿# Architektur
 
-**Deutsch** · [English](../en/04-architecture/)
+**Deutsch** · [English](../en/04-architecture/README.md)
 
 Referenz-Architekturdiagramme, Design-Patterns und Infrastruktur-Blueprints.
 

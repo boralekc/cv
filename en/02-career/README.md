@@ -1,6 +1,6 @@
 # Career
 
-[Deutsch](../../02-career/) · **English**
+[Deutsch](../../02-career/README.md) · **English**
 
 Professional history structured around system ownership, not job titles alone.
 

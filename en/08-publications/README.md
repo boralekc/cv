@@ -1,6 +1,6 @@
 # Publications
 
-[Deutsch](../../08-publications/) · **English**
+[Deutsch](../../08-publications/README.md) · **English**
 
 Academic papers and technical reports.
 

@@ -1,6 +1,6 @@
 # Docker
 
-[Deutsch](../../../04-architecture/docker/) · **English**
+[Deutsch](../../../04-architecture/docker/README.md) · **English**
 
 Containerisation patterns and Compose stacks.
 

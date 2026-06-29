@@ -1,6 +1,6 @@
 # Optimum ERP Implementation
 
-[Deutsch](../../../03-projects/01-optimum/) · **English**
+[Deutsch](../../../03-projects/01-optimum/README.md) · **English**
 
 ## Project
 

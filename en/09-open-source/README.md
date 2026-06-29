@@ -1,6 +1,6 @@
 # Open Source
 
-[Deutsch](../../09-open-source/) · **English**
+[Deutsch](../../09-open-source/README.md) · **English**
 
 Open source projects and contributions.
 
