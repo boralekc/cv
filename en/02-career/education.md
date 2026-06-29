@@ -2,7 +2,7 @@
 
 [Deutsch](../../02-career/education.md) · **English**
 
-Academic background and professional training — from Lebenslauf.
+Academic background and professional training — from Lebenslauf and certificates.
 
 ---
 
@@ -26,7 +26,7 @@ Studies in **informatics / computer science**.
 
 | Year | Course / programme | Provider |
 |------|-------------------|----------|
-| — | Free online course (certificate) | [Yandex](https://yandex.ru/) |
+| 2024 | **DevSecOps in Cloud CI/CD** | Yandex Cloud Training |
 
 ---
 
@@ -40,6 +40,6 @@ Primarily hands-on — through production operations, infrastructure projects, a
 
 | Certificate | Issuer | Date |
 |-------------|--------|------|
-| Free online course | Yandex | — |
+| DevSecOps in Cloud CI/CD | Yandex Cloud Training | 15 March 2024 |
 
-Details and proof: [06-certificates](../06-certificates/)
+Details and proof: [05-certificates](../05-certificates/)

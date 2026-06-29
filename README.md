@@ -72,8 +72,7 @@ gantt
 | [02-career](02-career/) | Karriereverlauf, Erfahrung, Skills |
 | [03-projects](03-projects/) | Case Studies mit Architekturdiagrammen |
 | [04-architecture](04-architecture/) | Wiederverwendbare Muster — K8s, GitOps, Netzwerk |
-| [05-articles](05-articles/) | Artikel und LinkedIn-Beiträge |
-| [06-certificates](06-certificates/) | Zertifizierungen |
+| [05-certificates](05-certificates/) | Zertifizierungen |
 | [resume](resume/) | Kurzprofil (kein stellenspezifischer Lebenslauf) |
 
 ---

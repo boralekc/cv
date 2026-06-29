@@ -72,8 +72,7 @@ gantt
 | [02-career](02-career/) | Career timeline, experience, skills |
 | [03-projects](03-projects/) | Case studies with architecture diagrams |
 | [04-architecture](04-architecture/) | Reusable patterns — K8s, GitOps, network |
-| [05-articles](05-articles/) | Articles and LinkedIn posts |
-| [06-certificates](06-certificates/) | Certifications |
+| [05-certificates](05-certificates/) | Certifications |
 | [resume](resume/) | One-page summary (not a job-targeted CV) |
 
 ---

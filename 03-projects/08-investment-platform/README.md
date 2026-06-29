@@ -77,7 +77,7 @@ flowchart TB
 ## Verwandt
 
 - [Case Study auf borissov-it.de](https://borissov-it.de/work)
-- [Open Source](../09-open-source/)
+- [GitHub](https://github.com/boralekc)
 
 ## Fotos
 

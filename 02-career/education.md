@@ -26,7 +26,7 @@ Studium der **Informatik**.
 
 | Jahr | Kurs / Programm | Anbieter |
 |------|-------------------|----------|
-| — | Kostenloser Online-Kurs (Zertifikat) | [Yandex](https://yandex.ru/) |
+| 2024 | **DevSecOps im Cloud-CI/CD** | Yandex Cloud Training |
 
 ---
 
@@ -40,6 +40,6 @@ Praxisnah und projektbezogen — vor allem durch Produktionsbetrieb, Infrastrukt
 
 | Zertifikat | Aussteller | Datum |
 |------------|------------|-------|
-| Kostenloser Online-Kurs | Yandex | — |
+| DevSecOps im Cloud-CI/CD | Yandex Cloud Training | 15. März 2024 |
 
-Details und Nachweis: [06-certificates](../06-certificates/)
+Details und Nachweis: [05-certificates](../05-certificates/)
