@@ -1,5 +1,7 @@
 # Alex Borissov
 
+**Deutsch** · [English](en/)
+
 **Infrastructure & Automation Engineer** · Köln, Deutschland
 
 **Ich implementiere, integriere und automatisiere geschäftskritische IT-Systeme** — von Enterprise-Software und medizinischen Informationssystemen bis hin zu modernen Kubernetes-Plattformen und Self-hosted-Infrastrukturen.

@@ -1,5 +1,7 @@
 # Architektur
 
+**Deutsch** · [English](../en/04-architecture/)
+
 Referenz-Architekturdiagramme, Design-Patterns und Infrastruktur-Blueprints.
 
 ## Kategorien

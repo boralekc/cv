@@ -1,5 +1,7 @@
 # Karriere
 
+**Deutsch** · [English](../en/02-career/)
+
 Beruflicher Werdegang — strukturiert nach Systemverantwortung, nicht nur nach Jobtiteln.
 
 | Dokument | Beschreibung |

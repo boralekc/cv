@@ -1,5 +1,7 @@
 # Kurzprofil
 
+**Deutsch** · [English](../en/resume/)
+
 Dies ist **kein stellenspezifischer Lebenslauf**.
 
 Es ist eine kurze Zusammenfassung für alle, die einen Überblick auf einer Seite wünschen. Das vollständige Bild — wer ich bin, wie ich arbeite, Projektdokumentation — steht in diesem Repository.

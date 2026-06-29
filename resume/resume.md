@@ -1,5 +1,7 @@
 # Alex Borissov
 
+**Deutsch** · [English](../en/resume/resume.md)
+
 **Infrastructure & Automation Engineer** · Köln, Deutschland
 
 ---

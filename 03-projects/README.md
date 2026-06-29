@@ -1,6 +1,8 @@
 # Projekte
 
-Technische Case Studies — Kontext, Architektur, Rolle, Technologien und Lessons Learned.
+**Deutsch** · [English](../en/03-projects/)
+
+Technische Case Studies — Kontext, Architektur, Rolle, Technologien und Erkenntnisse.
 
 | # | Projekt | Zeitraum | Rolle | Domäne |
 |---|---------|----------|-------|--------|
