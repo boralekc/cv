@@ -2,7 +2,7 @@
 
 [Deutsch](../../02-career/experience.md) · **English**
 
-Career structured by responsibility — not marketed as a pure DevOps role.
+Career by responsibility — not a pure DevOps or Linux career path. Infrastructure and Linux were added **project by project** when systems required it.
 
 ---
 
@@ -10,44 +10,45 @@ Career structured by responsibility — not marketed as a pure DevOps role.
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Independent engineering for German mid-sized businesses. Fixed scope, documented handover, self-hosted and GDPR-aware architectures.
-
 ### Selected engagements
 
 | Project | Role | Period |
 |---------|------|--------|
-| [AI Learning Platform](../03-projects/06-ai-learning-platform/) | DevOps — K8s, GitLab CI, DevSecOps, Keycloak | 2025 |
-| [BI Platform](../03-projects/07-bi-platform/) | Metabase, dashboards, monitoring, backups, SSL | 2025 |
-| [Investment Platform](../03-projects/08-investment-platform/) | Full ownership — Next.js, n8n, Docker, CI/CD | 2025 |
-| [Microservice Platform](../03-projects/09-microservice-platform/) | DevOps — deployment, CI/CD, DevSecOps *(in progress)* | 2025 |
+| [AI Learning Platform](../03-projects/06-ai-learning-platform/) | DevOps — K8s, GitLab CI, Keycloak | 2025 |
+| [BI Platform](../03-projects/07-bi-platform/) | Metabase, monitoring, backups | 2025 |
+| [Investment Platform](../03-projects/08-investment-platform/) | Full stack — Next.js, n8n, Docker | 2025 |
+| [Microservice Platform](../03-projects/09-microservice-platform/) | DevOps *(in progress)* | 2025 |
 
 ---
 
-## Enterprise Software & Medical Systems · 2004 – 2024
+## Medcore · 2008 – 2024
 
-### Medical Information Systems — Implementation & Support
+**Specialist — implementation and support of medical information systems**
 
-Primary system: **Intramed** (InterSystems Caché). **20+ year partnership** for a hospital treating **40,000 patients per year**.
+From **2008 at Medcore**: implementation and long-term **operation of Intramed MIS** (InterSystems Caché) and **other, smaller information systems** — as an MIS specialist, not a DevOps engineer.
 
-- Full clinical workflow and continuous adaptation
-- Integrated subsystems: laboratory, histopathology, document recognition
+### Core focus (2008–2015)
+
+- Intramed implementation and support — hospital with **40,000 patients per year**
+- Smaller clinical information systems
+- Integrations: laboratory, histopathology, document recognition
 - Deployments at additional major clinics in Russia
 
-→ [Medical Information System](../03-projects/02-medical-information-system/)
+### From ~2016 — infrastructure project by project
 
-### Infrastructure & Platform (parallel track)
+**Linux, WildFly, air-gapped deployments** etc. — **not a full-time Linux role**, but **per project**, alongside MIS work:
 
 | Project | Involvement | Period |
 |---------|-------------|--------|
-| [Reference Data Platform](../03-projects/03-reference-data-platform/) | WildFly cluster, HA backend, air-gapped | ~2020 |
-| [Histopathology LIS](../03-projects/04-histopathology/) | Testing, deployment, MIS integration | ~2018 |
-| [Document Recognition](../03-projects/05-document-recognition/) | Deployment and production support | ~2016 |
+| [Document Recognition](../03-projects/05-document-recognition/) | Deployment, support | ~2016 |
+| [Histopathology LIS](../03-projects/04-histopathology/) | Testing, deployment | ~2018 |
+| [Reference Data Platform](../03-projects/03-reference-data-platform/) | WildFly cluster, air-gapped | ~2020 |
 
 ---
 
-## CDC · ~2007 – ~2009
+## CDC · 2007 – 2008
 
-**Implementation Specialist — Optimum ERP** at [CDC](https://cdc.ru/).
+**Implementation Specialist — Optimum ERP only** at [CDC](https://cdc.ru/).
 
 → [Optimum](../03-projects/01-optimum/)
 
@@ -55,4 +56,4 @@ Primary system: **Intramed** (InterSystems Caché). **20+ year partnership** for
 
 ## Positioning
 
-This is **not** a classic DevOps-only career path. DevOps, Kubernetes, CI/CD, and DevSecOps are capabilities applied when systems need them — often combined with implementation, integration, and production support.
+Not a classic DevOps or Linux engineer. **Core:** enterprise and clinical system implementation and operation. Linux, infrastructure, Kubernetes, and CI/CD were added **when projects needed them** — deepened intentionally in freelance work.

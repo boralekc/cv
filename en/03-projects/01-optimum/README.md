@@ -4,11 +4,11 @@
 
 ## Project
 
-Implementation of **Optimum** ERP at [CDC](https://cdc.ru/) — first professional role.
+Implementation of **Optimum** ERP at [CDC](https://cdc.ru/) — first role, **Optimum implementation only**.
 
 | | |
 |---|---|
-| **Period** | ~2007 – ~2009 |
+| **Period** | 2007 – 2008 |
 | **Role** | Implementation Specialist |
 | **Status** | Completed |
 

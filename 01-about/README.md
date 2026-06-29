@@ -23,17 +23,17 @@ Mein Wert liegt nicht darin, möglichst viel Code zu schreiben. Er liegt darin, 
 ## Der rote Faden meiner Karriere
 
 ```
-Implementieren  →  Integrieren  →  Betreiben  →  Automatisieren
-     CDC              Medcore          M-Soft         Freelance
-  (Optimum ERP)    (MIS, Kliniken)  (Infrastruktur)  (borissov-it.de)
+Implementieren  →  Integrieren & Betreiben  →  Infrastruktur (projektweise)  →  Automatisieren
+     CDC                 Medcore                    ab ~2016                  Freelance
+  (Optimum ERP)    (Intramed, kleinere IS)      (Linux, WildFly …)      (borissov-it.de)
 ```
 
 | Phase | Was ich tat |
 |-------|-------------|
-| [CDC](https://cdc.ru/) | **Implementieren** — Optimum ERP einführen |
-| Medcore | **Integrieren** — medizinische Informationssysteme, Labor, Histopathologie |
-| M-Soft | **Betreiben** — MIS und Infrastruktur im Produktionsalltag verantworten |
-| [BORISSOV](https://borissov-it.de/) | **Implementieren + Betreiben** — Freelance, Self-hosted, Kubernetes |
+| [CDC](https://cdc.ru/) 2007–2008 | **Nur Optimum ERP** — Einführung |
+| Medcore ab 2008 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
+| ab ~2016 | **Infrastruktur projektbezogen** — Linux, WildFly u. a., nicht als Vollzeit-Linux-Job |
+| [BORISSOV](https://borissov-it.de/) ab 2024 | **Freelance** — K8s, Self-hosted, Automatisierung |
 
 Seit über 18 Jahren begleite ich IT-Systeme über ihren gesamten Lebenszyklus — von der Implementierung bis zum stabilen Betrieb.
 
@@ -62,7 +62,7 @@ Was sich durchgehend bewährt hat:
 |---------|---------------|
 | **Implementieren** | Enterprise-ERP, Krankenhaus-MIS, Klinik-Workflows |
 | **Integrieren** | MIS, Labor, Histopathologie, OCR, externe Plattformen |
-| **Betreiben** | Produktionssupport über Jahre — 20+ Jahre MIS-Partnerschaft |
+| **Betreiben** | Produktionssupport über Jahre — 16+ Jahre MIS bei Medcore |
 | **Automatisieren** | CI/CD, n8n-Workflows, Self-hosted Plattformen, Kubernetes |
 
 → [Projekte](../03-projects/) · [Erfahrung](../02-career/experience.md)
@@ -73,7 +73,7 @@ Was sich durchgehend bewährt hat:
 
 Ich arbeite gern an komplexen Problemen, an denen Technologie, Prozess und Menschen zusammenkommen.
 
-Ein Krankenhaus-MIS, das 20 Jahre läuft, lehrt Geduld. Ein air-gapped Deployment lehrt Selbstständigkeit. Ein Freelance-Auftrag lehrt, dass Übergabe und Dokumentation genauso wichtig sind wie die Einführung selbst.
+Ein Krankenhaus-MIS, das viele Jahre im Produktionsbetrieb läuft, lehrt Geduld. Ein air-gapped Deployment lehrt Selbstständigkeit. Ein Freelance-Auftrag lehrt, dass Übergabe und Dokumentation genauso wichtig sind wie die Einführung selbst.
 
 Mein Ziel ist immer dasselbe: **Systeme, die zuverlässig, verständlich und betreibbar sind** — für das Team, das sie übernimmt.
 

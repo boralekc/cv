@@ -16,7 +16,7 @@ I bring complex systems reliably into production and support them from implement
 
 ## In one paragraph
 
-I started at CDC **implementing** enterprise ERP (Optimum), integrated and supported medical information systems for two decades (20+ year production partnership, 40,000 patients/year), took on **infrastructure and integration** projects in parallel, and now work as a freelancer — from Kubernetes platforms and self-hosted BI to systems I introduce and operate end-to-end.
+I worked at **CDC** (2007–2008) on **Optimum ERP implementation only**, joined **Medcore** in **2008** for **Intramed MIS** and smaller information systems until 2024. From **~2016**, **project-based** infrastructure work (Linux, WildFly, etc.) — not a continuous Linux role. **Freelance** since 2024 at [borissov-it.de](https://borissov-it.de/).
 
 ---
 

@@ -2,13 +2,14 @@
 
 ## Projekt
 
-**20+ Jahre Wartungs- und Entwicklungspartnerschaft** für ein Krankenhaus-Medizininformationssystem auf Basis von **InterSystems Caché** (Intramed-Plattform) — kontinuierlich angepasst an neue klinische Anforderungen einer Klinik mit **40.000 Patienten pro Jahr**.
+Ab **2008 bei Medcore**: Einführung und langfristiger Betrieb von **Intramed** (InterSystems Caché) und **weiteren, kleineren Informationssystemen** — für eine Klinik mit **40.000 Patienten pro Jahr**.
 
 Zusätzlich Einführung und Betrieb von Intramed an **weiteren großen Kliniken in Russland**. Integration von Labor-, Histopathologie- und Dokumentenerkennungs-Subsystemen.
 
 | | |
 |---|---|
-| **Zeitraum** | 2004 – 2024 |
+| **Zeitraum** | 2008 – 2024 |
+| **Arbeitgeber** | Medcore |
 | **Rolle** | Einführung, Anpassung, langfristiger Support |
 | **Patienten** | 40.000 / Jahr |
 | **Status** | Langfristige Produktionspartnerschaft |
@@ -50,7 +51,7 @@ flowchart TB
 
 ## Herausforderungen
 
-1. **20 Jahre Systemevolution** — kontinuierliche Anpassung ohne Störung des Klinikbetriebs
+1. **Langfristige Systemevolution** — kontinuierliche Anpassung über 16+ Jahre ohne Störung des Klinikbetriebs
 2. **Multi-System-Integration** — Labor, Pathologie und Scanning müssen mit dem MIS synchron bleiben
 3. **Produktion mit hohem Einsatz** — Ausfallzeit wirkt sich direkt auf die Patientenversorgung aus
 

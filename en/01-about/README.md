@@ -23,17 +23,17 @@ My value is not in writing as much code as possible. It is in making complex sys
 ## The thread of my career
 
 ```
-Implement  →  Integrate  →  Operate  →  Automate
-   CDC          Medcore        M-Soft      Freelance
-(Optimum ERP) (MIS, clinics) (infrastructure) (borissov-it.de)
+Implement  →  Integrate & Operate  →  Infrastructure (per project)  →  Automate
+   CDC            Medcore                 from ~2016                 Freelance
+(Optimum only) (Intramed, smaller IS)  (Linux, WildFly …)      (borissov-it.de)
 ```
 
 | Phase | What I did |
 |-------|------------|
-| [CDC](https://cdc.ru/) | **Implement** — Optimum ERP rollout |
-| Medcore | **Integrate** — medical information systems, lab, histopathology |
-| M-Soft | **Operate** — MIS and infrastructure in daily production |
-| [BORISSOV](https://borissov-it.de/) | **Implement + Operate** — freelance, self-hosted, Kubernetes |
+| CDC 2007–2008 | **Optimum ERP only** — implementation |
+| Medcore from 2008 | **Intramed MIS** + smaller IS — implementation & support |
+| from ~2016 | **Infrastructure per project** — not full-time Linux |
+| BORISSOV from 2024 | **Freelance** — K8s, self-hosted |
 
 For 18+ years I have accompanied IT systems through their full lifecycle — from implementation to stable operation.
 
@@ -62,7 +62,7 @@ What has stayed constant:
 |------|-------------|
 | **Implement** | Enterprise ERP, hospital MIS, clinical workflows |
 | **Integrate** | MIS, lab, histopathology, OCR, external platforms |
-| **Operate** | Production support over years — 20+ year MIS partnership |
+| **Operate** | Production support over years — 16+ years MIS at Medcore |
 | **Automate** | CI/CD, n8n workflows, self-hosted platforms, Kubernetes |
 
 → [Projects](../03-projects/) · [Experience](../02-career/experience.md)
@@ -73,7 +73,7 @@ What has stayed constant:
 
 I enjoy complex problems where technology, process, and people meet.
 
-A hospital MIS running for 20 years teaches patience. An air-gapped deployment teaches self-reliance. A freelance engagement teaches that handover and documentation matter as much as the implementation itself.
+A hospital MIS running in production for many years teaches patience. An air-gapped deployment teaches self-reliance. A freelance engagement teaches that handover and documentation matter as much as the implementation itself.
 
 My goal is always the same: **systems that are reliable, understandable, and operable** — for the team that inherits them.
 

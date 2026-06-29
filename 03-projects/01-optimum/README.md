@@ -2,11 +2,11 @@
 
 ## Projekt
 
-Einführung des **Optimum**-ERP-Systems bei [CDC](https://cdc.ru/) — erste berufliche Rolle und Einstieg in Enterprise-Software-Delivery.
+Einführung des **Optimum**-ERP-Systems bei [CDC](https://cdc.ru/) — erste berufliche Rolle, **ausschließlich** Optimum-Einführung.
 
 | | |
 |---|---|
-| **Zeitraum** | ~2007 – ~2009 |
+| **Zeitraum** | 2007 – 2008 |
 | **Arbeitgeber** | CDC |
 | **Rolle** | Einführungsspezialist |
 | **Status** | Abgeschlossen |

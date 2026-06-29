@@ -7,7 +7,7 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
 | Enterprise-Software-Einführung | 18+ Jahre | Optimum ERP, Business-Analyse, Rollout |
-| Medizinische Informationssysteme | 20+ Jahre | Intramed (InterSystems Caché), klinische Workflows |
+| Medizinische Informationssysteme | 16+ Jahre | Intramed bei Medcore (2008–2024), klinische Workflows |
 | Systemintegration | 15+ Jahre | MIS ↔ Labor, Histopathologie, Dokumentensysteme, WCF |
 | Labor- & Krankenhaus-Workflows | 10+ Jahre | LIS, OCR-Pipelines, Hochdurchsatz-Kliniken |
 
@@ -15,7 +15,7 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
-| Linux-Administration | 15+ Jahre | Produktionsserver, Hardening, Betrieb |
+| Linux-Administration | projektbezogen ab ~2016 | Nicht Vollzeit-Rolle — je Projekt, parallel zur MIS-Arbeit |
 | WildFly / Java EE | 10+ Jahre | Application-Server-Cluster, Enterprise-Deployments |
 | PostgreSQL | 10+ Jahre | HA (Patroni), Anwendungsdatenbanken, Metabase |
 | MS SQL Server | 10+ Jahre | Enterprise- und klinische Datenspeicher |
@@ -72,6 +72,6 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 
 - End-to-end Systemverantwortung — von Anforderungen bis Produktionssupport
 - Kommunikation mit Klinikpersonal, Fachbereichen und Engineering-Teams
-- Langfristige Partnerschaften (20+ Jahre MIS-Engagement)
+- Langfristige Partnerschaften (16+ Jahre MIS bei Medcore)
 - Dokumentation und strukturierte Übergabe an Kundenteams
 - Problemlösung in regulierten und hochverfügbaren Umgebungen

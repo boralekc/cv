@@ -1,6 +1,6 @@
 # Berufserfahrung
 
-Karriere strukturiert nach Verantwortung — nicht als reine DevOps-Laufbahn vermarktet. Infrastruktur, Automatisierung und Deployment wuchsen aus der end-to-end-Verantwortung für Enterprise-Systeme und wurden ein wesentlicher Teil der Freelance-Aufträge.
+Karriere strukturiert nach Verantwortung — nicht als reine DevOps- oder Linux-Laufbahn. Infrastruktur, Linux und Automatisierung kamen **projektbezogen** dazu, als es die jeweiligen Systeme erforderten.
 
 ---
 
@@ -8,14 +8,7 @@ Karriere strukturiert nach Verantwortung — nicht als reine DevOps-Laufbahn ver
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Unabhängiges Engineering für den deutschen Mittelstand und laufende technische Partnerschaften. Feste Scope, dokumentierte Übergabe, Self-hosted und DSGVO-bewusste Architekturen.
-
-### Schwerpunkte
-
-- Kubernetes-Plattformen und Microservice-Deployments
-- Self-hosted BI, Automatisierung und interne Business-Plattformen
-- CI/CD, DevSecOps-Pipelines, Identity (Keycloak)
-- Volle Projektverantwortung wo nötig — von Next.js-Entwicklung bis Docker Compose und GitHub Actions
+Unabhängiges Engineering für den deutschen Mittelstand. Feste Scope, dokumentierte Übergabe, Self-hosted und DSGVO-bewusste Architekturen.
 
 ### Ausgewählte Aufträge
 
@@ -28,46 +21,45 @@ Unabhängiges Engineering für den deutschen Mittelstand und laufende technische
 
 ---
 
-## Enterprise-Software & Medizinische Systeme · 2004 – 2024
+## Medcore · 2008 – 2024
 
-Langfristige Arbeit an medizinischen Informationssystemen, klinischen Integrationen und Enterprise-Infrastruktur — vor und nach organisatorischen Veränderungen im ursprünglichen Holding.
+**Spezialist — Einführung und Betrieb medizinischer Informationssysteme**
 
-### Medizinische Informationssysteme — Einführung & Betrieb
+Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Intramed** (InterSystems Caché) sowie **weiteren, kleineren Informationssystemen** — nicht als DevOps-Ingenieur, sondern als MIS-Spezialist mit wachsender technischer Breite.
 
-**Spezialist — Einführung, Anpassung und langfristiger Support**
+### Schwerpunkte (2008–2015)
 
-Hauptsystem: **Intramed** (InterSystems Caché). Kein kurzes Einführungsprojekt — eine **20+ Jahre dauernde Wartungs- und Entwicklungspartnerschaft** für ein Krankenhaus mit **40.000 Patienten pro Jahr**.
-
-- Vollständige klinische Workflows und kontinuierliche Anpassung an neue Anforderungen
-- Integrierte Subsysteme: Labor, Histopathologie und weitere Module am Kern-MIS
-- Einführung und Betrieb von Intramed an **weiteren großen Kliniken in Russland**
-- Produktionssupport, Upgrades, Integrationen und operative Verantwortung im Tagesgeschäft
+- Einführung, Anpassung und Betrieb von **Intramed** für ein Krankenhaus mit **40.000 Patienten pro Jahr**
+- Einführung und Support **kleinerer IS** im klinischen Umfeld
+- Integration: Labor, Histopathologie, Dokumentenerkennung
+- Einführungen an **weiteren großen Kliniken in Russland**
+- Produktionssupport, Upgrades, Anpassung klinischer Workflows
 
 → [Medizinisches Informationssystem](../03-projects/02-medical-information-system/)
 
-### Infrastruktur & Plattform (parallele Spur)
+### Erweiterung ab 2016 — Infrastruktur projektbezogen
 
-Als sich der Holding neu strukturierte, wuchs die Infrastrukturverantwortung parallel zum MIS-Support in einem kleineren Unternehmen, das Einführungsarbeit fortsetzte und zusätzliche Projekte übernahm:
+Ab etwa **2016** kamen zusätzliche Aufgaben und Technologien hinzu — **Linux, WildFly, air-gapped Deployments** u. a. — aber **nicht als durchgängiger Linux-/Infrastruktur-Job**, sondern **von Projekt zu Projekt**, parallel zur MIS-Arbeit:
 
 | Projekt | Beteiligung | Zeitraum |
 |---------|-------------|----------|
-| [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, HA-Backend, air-gapped Deployment | ~2020 |
-| [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, bidirektionale MIS-Integration | ~2018 |
 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment und Produktionssupport | ~2016 |
+| [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Integration | ~2018 |
+| [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped Deployment | ~2020 |
 
-Diese Phase prägte das Full-Lifecycle-Profil: Business-Systeme zuerst, Infrastruktur und Automatisierung, wenn das System es erforderte.
+Diese Projekte erweiterten das Profil — ohne die Rolle als MIS-Spezialist zu ersetzen.
 
 ---
 
-## CDC · ~2007 – ~2009
+## CDC · 2007 – 2008
 
 **Einführungsspezialist — Optimum ERP**
 
-Erste berufliche Rolle bei [CDC](https://cdc.ru/) (Enterprise-Software).
+Erste berufliche Rolle bei [CDC](https://cdc.ru/). **Ausschließlich** Einführung des **Optimum**-Systems:
 
-- Einführung und Konfiguration des **Optimum**-Enterprise-Systems
-- Analyse der Geschäftsanforderungen, Rollout, Anwendersupport
-- Grundlage in Enterprise-Software-Delivery — Verständnis, wie Organisationen auf integrierten Systemen laufen
+- Geschäftsanforderungen, Konfiguration, Rollout
+- Anwendersupport nach der Einführung
+- Einstieg in Enterprise-Software-Delivery
 
 → [Optimum](../03-projects/01-optimum/)
 
@@ -76,10 +68,10 @@ Erste berufliche Rolle bei [CDC](https://cdc.ru/) (Enterprise-Software).
 ## Karrierebogen (Kurzfassung)
 
 ```
-CDC (Optimum)  →  Medizinisches IS (Intramed)  →  MIS + Infrastruktur-Projekte  →  Freelance (BORISSOV)
-~2007              2004–2024 (20+ Jahre)              2016–2020                      2024–heute
+CDC (Optimum)     →  Medcore (Intramed + kleinere IS)  →  Infrastruktur projektbezogen  →  Freelance
+2007–2008              2008–2024 (Kern: MIS)                  ab ~2016                      2024–heute
 ```
 
 ## Positionierung
 
-Dies ist **kein** klassischer DevOps-only-Karriereweg. DevOps, Kubernetes, CI/CD und DevSecOps sind Fähigkeiten, die zum Einsatz kommen, wenn Systeme sie brauchen — oft kombiniert mit Einführung, Integration und Produktionssupport. Bei Freelance-Aufträgen ist dieser Scope explizit; in früheren Rollen wuchs er organisch aus der Verantwortung für das Gesamtsystem.
+Kein klassischer DevOps- oder Linux-Ingenieur. **Kernkompetenz:** Einführung und Betrieb von Enterprise- und Kliniksystemen. Linux, Infrastruktur, Kubernetes und CI/CD sind Fähigkeiten, die **bei Bedarf je Projekt** dazukamen — bei Freelance-Aufträgen bewusst vertieft.

@@ -4,11 +4,12 @@
 
 ## Project
 
-**20+ year partnership** supporting a hospital MIS on **InterSystems Caché** (Intramed) — **40,000 patients per year**. Deployments at additional major clinics in Russia. Integrated laboratory, histopathology, and document recognition.
+From **2008 at Medcore**: implementation and long-term support of **Intramed** and **other, smaller information systems** — 40,000 patients per year.
 
 | | |
 |---|---|
-| **Period** | 2004 – 2024 |
+| **Period** | 2008 – 2024 |
+| **Employer** | Medcore |
 | **Role** | Implementation, customisation, long-term support |
 
 ## Architecture

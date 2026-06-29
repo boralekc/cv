@@ -18,16 +18,16 @@ This repository documents **who I am and how I work** — not an application for
 
 ```mermaid
 flowchart LR
-    A["~2007<br/>Optimum ERP"] --> B["2004–24<br/>Intramed MIS"]
-    B --> C["2016–20<br/>Infra projects"]
+    A["2007–08<br/>Optimum ERP"] --> B["2008–24<br/>Intramed MIS"]
+    B --> C["from 16<br/>Infra per project"]
     C --> D["2024–<br/>Freelance"]
 ```
 
 | Phase | Focus |
 |-------|-------|
-| [CDC / Optimum](03-projects/01-optimum/) | Enterprise software implementation |
-| [Medical IS](03-projects/02-medical-information-system/) | 20+ year MIS partnership, 40k patients/year |
-| [Infrastructure projects](03-projects/) | Air-gapped platforms, lab systems, OCR |
+| [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum only |
+| [Medcore / Intramed](03-projects/02-medical-information-system/) | from 2008 — MIS + smaller IS |
+| [Infrastructure](03-projects/) | from ~2016 — per project |
 | [BORISSOV](https://borissov-it.de/) | K8s, self-hosted BI, full-stack automation |
 
 → Full timeline: [02-career/timeline.md](02-career/timeline.md)
