@@ -15,7 +15,11 @@ Full engineering documentation: [README](../README.md)
 
 ## PDF
 
-Export `cv.md` or `lebenslauf.md` to PDF locally when applying — not committed to the repo by default.
+```bash
+python resume/generate-pdf.py
+```
+
+Creates `resume/lebenslauf.pdf` from the German `lebenslauf.md`.
 
 ## Note on older CVs
 

@@ -47,7 +47,7 @@ Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-ho
 
 ### 2022 – 2025 · Umzug und berufliche Integration · Köln
 
-- Relocation von Russland nach Deutschland
+- Umzug von Russland nach Deutschland
 - Spracherwerb und Eingliederung in den deutschen Arbeitsmarkt
 - Vorbereitung der Selbstständigkeit (technische Weiterentwicklung, Positionierung)
 

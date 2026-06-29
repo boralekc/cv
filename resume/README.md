@@ -28,13 +28,18 @@ Englische Version: [en/resume/cv.md](../en/resume/cv.md)
 
 ## PDF exportieren
 
-Für Bewerbungen `lebenslauf.md` nach PDF exportieren, z. B.:
+**Schnell (empfohlen):**
 
-- VS Code / Cursor: Markdown PDF Extension
+```bash
+python resume/generate-pdf.py
+```
+
+Erzeugt `resume/lebenslauf.pdf` aus `lebenslauf.md` (Chrome headless, Windows).
+
+Alternativ:
+
 - [Pandoc](https://pandoc.org/): `pandoc lebenslauf.md -o lebenslauf.pdf`
-- Drucken → „Als PDF speichern“ aus der GitHub-Vorschau
-
-`resume.pdf` / `lebenslauf.pdf` werden nicht ins Repository committed — lokal erzeugen oder bei Bedarf manuell hinzufügen.
+- Drucken → „Als PDF speichern“ aus der HTML-Vorschau (`lebenslauf.html` nach Skript-Lauf)
 
 ---
 
