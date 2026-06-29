@@ -12,9 +12,9 @@ Kern: **Einführung und Betrieb von Enterprise- und Kliniksystemen** — nicht e
 
 | Phase | Schwerpunkt |
 |-------|-------------|
-| CDC (2007–2008) | **Optimum ERP** — nur Einführung |
+| CDC (2007–2008) | **Optimum ERP** — Einführung |
 | Medcore (2008–2024) | **Intramed MIS** + kleinere IS — Einführung & Betrieb |
-| ab ~2016 | **Infrastruktur projektweise** — Linux, WildFly, Deployment |
+| ab ~2016 (parallel) | **Infrastruktur projektweise** — Linux, WildFly, Deployment — neben laufendem MIS |
 | BORISSOV (2024–heute) | **Freelance** — K8s, Self-hosted, Automatisierung |
 
 ## Wie ich arbeite
@@ -27,16 +27,13 @@ Kern: **Einführung und Betrieb von Enterprise- und Kliniksystemen** — nicht e
 ## Karriereentwicklung
 
 ```
-2007–08  CDC — Optimum (nur Einführung)
-           │
-           ▼
-       Medcore — Intramed + kleinere IS (2008–2024)
-           │
-           ▼
-       Infrastruktur projektbezogen (ab ~2016)
-           │
-           ▼
-       Freelance — BORISSOV (2024–heute)
+2007–08   CDC — Optimum ERP
+              │
+2008–24   Medcore — Intramed MIS + kleinere IS
+              │
+              ├─ ab ~2016 parallel: Infrastruktur (Linux, WildFly, …)
+              │
+2024–     Freelance — BORISSOV
 ```
 
 Details: [timeline.md](timeline.md)

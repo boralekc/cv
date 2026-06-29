@@ -4,9 +4,9 @@
 
 ---
 
-## 2007 – 2008 · [CDC](https://cdc.ru/) · Optimum ERP only
+## 2007 – 2008 · [CDC](https://cdc.ru/) · Optimum ERP
 
-First role: **Optimum ERP implementation only**.
+First role: **Optimum ERP implementation**.
 
 → [Optimum](../03-projects/01-optimum/)
 
@@ -16,7 +16,7 @@ First role: **Optimum ERP implementation only**.
 
 **Joined Medcore in 2008:** implementation and support of **Intramed MIS** and **smaller information systems**.
 
-- 16+ years — core role MIS, not infrastructure
+- 16+ years — continuous MIS support; from ~2016 **additionally** infrastructure projects in parallel (see below)
 - 40,000 patients per year
 - Integrations: lab, histopathology, document recognition
 
@@ -24,9 +24,9 @@ First role: **Optimum ERP implementation only**.
 
 ---
 
-## from ~2016 · Infrastructure — project by project
+## from ~2016 · Infrastructure — parallel to MIS support
 
-**Linux, WildFly, deployment** — not continuous full-time Linux work:
+**Alongside** ongoing Intramed support and other systems: **Linux, WildFly, deployment** — **per project**, not a separate full-time Linux role:
 
 | Year | Project |
 |------|---------|
@@ -41,11 +41,20 @@ First role: **Optimum ERP implementation only**.
 Infrastructure and Kubernetes become explicit deliverables.
 
 ```mermaid
-flowchart TB
-    A["2007–08<br/>CDC · Optimum"]
-    B["2008–24<br/>Medcore · Intramed"]
-    C["from 2016<br/>Infra per project"]
-    D["2024–<br/>Freelance"]
+gantt
+    title Career overview
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
 
-    A --> B --> C --> D
+    section CDC
+    Optimum ERP :done, 2007-01-01, 2008-12-31
+
+    section Medcore
+    Intramed MIS & smaller IS :active, 2008-01-01, 2024-12-31
+
+    section Infrastructure
+    Parallel to MIS — per project :infra, 2016-01-01, 2024-12-31
+
+    section Freelance
+    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
 ```

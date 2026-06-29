@@ -14,9 +14,9 @@ Core: **enterprise and clinical system implementation and operation** — not a 
 
 | Phase | Focus |
 |-------|-------|
-| CDC (2007–2008) | **Optimum ERP** — implementation only |
+| CDC (2007–2008) | **Optimum ERP** — implementation |
 | Medcore (2008–2024) | **Intramed MIS** + smaller IS |
-| from ~2016 | **Infrastructure per project** — Linux, WildFly |
+| from ~2016 (parallel) | **Infrastructure per project** — Linux, WildFly — alongside ongoing MIS |
 | BORISSOV (2024–present) | **Freelance** — K8s, self-hosted |
 
 ## How I work

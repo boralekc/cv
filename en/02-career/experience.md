@@ -34,9 +34,9 @@ From **2008 at Medcore**: implementation and long-term **operation of Intramed M
 - Integrations: laboratory, histopathology, document recognition
 - Deployments at additional major clinics in Russia
 
-### From ~2016 — infrastructure project by project
+### From ~2016 — infrastructure in parallel with MIS
 
-**Linux, WildFly, air-gapped deployments** etc. — **not a full-time Linux role**, but **per project**, alongside MIS work:
+**Linux, WildFly, air-gapped deployments** etc. — **per project**, **alongside ongoing MIS support**:
 
 | Project | Involvement | Period |
 |---------|-------------|--------|
@@ -48,7 +48,7 @@ From **2008 at Medcore**: implementation and long-term **operation of Intramed M
 
 ## CDC · 2007 – 2008
 
-**Implementation Specialist — Optimum ERP only** at [CDC](https://cdc.ru/).
+**Implementation Specialist — Optimum ERP** at [CDC](https://cdc.ru/).
 
 → [Optimum](../03-projects/01-optimum/)
 

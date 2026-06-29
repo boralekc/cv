@@ -6,7 +6,7 @@ Entwicklung der Verantwortung — von Enterprise-Software über MIS bis zu proje
 
 ## 2007 – 2008 · [CDC](https://cdc.ru/) · Optimum ERP
 
-Erste Rolle: **ausschließlich Einführung des Optimum-ERP-Systems**.
+Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 
 - Geschäftsanforderungen, Konfiguration, Rollout
 - Grundlage für Systemdenken in Enterprise-Umgebungen
@@ -19,7 +19,7 @@ Erste Rolle: **ausschließlich Einführung des Optimum-ERP-Systems**.
 
 **Wechsel zu Medcore (2008):** Einführung und Betrieb von **MIS Intramed** (InterSystems Caché) und **weiteren, kleineren Informationssystemen**.
 
-- 16+ Jahre — Kernaufgabe MIS, nicht Infrastruktur
+- 16+ Jahre — durchgehender MIS-Betrieb; ab ~2016 **zusätzlich** Infrastrukturprojekte im Parallelbetrieb (siehe unten)
 - Krankenhaus mit **40.000 Patienten pro Jahr**
 - Integration: Labor, Histopathologie, Dokumentenerkennung
 - Einführungen an **weiteren großen Kliniken in Russland**
@@ -28,9 +28,9 @@ Erste Rolle: **ausschließlich Einführung des Optimum-ERP-Systems**.
 
 ---
 
-## ab ~2016 · Infrastruktur — projektbezogen, nicht Vollzeit-Linux
+## ab ~2016 · Infrastruktur — parallel zum MIS-Betrieb
 
-Parallel zur MIS-Arbeit: **Linux, WildFly, Deployment** u. a. — aber **nicht durchgängig und nicht als Hauptrolle**, sondern **je nach Projekt**:
+**Gleichzeitig** zum laufenden Intramed-Support und anderen Systemen: **Linux, WildFly, Deployment** u. a. — **je nach Projekt**, nicht als separater Vollzeit-Linux-Job:
 
 | Jahr | Projekt | Schwerpunkt |
 |------|---------|-------------|
@@ -58,13 +58,20 @@ Hier werden Infrastruktur, Kubernetes und Automatisierung **bewusst und explizit
 ## Visuelle Übersicht
 
 ```mermaid
-flowchart TB
-    A["2007–08<br/>CDC · Optimum"]
-    B["2008–24<br/>Medcore · Intramed MIS"]
-    C["ab 2016<br/>Infra projektweise"]
-    D["2024–<br/>Freelance"]
+gantt
+    title Karriereübersicht
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
 
-    A --> B
-    B --> C
-    C --> D
+    section CDC
+    Optimum ERP :done, 2007-01-01, 2008-12-31
+
+    section Medcore
+    Intramed MIS & kleinere IS :active, 2008-01-01, 2024-12-31
+
+    section Infrastruktur
+    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2024-12-31
+
+    section Freelance
+    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
 ```

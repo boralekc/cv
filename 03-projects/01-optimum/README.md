@@ -2,7 +2,7 @@
 
 ## Projekt
 
-Einführung des **Optimum**-ERP-Systems bei [CDC](https://cdc.ru/) — erste berufliche Rolle, **ausschließlich** Optimum-Einführung.
+Einführung des **Optimum**-ERP-Systems bei [CDC](https://cdc.ru/) — erste berufliche Rolle.
 
 | | |
 |---|---|

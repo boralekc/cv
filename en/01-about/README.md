@@ -23,16 +23,16 @@ My value is not in writing as much code as possible. It is in making complex sys
 ## The thread of my career
 
 ```
-Implement  →  Integrate & Operate  →  Infrastructure (per project)  →  Automate
-   CDC            Medcore                 from ~2016                 Freelance
-(Optimum only) (Intramed, smaller IS)  (Linux, WildFly …)      (borissov-it.de)
+Implement  →  Integrate & Operate (+ infra in parallel)  →  Automate
+   CDC                    Medcore                              Freelance
+(Optimum ERP)    (Intramed, smaller IS; from ~2016 infra)  (borissov-it.de)
 ```
 
 | Phase | What I did |
 |-------|------------|
-| CDC 2007–2008 | **Optimum ERP only** — implementation |
-| Medcore from 2008 | **Intramed MIS** + smaller IS — implementation & support |
-| from ~2016 | **Infrastructure per project** — not full-time Linux |
+| CDC 2007–2008 | **Optimum ERP** — implementation |
+| Medcore 2008–2024 | **Intramed MIS** + smaller IS — implementation & support |
+| from ~2016 (parallel) | **Infrastructure per project** — alongside ongoing MIS |
 | BORISSOV from 2024 | **Freelance** — K8s, self-hosted |
 
 For 18+ years I have accompanied IT systems through their full lifecycle — from implementation to stable operation.

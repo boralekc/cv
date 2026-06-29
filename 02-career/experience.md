@@ -55,7 +55,7 @@ Diese Projekte erweiterten das Profil — ohne die Rolle als MIS-Spezialist zu e
 
 **Einführungsspezialist — Optimum ERP**
 
-Erste berufliche Rolle bei [CDC](https://cdc.ru/). **Ausschließlich** Einführung des **Optimum**-Systems:
+Erste berufliche Rolle bei [CDC](https://cdc.ru/). Einführung des **Optimum**-Systems:
 
 - Geschäftsanforderungen, Konfiguration, Rollout
 - Anwendersupport nach der Einführung
@@ -68,8 +68,10 @@ Erste berufliche Rolle bei [CDC](https://cdc.ru/). **Ausschließlich** Einführu
 ## Karrierebogen (Kurzfassung)
 
 ```
-CDC (Optimum)     →  Medcore (Intramed + kleinere IS)  →  Infrastruktur projektbezogen  →  Freelance
-2007–2008              2008–2024 (Kern: MIS)                  ab ~2016                      2024–heute
+2007–08   CDC · Optimum ERP
+2008–24   Medcore · Intramed MIS + kleinere IS
+              └─ ab ~2016 parallel: Infrastruktur (Linux, WildFly, …)
+2024–     Freelance · BORISSOV
 ```
 
 ## Positionierung

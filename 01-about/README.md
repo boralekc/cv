@@ -23,16 +23,16 @@ Mein Wert liegt nicht darin, möglichst viel Code zu schreiben. Er liegt darin, 
 ## Der rote Faden meiner Karriere
 
 ```
-Implementieren  →  Integrieren & Betreiben  →  Infrastruktur (projektweise)  →  Automatisieren
-     CDC                 Medcore                    ab ~2016                  Freelance
-  (Optimum ERP)    (Intramed, kleinere IS)      (Linux, WildFly …)      (borissov-it.de)
+Implementieren  →  Integrieren & Betreiben (+ Infra parallel)  →  Automatisieren
+     CDC                      Medcore                              Freelance
+  (Optimum ERP)         (Intramed, kleinere IS; ab ~2016 Infra)   (borissov-it.de)
 ```
 
 | Phase | Was ich tat |
 |-------|-------------|
-| [CDC](https://cdc.ru/) 2007–2008 | **Nur Optimum ERP** — Einführung |
-| Medcore ab 2008 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
-| ab ~2016 | **Infrastruktur projektbezogen** — Linux, WildFly u. a., nicht als Vollzeit-Linux-Job |
+| [CDC](https://cdc.ru/) 2007–2008 | **Optimum ERP** — Einführung |
+| Medcore 2008–2024 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
+| ab ~2016 (parallel) | **Infrastruktur projektbezogen** — Linux, WildFly u. a., neben laufendem MIS |
 | [BORISSOV](https://borissov-it.de/) ab 2024 | **Freelance** — K8s, Self-hosted, Automatisierung |
 
 Seit über 18 Jahren begleite ich IT-Systeme über ihren gesamten Lebenszyklus — von der Implementierung bis zum stabilen Betrieb.

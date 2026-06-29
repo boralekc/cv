@@ -17,18 +17,30 @@ Dieses Repository dokumentiert **wer ich bin und wie ich arbeite** — keine Bew
 ## Karriere auf einen Blick
 
 ```mermaid
-flowchart LR
-    A["2007–08<br/>Optimum ERP"] --> B["2008–24<br/>Intramed MIS"]
-    B --> C["ab 16<br/>Infra projektweise"]
-    C --> D["2024–<br/>Freelance"]
+gantt
+    title Karriereübersicht
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+
+    section CDC
+    Optimum ERP :done, 2007-01-01, 2008-12-31
+
+    section Medcore
+    Intramed MIS & kleinere IS :active, 2008-01-01, 2024-12-31
+
+    section Infrastruktur
+    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2024-12-31
+
+    section Freelance
+    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
 ```
 
 | Phase | Schwerpunkt |
 |-------|-------------|
-| [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — nur Optimum-Einführung |
-| [Medcore / Intramed](03-projects/02-medical-information-system/) | ab 2008 — MIS + kleinere IS |
-| [Infrastruktur-Projekte](03-projects/) | ab ~2016 — projektbezogen (Linux, WildFly …) |
-| [BORISSOV](https://borissov-it.de/) | K8s, Self-hosted BI, Full-Stack-Automatisierung |
+| [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum-Einführung |
+| [Medcore / Intramed](03-projects/02-medical-information-system/) | 2008–2024 — MIS-Betrieb + kleinere IS |
+| [Infrastruktur-Projekte](03-projects/) | ab ~2016 **parallel** zum MIS — Linux, WildFly, Deployment |
+| [BORISSOV](https://borissov-it.de/) | ab 2024 — K8s, Self-hosted BI, Full-Stack-Automatisierung |
 
 → Vollständiger Verlauf: [02-career/timeline.md](02-career/timeline.md)
 

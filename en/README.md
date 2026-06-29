@@ -17,18 +17,30 @@ This repository documents **who I am and how I work** — not an application for
 ## Career at a Glance
 
 ```mermaid
-flowchart LR
-    A["2007–08<br/>Optimum ERP"] --> B["2008–24<br/>Intramed MIS"]
-    B --> C["from 16<br/>Infra per project"]
-    C --> D["2024–<br/>Freelance"]
+gantt
+    title Career overview
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+
+    section CDC
+    Optimum ERP :done, 2007-01-01, 2008-12-31
+
+    section Medcore
+    Intramed MIS & smaller IS :active, 2008-01-01, 2024-12-31
+
+    section Infrastructure
+    Parallel to MIS — per project :infra, 2016-01-01, 2024-12-31
+
+    section Freelance
+    BORISSOV Engineering :crit, 2024-01-01, 2027-01-01
 ```
 
 | Phase | Focus |
 |-------|-------|
-| [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum only |
-| [Medcore / Intramed](03-projects/02-medical-information-system/) | from 2008 — MIS + smaller IS |
-| [Infrastructure](03-projects/) | from ~2016 — per project |
-| [BORISSOV](https://borissov-it.de/) | K8s, self-hosted BI, full-stack automation |
+| [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum implementation |
+| [Medcore / Intramed](03-projects/02-medical-information-system/) | 2008–2024 — MIS support + smaller IS |
+| [Infrastructure](03-projects/) | from ~2016 **in parallel** with MIS — Linux, WildFly, deployment |
+| [BORISSOV](https://borissov-it.de/) | from 2024 — K8s, self-hosted BI, full-stack automation |
 
 → Full timeline: [02-career/timeline.md](02-career/timeline.md)
 

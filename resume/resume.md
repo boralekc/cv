@@ -16,7 +16,7 @@ Ich bringe komplexe Systeme zuverlässig in den produktiven Betrieb und begleite
 
 ## In einem Absatz
 
-Ich arbeitete 2007–2008 bei **CDC** ausschließlich an der Einführung von **Optimum ERP**, wechselte **2008 zu Medcore** und war dort bis 2024 mit **Intramed MIS** und kleineren Informationssystemen beschäftigt (Einführung und Betrieb, 40.000 Patienten/Jahr). Ab etwa **2016** kamen **projektbezogene** Infrastrukturaufgaben hinzu — Linux, WildFly u. a., nicht als durchgängiger Linux-Job. Seit **2024** arbeite ich freelance unter [borissov-it.de](https://borissov-it.de/).
+Ich arbeitete 2007–2008 bei **CDC** an der Einführung von **Optimum ERP**, wechselte **2008 zu Medcore** und war dort bis 2024 mit **Intramed MIS** und kleineren Informationssystemen beschäftigt (Einführung und Betrieb, 40.000 Patienten/Jahr). Ab etwa **2016** parallel dazu **projektbezogene** Infrastrukturaufgaben — Linux, WildFly u. a., neben laufendem MIS-Betrieb. Seit **2024** arbeite ich freelance unter [borissov-it.de](https://borissov-it.de/).
 
 ---
 
