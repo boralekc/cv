@@ -15,8 +15,10 @@
 
 | | |
 |---|---|
-| **Website** | [your-website.com](https://your-website.com) |
-| **LinkedIn** | [linkedin.com/in/alexborissov](https://linkedin.com/in/alexborissov) |
+| **Website** | [borissov-it.de](https://borissov-it.de/) |
+| **LinkedIn** | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
+| **GitHub** | [github.com/boralekc](https://github.com/boralekc) |
+| **Email** | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
 | **Resume** | [resume/](resume/) |
 
 ---

@@ -22,9 +22,10 @@ I design, build, and automate infrastructure for complex enterprise environments
 
 | | |
 |---|---|
-| Email | your.email@example.com |
-| LinkedIn | [linkedin.com/in/alexborissov](https://linkedin.com/in/alexborissov) |
-| Website | [your-website.com](https://your-website.com) |
+| Email | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
+| LinkedIn | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
+| GitHub | [github.com/boralekc](https://github.com/boralekc) |
+| Website | [borissov-it.de](https://borissov-it.de/) |
 | Location | <!-- City, Country --> |
 
 ## Languages
