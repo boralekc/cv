@@ -1,21 +1,21 @@
-# Architecture
+# Architektur
 
-Reference architecture diagrams, design patterns, and infrastructure blueprints.
+Referenz-Architekturdiagramme, Design-Patterns und Infrastruktur-Blueprints.
 
-## Categories
+## Kategorien
 
-| Topic | Description |
-|-------|-------------|
-| [Kubernetes](kubernetes/) | Cluster design, operators, workloads |
-| [Docker](docker/) | Containerization patterns, image builds |
-| [Network](network/) | Network topology, service mesh, security |
-| [GitOps](gitops/) | Deployment workflows, ArgoCD, Flux |
+| Thema | Beschreibung |
+|-------|--------------|
+| [Kubernetes](kubernetes/) | Cluster-Design, Operators, Workloads |
+| [Docker](docker/) | Containerisierungs-Patterns, Image Builds |
+| [Netzwerk](network/) | Netzwerk-Topologie, Service Mesh, Security |
+| [GitOps](gitops/) | Deployment-Workflows, ArgoCD, Flux |
 
-## Diagrams
+## Diagramme
 
-Add architecture diagrams as PNG or SVG files in the corresponding subfolder.
+Architekturdiagramme als PNG oder SVG in den jeweiligen Unterordnern ablegen.
 
-### Recommended naming
+### Empfohlene Benennung
 
 ```
 kubernetes/
@@ -37,10 +37,10 @@ gitops/
 └── environment-promotion.png
 ```
 
-## Design Principles
+## Design-Prinzipien
 
-- **Infrastructure as Code** — everything versioned in Git
-- **GitOps** — declarative, auditable deployments
-- **Observability by default** — metrics, logs, traces from day one
-- **Security in depth** — RBAC, network policies, secrets management
-- **High availability** — no single point of failure
+- **Infrastructure as Code** — alles versioniert in Git
+- **GitOps** — deklarative, auditierbare Deployments
+- **Observability by default** — Metriken, Logs, Traces von Anfang an
+- **Security in depth** — RBAC, Network Policies, Secrets Management
+- **High availability** — kein Single Point of Failure

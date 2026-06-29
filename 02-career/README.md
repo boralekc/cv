@@ -1,11 +1,11 @@
-# Career
+# Karriere
 
-Master CV — professional history structured around system ownership, not job titles alone.
+Beruflicher Werdegang — strukturiert nach Systemverantwortung, nicht nur nach Jobtiteln.
 
-| Document | Description |
-|----------|-------------|
-| [executive-summary.md](executive-summary.md) | Who you are and what you deliver |
-| [timeline.md](timeline.md) | Career evolution — enterprise software to freelance infrastructure |
-| [experience.md](experience.md) | Detailed work experience |
-| [skills.md](skills.md) | Technical and soft skills matrix |
-| [education.md](education.md) | Education and training |
+| Dokument | Beschreibung |
+|----------|--------------|
+| [executive-summary.md](executive-summary.md) | Wer ich bin und wie ich arbeite |
+| [timeline.md](timeline.md) | Karriereentwicklung — von Enterprise-Software bis Freelance-Infrastruktur |
+| [experience.md](experience.md) | Detaillierte Berufserfahrung |
+| [skills.md](skills.md) | Technische und soziale Kompetenzen |
+| [education.md](education.md) | Ausbildung und Weiterbildung |

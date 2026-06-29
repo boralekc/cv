@@ -1,65 +1,84 @@
-# BI Platform
+# Self-hosted BI-Plattform
 
-## Project
+## Projekt
 
-<!-- Business Intelligence / analytics platform -->
+**Self-hosted Metabase Analytics-Umgebung** für einen großen Online-Marktplatz — Produktions-Dashboards, Prometheus-Monitoring mit 5-Minuten-Metrik-Auflösung, automatisierte wöchentliche Backups und Zero-Touch SSL via Certbot.
 
-BI Platform is <!-- description: dashboards, reporting, data warehouse, self-service analytics -->.
+Freelance-Auftrag: Deployment, Analytics, Scripting und vollständiger operativer Stack.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | 2025 |
+| **Rolle** | Freelance — Infrastruktur, BI, Betrieb |
+| **Kunde** | Online-Marktplatz (Kleinanzeigen) |
+| **Status** | Produktion |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Infrastructure & Analytics Engineer (Freelance)**
 
-## Responsibilities
+Breiter Scope über reines DevOps hinaus: Metabase-Deployment, Dashboard-Erstellung, Monitoring, Alerting, Backups und SSL-Automatisierung.
 
-- Data warehouse infrastructure (ETL pipelines, scheduling)
-- Kubernetes deployment for BI tools and query engines
-- Performance optimization for large-scale analytics queries
-- Access control and row-level security infrastructure
-- Backup and disaster recovery for analytical data
+## Aufgaben
 
-## Architecture
+- Self-hosted Metabase-Deployment (Datensouveränität, keine US-Cloud-Abhängigkeit)
+- Dashboard-Design und -Umsetzung für Marktplatz-Analytics
+- Eigene Skripte für Datenpipelines und operative Aufgaben
+- Prometheus-Monitoring mit Alertmanager und 5-Minuten-Metrik-Auflösung
+- Automatisierte wöchentliche Backups und täglicher API/Schema-Sync
+- Certbot-Cron für Zero-Touch TLS-Zertifikatserneuerung
+- 3 unabhängige Docker Compose Stacks mit separaten Lifecycles
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
-
-- **Data Warehouse** — <!-- storage, partitioning -->
-- **ETL Pipeline** — <!-- ingestion, transformation -->
-- **BI Layer** — <!-- dashboards, reports, ad-hoc queries -->
+```mermaid
+flowchart TB
+    subgraph Analytics
+        MB[Metabase<br/>Dashboards · RBAC]
+        PG[(PostgreSQL<br/>App DB + Quelle)]
+    end
+    subgraph Monitoring
+        PROM[Prometheus]
+        AM[Alertmanager]
+        EXP[Cron Exporters<br/>5 min Metriken]
+    end
+    subgraph Backup
+        BKP[Wöchentliches YOS-Backup]
+        SYNC[Täglicher API/Schema-Sync]
+    end
+    subgraph Edge
+        NGX[NGINX + Certbot TLS]
+    end
+    NGX --> MB --> PG
+    EXP --> PROM --> AM
+    PG --> BKP & SYNC
+```
 
 ## Deployment
 
-![Deployment](deployment.png)
+Drei unabhängige Compose-Stacks — Analytics, Monitoring, Backup — jeweils mit eigenem Lifecycle und Update-Pfad.
 
-## Technologies
+## Technologien
 
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| Data Warehouse | <!-- ClickHouse / PostgreSQL / custom --> |
-| ETL | <!-- Airflow / dbt --> |
-| BI Tools | <!-- Superset / Metabase / custom --> |
-| Monitoring | Prometheus, Grafana |
+`Metabase` `PostgreSQL` `Docker Compose` `Prometheus` `Alertmanager` `NGINX` `Certbot` `Bash/Python-Skripte`
 
-## Challenges
+## Herausforderungen
 
-1. **Query performance on large datasets** — <!-- approach -->
-2. **Real-time vs. batch reporting** — <!-- approach -->
-3. **Data governance and access control** — <!-- approach -->
+1. **Self-hosted vs. Cloud BI** — Kunde verlangte Datensouveränität; volle operative Verantwortung auf unserer Seite
+2. **Drei-Stack-Architektur** — unabhängige Lifecycles ohne operatives Chaos
+3. **Zero-Touch SSL** — Certbot-Automatisierung, die Server-Neustarts und Erneuerungen übersteht
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Self-hosted Metabase ist für den Mittelstand tragfähig, wenn Monitoring und Backups von Tag eins dabei sind
+- Trennung von Analytics-, Monitoring- und Backup-Stacks vereinfacht Updates
+- Dashboard-Arbeit + Infrastruktur in einem Auftrag = schnellerer Business Value
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+- [Architektur — Docker](../../04-architecture/docker/)
+
+## Fotos
+
+Siehe [photos/](photos/) für Metabase-Dashboards und Grafana/Prometheus-Screenshots.

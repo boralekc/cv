@@ -1,27 +1,36 @@
-# Projects
+# Projekte
 
-Portfolio of key projects — architecture, role, technologies, and lessons learned.
+Technische Case Studies — Kontext, Architektur, Rolle, Technologien und Lessons Learned.
 
-| # | Project | Domain |
-|---|---------|--------|
-| 01 | [Optimum](01-optimum/) | — |
-| 02 | [Medical Information System](02-medical-information-system/) | Healthcare |
-| 03 | [Reference Data Platform](03-reference-data-platform/) | Data / MDM |
-| 04 | [Histopathology](04-histopathology/) | Healthcare / AI |
-| 05 | [Document Recognition](05-document-recognition/) | AI / OCR |
-| 06 | [AI Learning Platform](06-ai-learning-platform/) | EdTech / AI |
-| 07 | [BI Platform](07-bi-platform/) | Analytics |
-| 08 | [Investment Platform](08-investment-platform/) | FinTech |
-| 09 | [Microservice Platform](09-microservice-platform/) | Platform Engineering |
+| # | Projekt | Zeitraum | Rolle | Domäne |
+|---|---------|----------|-------|--------|
+| 01 | [Optimum ERP](01-optimum/) | ~2007 | Einführungsspezialist | Enterprise-Software |
+| 02 | [Medizinisches IS](02-medical-information-system/) | 2004–2024 | Einführung & 20 Jahre Betrieb | Healthcare / MIS |
+| 03 | [Referenzdaten-Plattform](03-reference-data-platform/) | ~2020 | WildFly-Cluster, air-gapped | Verkehr / MDM |
+| 04 | [Histopathologie-LIS](04-histopathology/) | ~2018 | Test, Deployment, Support | Labor |
+| 05 | [Dokumentenerkennung](05-document-recognition/) | ~2016 | Deployment & Support | Healthcare / OCR |
+| 06 | [KI-Lernplattform](06-ai-learning-platform/) | 2025 | Freelance DevOps | EdTech / K8s |
+| 07 | [BI-Plattform](07-bi-platform/) | 2025 | Freelance — Metabase & Ops | Analytics |
+| 08 | [Investment-Plattform](08-investment-platform/) | 2025 | Solo — Full Stack | FinTech / n8n |
+| 09 | [Microservice-Plattform](09-microservice-platform/) | 2025 | Freelance DevOps *(laufend)* | Platform / K8s |
 
-## Project Template
+## Struktur einer Case Study
 
-Each project folder contains:
+Jedes Projekt folgt demselben Dokumentationsmuster:
 
 ```
-01-project-name/
-├── README.md           # Project overview
-├── architecture.png    # Architecture diagram
-├── deployment.png      # Deployment topology
-└── photos/             # Screenshots, demos
+Kontext → Rolle → Architektur (Mermaid) → Technologien → Herausforderungen → Lessons Learned
+```
+
+## Externe Case Studies
+
+Ausführliche Beschreibungen auch unter [borissov-it.de/work](https://borissov-it.de/work).
+
+## Neues Projekt hinzufügen
+
+```
+03-projects/XX-projektname/
+├── README.md           # Case Study (Pflicht)
+├── photos/             # Screenshots, Demos
+└── architecture.png    # Optional — Mermaid bevorzugt in README
 ```

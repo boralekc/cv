@@ -1,40 +1,40 @@
-# Education
+# Ausbildung
 
-## Formal Education
+## Akademische Ausbildung
 
-### <!-- Degree, e.g. Master of Science in Computer Science -->
+### <!-- Abschluss, z. B. Master of Science Informatik -->
 
-**<!-- University Name -->** · YYYY – YYYY
+**<!-- Hochschule -->** · JJJJ – JJJJ
 
-<!-- Brief description, thesis topic, relevant coursework -->
+<!-- Kurzbeschreibung, Thema der Abschlussarbeit, relevante Kurse -->
 
-### <!-- Degree, e.g. Bachelor of Engineering -->
+### <!-- Abschluss, z. B. Bachelor Ingenieurwesen -->
 
-**<!-- University Name -->** · YYYY – YYYY
+**<!-- Hochschule -->** · JJJJ – JJJJ
 
-<!-- Brief description -->
-
----
-
-## Professional Training
-
-| Year | Course / Program | Provider |
-|------|------------------|----------|
-| YYYY | <!-- e.g. Certified Kubernetes Administrator (CKA) --> | <!-- CNCF / Linux Foundation --> |
-| YYYY | <!-- Course name --> | <!-- Provider --> |
-| YYYY | <!-- Course name --> | <!-- Provider --> |
+<!-- Kurzbeschreibung -->
 
 ---
 
-## Continuous Learning
+## Berufliche Weiterbildung
 
-- Kubernetes ecosystem — operators, service mesh, security
-- Cloud-native patterns — 12-factor apps, GitOps, observability
-- AI/ML infrastructure — GPU workloads, model serving
-- Platform engineering — internal developer platforms
+| Jahr | Kurs / Programm | Anbieter |
+|------|-------------------|----------|
+| JJJJ | <!-- z. B. Certified Kubernetes Administrator (CKA) --> | <!-- CNCF / Linux Foundation --> |
+| JJJJ | <!-- Kursname --> | <!-- Anbieter --> |
+| JJJJ | <!-- Kursname --> | <!-- Anbieter --> |
 
 ---
 
-## Certifications
+## Kontinuierliches Lernen
 
-Full list with verification links: [06-certificates](../06-certificates/)
+- Kubernetes-Ökosystem — Operators, Service Mesh, Security
+- Cloud-native Patterns — 12-Factor Apps, GitOps, Observability
+- AI/ML-Infrastruktur — GPU-Workloads, Model Serving
+- Platform Engineering — interne Developer Platforms
+
+---
+
+## Zertifizierungen
+
+Vollständige Liste mit Verifizierungslinks: [06-certificates](../06-certificates/)

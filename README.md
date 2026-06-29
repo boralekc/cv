@@ -1,54 +1,67 @@
 # Alex Borissov
 
-**Infrastructure & Automation Engineer**
+**Infrastructure & Automation Engineer** · Köln, Deutschland
 
-18+ years of experience in
+Ich entwickle und betreibe Systeme, von denen Organisationen täglich abhängen — Enterprise-Software, Klinikplattformen, Infrastruktur, Integration, Automatisierung. Über 18 Jahre Erfahrung. Standort Köln. Selbstständig unter [borissov-it.de](https://borissov-it.de/).
 
-- Enterprise Software
-- System Integration
-- Infrastructure
-- Kubernetes
-- Automation
-- Cloud
+Dieses Repository dokumentiert **wer ich bin und wie ich arbeite** — keine Bewerbung auf eine bestimmte Stelle.
+
+[Wer ich bin](01-about/) · [Website](https://borissov-it.de/) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc) · [Kurzprofil](resume/resume.md) · [E-Mail](mailto:alxboriss@gmail.com)
 
 ---
 
-| | |
-|---|---|
-| **Website** | [borissov-it.de](https://borissov-it.de/) |
-| **LinkedIn** | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
-| **GitHub** | [github.com/boralekc](https://github.com/boralekc) |
-| **Email** | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
-| **Resume** | [resume/](resume/) |
+## Karriere auf einen Blick
+
+```mermaid
+flowchart LR
+    A["~2007<br/>Optimum ERP"] --> B["2004–24<br/>Intramed MIS"]
+    B --> C["2016–20<br/>Infra-Projekte"]
+    C --> D["2024–<br/>Freelance"]
+```
+
+| Phase | Schwerpunkt |
+|-------|-------------|
+| [CDC / Optimum](03-projects/01-optimum/) | Enterprise-Software-Einführung |
+| [Medizinisches IS](03-projects/02-medical-information-system/) | 20+ Jahre MIS-Partnerschaft, 40k Patienten/Jahr |
+| [Infrastruktur-Projekte](03-projects/) | Air-gapped Plattformen, Laborsysteme, OCR |
+| [BORISSOV](https://borissov-it.de/) | K8s, Self-hosted BI, Full-Stack-Automatisierung |
+
+→ Vollständiger Verlauf: [02-career/timeline.md](02-career/timeline.md)
 
 ---
 
-## Portfolio
+## Ausgewählte Projekte
 
-| Section | Description |
-|---------|-------------|
-| [01-about](01-about/) | About me |
-| [02-career](02-career/) | Master CV — experience, skills, education |
-| [03-projects](03-projects/) | Key projects with architecture and case studies |
-| [04-architecture](04-architecture/) | Architecture diagrams and reference designs |
-| [05-articles](05-articles/) | Articles and LinkedIn posts |
-| [06-certificates](06-certificates/) | Professional certifications |
-| [07-presentations](07-presentations/) | Talks and conference presentations |
-| [08-publications](08-publications/) | Publications |
-| [09-open-source](09-open-source/) | Open source contributions |
+| Projekt | Rolle | Highlight |
+|---------|-------|-----------|
+| [Medizinisches IS](03-projects/02-medical-information-system/) | Einführung & 20 Jahre Betrieb | Intramed, 40k Patienten/Jahr, mehrere Kliniken |
+| [BI-Plattform](03-projects/07-bi-platform/) | Freelance — Infra + Analytics | Self-hosted Metabase, Prometheus, Backups |
+| [KI-Lernplattform](03-projects/06-ai-learning-platform/) | Freelance DevOps | 7 Microservices, K8s, Keycloak, GitLab CI |
+| [Investment-Plattform](03-projects/08-investment-platform/) | Solo — Full Stack | Next.js, 16 n8n-Workflows, Docker, CI/CD |
+| [Referenzdaten-Plattform](03-projects/03-reference-data-platform/) | Infrastruktur | WildFly HA, air-gapped, nationaler Verkehr |
+
+[Alle Projekte →](03-projects/)
 
 ---
 
-## Featured Projects
+## Dokumentationsübersicht
 
-| # | Project | Domain |
-|---|---------|--------|
-| 01 | [Optimum](03-projects/01-optimum/) | — |
-| 02 | [Medical Information System](03-projects/02-medical-information-system/) | Healthcare |
-| 03 | [Reference Data Platform](03-projects/03-reference-data-platform/) | Data |
-| 04 | [Histopathology](03-projects/04-histopathology/) | Healthcare / AI |
-| 05 | [Document Recognition](03-projects/05-document-recognition/) | AI / OCR |
-| 06 | [AI Learning Platform](03-projects/06-ai-learning-platform/) | EdTech / AI |
-| 07 | [BI Platform](03-projects/07-bi-platform/) | Analytics |
-| 08 | [Investment Platform](03-projects/08-investment-platform/) | FinTech |
-| 09 | [Microservice Platform](03-projects/09-microservice-platform/) | Platform Engineering |
+| Bereich | Inhalt |
+|---------|--------|
+| [01-about](01-about/) | Wer ich bin — hier starten |
+| [02-career](02-career/) | Karriereverlauf, Erfahrung, Skills |
+| [03-projects](03-projects/) | Case Studies mit Architekturdiagrammen |
+| [04-architecture](04-architecture/) | Wiederverwendbare Muster — K8s, GitOps, Netzwerk |
+| [05-articles](05-articles/) | Artikel und LinkedIn-Beiträge |
+| [06-certificates](06-certificates/) | Zertifizierungen |
+| [resume](resume/) | Kurzprofil (kein stellenspezifischer Lebenslauf) |
+
+---
+
+## Kerntechnologien
+
+`Linux` · `Kubernetes` · `Docker` · `GitLab CI` · `GitHub Actions` · `Keycloak` · `Metabase` · `n8n` · `PostgreSQL` · `WildFly` · `Prometheus` · `Terraform` · `Next.js`
+
+---
+
+*Dieses Repository ist als technische Dokumentation aufgebaut — wer ich bin, wie ich arbeite und was ich gebaut habe.*

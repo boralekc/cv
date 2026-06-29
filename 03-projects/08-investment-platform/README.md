@@ -1,65 +1,84 @@
-# Investment Platform
+# Investment-Portfolio-System
 
-## Project
+## Projekt
 
-<!-- FinTech investment / trading / portfolio management platform -->
-
-Investment Platform is <!-- description: portfolio management, trading, risk analytics -->.
+**Vollständig eigenes Projekt** — automatisiertes Investment-Portfolio-System auf Basis von **n8n** mit **Next.js**-Frontend. 16 verknüpfte Workflows für den gesamten Investment-Zyklus: Broker-Report-Einlesung, FIFO-Positionsverfolgung, Live-Kursupdates, Renditeberechnungen, KI-Telegram-Assistent und Multi-Source-News-Aggregation.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | 2025 |
+| **Rolle** | Volle Verantwortung — Entwicklung, Deployment, Betrieb |
+| **Workflows** | 16 n8n-Workflows |
+| **Status** | Produktion (Eigenprojekt) |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Solo Engineer — Full Stack**
 
-## Responsibilities
+Alles von der Anwendungsentwicklung bis Deployment und CI/CD — kein reiner DevOps-Auftrag.
 
-- Low-latency infrastructure for trading components
-- High-security network architecture and secrets management
-- Regulatory-compliant audit logging
-- HA deployment with zero-downtime releases
-- Disaster recovery and business continuity planning
+## Aufgaben
 
-## Architecture
+- Next.js-Anwendungsentwicklung (Portfolio-UI, Datenvisualisierung)
+- Design und Umsetzung von 16 n8n-Workflows
+- Broker-Report-Parsing und FIFO-Positionsbuchhaltung
+- Live-Kursupdates (alle 6 Stunden) und Renditeberechnungen
+- KI-Telegram-Assistent-Integration
+- Multi-Source-News-Aggregation
+- Docker Compose Deployment
+- GitHub Actions CI/CD-Pipeline
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
+```mermaid
+flowchart TB
+    subgraph Frontend
+        NEXT[Next.js App]
+    end
+    subgraph Automation
+        N8N[n8n — 16 Workflows]
+        FIFO[FIFO-Positionsverfolgung]
+        PRICE[Kursupdates / 6h]
+        AI[KI-Telegram-Assistent]
+        NEWS[News-Aggregation]
+    end
+    subgraph Daten
+        BROKER[Broker-Reports]
+        MARKET[Marktdaten-APIs]
+    end
+    subgraph Deploy
+        DC[Docker Compose]
+        GHA[GitHub Actions CI/CD]
+    end
+    BROKER --> N8N
+    MARKET --> PRICE
+    N8N --> FIFO & PRICE & AI & NEWS
+    NEXT --> N8N
+    GHA --> DC
+```
 
-- **Trading Engine** — <!-- order processing -->
-- **Portfolio Service** — <!-- holdings, valuations -->
-- **Risk Analytics** — <!-- real-time risk calculations -->
+## Technologien
 
-## Deployment
+`Next.js` `React` `n8n` `Docker Compose` `GitHub Actions` `Telegram API` `Python/Bash-Skripte`
 
-![Deployment](deployment.png)
+## Herausforderungen
 
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| Databases | PostgreSQL (HA) |
-| Messaging | Kafka |
-| Security | Vault, mTLS, WAF |
-| Monitoring | Prometheus, Grafana, audit logs |
-
-## Challenges
-
-1. **Sub-second latency requirements** — <!-- approach -->
-2. **Financial regulatory compliance** — <!-- approach -->
-3. **Zero-downtime during market hours** — <!-- approach -->
+1. **16 Workflow-Abhängigkeiten** — Orchestrierungskomplexität in n8n
+2. **FIFO-Buchhaltungsgenauigkeit** — Finanzdaten müssen korrekt sein, nicht ungefähr
+3. **Solo Full Stack** — kein Team für Frontend, Backend und Ops
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- n8n ist mächtig für Investment-Automatisierung, wenn Workflows dokumentiert und modular sind
+- FIFO-Tracking gehört in explizite Workflow-Logik, nicht in Ad-hoc-Spreadsheet-Exports
+- Den gesamten Stack zu besitzen (Next.js → n8n → Docker → CI) gibt Geschwindigkeit, erfordert aber Disziplin
+- Eigenprojekte beweisen Fähigkeiten besser als Behauptungen im Lebenslauf
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+- [Open Source](../09-open-source/)
+
+## Fotos
+
+Siehe [photos/](photos/) für UI- und Workflow-Screenshots.

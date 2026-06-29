@@ -1,23 +1,23 @@
-# Network
+# Netzwerk
 
-Network architecture, service mesh, and security segmentation.
+Netzwerkarchitektur, Service Mesh und Security-Segmentierung.
 
-## Diagrams
+## Diagramme
 
-| File | Description |
-|------|-------------|
-| <!-- service-mesh.png --> | <!-- Istio / Linkerd topology --> |
-| <!-- ingress-topology.png --> | <!-- External traffic routing --> |
-| <!-- zero-trust-segmentation.png --> | <!-- Network policies, mTLS --> |
+| Datei | Beschreibung |
+|-------|--------------|
+| <!-- service-mesh.png --> | <!-- Istio / Linkerd Topologie --> |
+| <!-- ingress-topology.png --> | <!-- Externes Traffic Routing --> |
+| <!-- zero-trust-segmentation.png --> | <!-- Network Policies, mTLS --> |
 
 ## Patterns
 
-- **Service mesh** — mTLS, traffic management, observability
-- **Ingress controllers** — TLS termination, routing rules
-- **Network policies** — pod-to-pod segmentation
-- **VPN / hybrid connectivity** — on-prem to cloud
+- **Service Mesh** — mTLS, Traffic Management, Observability
+- **Ingress Controller** — TLS-Terminierung, Routing Rules
+- **Network Policies** — Pod-zu-Pod-Segmentierung
+- **VPN / Hybrid Connectivity** — On-prem zu Cloud
 
-## Related Projects
+## Verwandte Projekte
 
-- [Medical Information System](../03-projects/02-medical-information-system/)
-- [Investment Platform](../03-projects/08-investment-platform/)
+- [Medizinisches Informationssystem](../../03-projects/02-medical-information-system/)
+- [Referenzdaten-Plattform](../../03-projects/03-reference-data-platform/)

@@ -1,21 +1,22 @@
 # Docker
 
-Containerization patterns and image build strategies.
+Containerisierungs-Patterns und Image-Build-Strategien.
 
-## Diagrams
+## Diagramme
 
-| File | Description |
-|------|-------------|
-| <!-- multi-stage-build.png --> | <!-- Optimized image builds --> |
-| <!-- registry-pipeline.png --> | <!-- Image scanning, signing, promotion --> |
+| Datei | Beschreibung |
+|-------|--------------|
+| <!-- multi-stage-build.png --> | <!-- Optimierte Image Builds --> |
+| <!-- registry-pipeline.png --> | <!-- Image Scanning, Signing, Promotion --> |
 
 ## Patterns
 
-- **Multi-stage builds** — minimal runtime images
-- **Image scanning** — Trivy, Snyk in CI pipeline
-- **Private registries** — Harbor, ECR, ACR
-- **Base image management** — pinned versions, regular updates
+- **Multi-stage Builds** — minimale Runtime-Images
+- **Image Scanning** — Trivy, Snyk in der CI-Pipeline
+- **Private Registries** — Harbor, ECR, ACR
+- **Base Image Management** — feste Versionen, regelmäßige Updates
 
-## Related Projects
+## Verwandte Projekte
 
-- [Microservice Platform](../03-projects/09-microservice-platform/)
+- [BI-Plattform](../../03-projects/07-bi-platform/)
+- [Investment-Plattform](../../03-projects/08-investment-platform/)

@@ -1,56 +1,101 @@
-# About Me
+# Wer ich bin
 
 ## Alex Borissov
 
-**Infrastructure & Automation Engineer** based in Cologne, Germany.
+**Infrastructure & Automation Engineer** · Köln, Deutschland
 
-For more than 18 years I have been helping organizations implement, integrate and operate business-critical IT systems. My career started with enterprise software implementation and gradually evolved towards infrastructure engineering, automation, Kubernetes and cloud-native technologies.
+---
 
-Unlike a traditional DevOps engineer, my experience covers the complete lifecycle of IT systems:
+Ich entwickle und betreue Systeme, von denen Organisationen jeden Tag abhängen.
 
-- understanding business requirements;
-- implementing enterprise software;
-- integrating multiple systems;
-- designing and operating infrastructure;
-- automating deployments and operations;
-- supporting production environments.
+Keine Demos. Keine Proof-of-Concepts. Produktion — dort, wo ein Ausfall bedeutet, dass eine Klinik nicht arbeiten kann, eine Plattform keine Nutzer mehr bedient oder ein Geschäftsprozess stoppt.
 
-This combination allows me to communicate effectively with both business stakeholders and engineering teams while delivering reliable technical solutions.
+Seit über 18 Jahren bewege ich mich durch den gesamten Lebenszyklus von IT-Systemen: vom Verständnis dessen, was ein Unternehmen wirklich braucht, über Implementierung und Integration bis hin zu Infrastruktur, Automatisierung und langfristigem Betrieb. Dieser Weg begann bei [CDC](https://cdc.ru/) mit Enterprise-Software (Optimum ERP), führte über zwei Jahrzehnte in Krankenhaus-Medizininformationssystemen (Intramed) und setzt sich heute als unabhängiges Engineering über [borissov-it.de](https://borissov-it.de/) fort.
 
-## Areas of Expertise
+---
 
-- Enterprise Software Implementation
-- Medical Information Systems
-- Infrastructure Engineering
-- Kubernetes & Containers
-- CI/CD & DevSecOps
-- Cloud Infrastructure
-- Self-hosted Platforms
-- System Integration
-- Automation
+## Was mich als Ingenieur auszeichnet
 
-## Core Technologies
+Ich übernehme **Verantwortung für das System als Ganzes** — nicht nur für eine Schicht in der Architektur eines anderen.
 
-Linux · Kubernetes · Docker · GitHub Actions · GitLab CI · Jenkins · Terraform · Helm · Keycloak · PostgreSQL · MS SQL Server · WildFly · Nginx · AWS · DigitalOcean · Hetzner · Next.js · n8n
+Ich bin kein DevOps-Ingenieur im engen Sinne. Kubernetes, CI/CD und DevSecOps sind Teil meines Werkzeugkastens. Sie kommen zum Einsatz, wenn ein System sie braucht — genauso wie Integration, Datenbanken oder Application Server in früheren Jahren.
 
-## Professional Philosophy
+Was sich durchgehend bewährt hat:
 
-I enjoy solving complex infrastructure and integration challenges by combining modern technologies with practical engineering. My goal is to build systems that are reliable, maintainable and easy to operate.
+- Gespräche mit den Menschen, die das System nutzen — nicht nur mit Entwicklern;
+- Bleiben, wenn das Projekt live ist — nicht Weggehen nach dem Go-live;
+- Zuverlässigkeit und Klarheit vor modischen Stacks;
+- Dokumentation, damit die nächste Person verstehen und betreiben kann.
 
-## Contact
+---
+
+## Der Bogen meiner Arbeit
+
+```
+Enterprise-Software (Optimum)
+        │
+        ▼
+Medizinische Informationssysteme (Intramed) — 20+ Jahre
+        │
+        ▼
+Infrastruktur- & Integrationsprojekte
+        │
+        ▼
+Freelance Engineering (BORISSOV)
+```
+
+Der rote Faden ist kein Jobtitel. Es ist **eine Frage**: Kann ich dieses System für die Menschen funktionsfähig machen, die davon abhängen?
+
+→ [Vollständiger Zeitstrahl](../02-career/timeline.md)
+
+---
+
+## Womit ich mich beschäftige
+
+| Bereich | In der Praxis |
+|---------|---------------|
+| Enterprise- & Kliniksysteme | ERP-Einführung, Krankenhaus-MIS, Labor- und Dokumenten-Workflows |
+| Integration | MIS, Labor, Histopathologie, OCR, externe Plattformen verbinden |
+| Infrastruktur | Linux, WildFly-Cluster, air-gapped Netzwerke, Kubernetes |
+| Automatisierung | CI/CD, n8n-Workflows, Scripting, Self-hosted Plattformen |
+| Verantwortung | Von Anforderungen bis Produktion — inkl. Freelance-Projekte end-to-end |
+
+→ [Projekte](../03-projects/) · [Erfahrung](../02-career/experience.md)
+
+---
+
+## Wie ich über Engineering denke
+
+Ich arbeite gern an komplexen Problemen, an denen Technologie, Prozess und Menschen zusammenkommen.
+
+Ein Krankenhaus-MIS, das 20 Jahre läuft, lehrt Geduld. Ein air-gapped Deployment lehrt Selbstständigkeit. Ein Freelance-Auftrag lehrt, dass Übergabe und Dokumentation genauso wichtig sind wie der Build.
+
+Mein Ziel ist immer dasselbe: **Systeme, die zuverlässig, verständlich und betreibbar sind** — für das Team, das sie übernimmt.
+
+---
+
+## Technologien, die ich einsetze
+
+Keine Badge-Liste — Werkzeuge, gewählt nach dem Problem:
+
+Linux · Kubernetes · Docker · PostgreSQL · WildFly · InterSystems Caché · GitLab CI · GitHub Actions · Keycloak · Metabase · n8n · Terraform · Prometheus · Next.js · Nginx
+
+→ [Vollständige Skills-Matrix](../02-career/skills.md)
+
+---
+
+## Kontakt
 
 | | |
 |---|---|
-| Email | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
+| Website | [borissov-it.de](https://borissov-it.de/) |
+| E-Mail | [alxboriss@gmail.com](mailto:alxboriss@gmail.com) |
 | LinkedIn | [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) |
 | GitHub | [github.com/boralekc](https://github.com/boralekc) |
-| Website | [borissov-it.de](https://borissov-it.de/) |
-| Location | Cologne, Germany |
+| Standort | Köln, Deutschland |
 
-## Languages
+**Sprachen:** Russisch (Muttersprache) · Englisch (verhandlungssicher) · Deutsch
 
-| Language | Level |
-|----------|-------|
-| Russian | Native |
-| English | Professional |
-| German | <!-- Level --> |
+---
+
+*Dieses Repository ist keine Bewerbung. Es ist eine Dokumentation meiner Arbeitsweise — für alle, die zuerst verstehen wollen, wer ich bin.*

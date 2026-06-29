@@ -1,91 +1,73 @@
-# Career Timeline
+# Karriere-Zeitstrahl
 
-Not a list of job titles — an evolution of responsibility across the full IT system lifecycle.
-
----
-
-## 2007 · Enterprise Software
-
-Where it started: implementing and configuring enterprise business systems — understanding how organizations actually run on software.
-
-- Business requirements analysis and solution design
-- Enterprise application implementation and customization
-- Working directly with users, analysts, and project stakeholders
-- Foundation for everything that followed: systems thinking, not just tooling
+Entwicklung der Verantwortung — von Enterprise-Software bis zur vollen Systemhoheit.
 
 ---
 
-## Medical Information Systems
+## ~2007 · Enterprise-Software · [CDC](https://cdc.ru/)
 
-Deep specialization in clinical and hospital environments — long-running, mission-critical platforms where downtime has real consequences.
+Erste Rolle: **Einführungsspezialist für das Optimum-ERP-System**.
 
-- Medical Information System development and maintenance (InterSystems Caché)
-- 20+ year partnership supporting a clinic treating 40,000 patients per year
-- Adapting platforms to evolving clinical and regulatory requirements
-- Full clinical workflow coverage — from implementation to production support
+- Geschäftsanforderungen, Konfiguration, Rollout
+- Verständnis, wie Organisationen von integrierter Enterprise-Software abhängen
+- Grundlage für Systemdenken, das die gesamte Karriere prägte
 
-→ [Medical Information System project](../03-projects/02-medical-information-system/)
-
----
-
-## Infrastructure
-
-From application delivery to owning the environments systems run in — servers, networks, availability, security.
-
-- Linux administration and production hardening
-- Application servers (WildFly), databases (PostgreSQL, MS SQL Server)
-- Reverse proxies, TLS, high availability
-- Designing environments that development teams and business can depend on
+→ [Optimum-Projekt](../03-projects/01-optimum/)
 
 ---
 
-## Automation
+## 2004–2024 · Medizinische Informationssysteme
 
-Reducing manual work, repeatability, and risk — pipelines and workflows instead of one-off operations.
+Kern der Karriere: **Einführung, Anpassung und langfristiger Support von Intramed** (InterSystems Caché).
 
-- CI/CD: GitHub Actions, GitLab CI, Jenkins
-- Infrastructure as Code: Terraform, Helm
-- Process automation: n8n, scripted operations
-- GitOps-minded deployments with clear promotion paths
+- 20+ Jahre Partnerschaft mit einem Krankenhaus mit **40.000 Patienten pro Jahr**
+- Vollständige klinische Workflows — keine einmalige Lieferung
+- Integrierte Systeme: Labor, Histopathologie, Dokumentenerkennung
+- Einführungen an **weiteren großen Kliniken in Russland**
 
----
+Das prägende Erlebnis: Verantwortung für ein mission-kritisches System über Jahrzehnte — nicht jährlicher Projektwechsel.
 
-## Cloud & Kubernetes
-
-Modern platform engineering — containers, orchestration, observability, self-hosted alternatives to US cloud dependency.
-
-- Kubernetes cluster design and day-2 operations
-- Docker, Helm, monitoring (Prometheus, Grafana)
-- Cloud and VPS providers: AWS, DigitalOcean, Hetzner
-- Self-hosted platforms: Metabase, Keycloak, Nextcloud, n8n
-
-→ [Microservice Platform](../03-projects/09-microservice-platform/) · [BI Platform](../03-projects/07-bi-platform/)
+→ [Medizinisches Informationssystem](../03-projects/02-medical-information-system/)
 
 ---
 
-## Freelance Infrastructure Projects · Present
+## 2016–2020 · Infrastruktur- & Integrationsprojekte
 
-[borissov-it.de](https://borissov-it.de/) — independent engineering for German mid-sized businesses.
+Parallel zur MIS-Arbeit — Infrastrukturverantwortung wuchs, als die Organisation größere technische Projekte übernahm:
 
-- Internal platforms, document processing, and knowledge workflows on own infrastructure
-- GDPR-compliant, self-hosted systems with full handover to client teams
-- Fixed scope, fixed price — analysis, design, development, deployment
-- Selected work: marketplace BI, investment automation, medical systems, custom business applications
+| Jahr | Projekt | Schwerpunkt |
+|------|---------|-------------|
+| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment, OCR-Pipeline, MIS-Integration |
+| ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, bidirektionale MIS-Sync |
+| ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped Netzwerk, HA-Backend |
 
-→ [Website](https://borissov-it.de/) · [Projects](../03-projects/)
+DevOps-Fähigkeiten entstanden hier — nicht aus einem Jobtitel, sondern aus dem, was die Systeme erforderten.
 
 ---
 
-## Visual Overview
+## 2024–heute · Freelance · [BORISSOV Engineering](https://borissov-it.de/)
+
+Unabhängiges Engineering für europäische Unternehmen. Infrastruktur und Automatisierung als explizite Leistungen.
+
+| Jahr | Projekt | Rolle |
+|------|---------|-------|
+| 2025 | [KI-Lernplattform](../03-projects/06-ai-learning-platform/) | DevOps — K8s, GitLab CI, DevSecOps, Keycloak |
+| 2025 | [BI-Plattform](../03-projects/07-bi-platform/) | Metabase, Monitoring, Backups, SSL |
+| 2025 | [Investment-Plattform](../03-projects/08-investment-platform/) | Volle Verantwortung — Entwicklung + Deployment |
+| 2025 | [Microservice-Plattform](../03-projects/09-microservice-platform/) | DevOps — CI/CD, DevSecOps *(laufend)* |
+
+---
+
+## Visuelle Übersicht
 
 ```mermaid
 flowchart TB
-    A["2007<br/>Enterprise Software"]
-    B["Medical Information Systems"]
-    C["Infrastructure"]
-    D["Automation"]
-    E["Cloud & Kubernetes"]
-    F["Freelance Infrastructure Projects"]
+    A["~2007<br/>CDC · Optimum ERP"]
+    B["2004–2024<br/>Medizinisches IS · Intramed"]
+    C["2016–2020<br/>Infrastruktur-Projekte"]
+    D["2024–heute<br/>Freelance · BORISSOV"]
 
-    A --> B --> C --> D --> E --> F
+    A --> B
+    B --> C
+    C --> D
 ```

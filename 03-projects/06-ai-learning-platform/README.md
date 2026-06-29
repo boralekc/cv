@@ -1,65 +1,86 @@
-# AI Learning Platform
+# KI-Lernplattform
 
-## Project
+## Projekt
 
-<!-- EdTech platform with AI-powered learning -->
+**Kubernetes-Plattform für ein KI-gestütztes universitäres Lernsystem** — 7 Microservices, Identity Management, GitLab CI mit Security Gates und inkrementeller Produktions-Rollout auf DigitalOcean.
 
-AI Learning Platform is <!-- description: adaptive learning, AI tutors, course management -->.
+Freelance-Auftrag: volle DevOps-Verantwortung für Deployment und Betrieb.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | 2025 |
+| **Rolle** | Freelance DevOps Engineer |
+| **Services** | 7 Microservices |
+| **Status** | Produktion |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**DevOps Engineer (Freelance)**
 
-## Responsibilities
+End-to-end-Verantwortung für Kubernetes-Infrastruktur, CI/CD-Pipeline, DevSecOps-Gates und Identity Management.
 
-- Multi-tenant Kubernetes platform
-- AI/ML inference infrastructure for personalized learning
-- CDN and media delivery for educational content
-- Auto-scaling for peak usage (exam periods)
-- CI/CD for rapid feature delivery
+## Aufgaben
 
-## Architecture
+- Kubernetes-Cluster-Design und Betrieb auf DigitalOcean
+- Deployment von 7 Microservices mit inkrementeller (Canary) Rollout-Strategie
+- GitLab CI-Pipeline mit 4-stufiger Security Pipeline
+- Keycloak IAM Setup und Integration
+- DevSecOps: automatisierte Security Gates im Deployment-Flow
+- Produktionsmonitoring und operative Übergabe
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
-
-- **Learning Engine** — <!-- courses, progress tracking -->
-- **AI Module** — <!-- recommendations, adaptive paths -->
-- **Content Delivery** — <!-- video, interactive materials -->
+```mermaid
+flowchart TB
+    subgraph DO["DigitalOcean Kubernetes"]
+        subgraph Services
+            S1[Service 1]
+            S2[Service 2]
+            S3[Service ...]
+            S7[Service 7]
+        end
+        KC[Keycloak IAM]
+        IG[Ingress]
+    end
+    subgraph CICD
+        GL[GitLab CI]
+        SEC[Security Gates<br/>4 Stufen]
+    end
+    GL --> SEC --> DO
+    IG --> Services
+    KC --> Services
+```
 
 ## Deployment
 
-![Deployment](deployment.png)
+```mermaid
+flowchart LR
+    DEV[Entwicklung] -->|GitLab CI| STAGE[Staging]
+    STAGE -->|Canary Rollout| PROD[Produktion]
+    PROD -->|Security Scan| LIVE[Live Traffic]
+```
 
-## Technologies
+## Technologien
 
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| ML Serving | <!-- model endpoints --> |
-| Databases | PostgreSQL, Redis |
-| CDN | <!-- CloudFront / custom --> |
-| CI/CD | GitLab CI, ArgoCD |
+`Kubernetes` `DigitalOcean` `Docker` `GitLab CI` `DevSecOps` `Keycloak` `Helm` `Nginx Ingress`
 
-## Challenges
+## Herausforderungen
 
-1. **Traffic spikes during exams** — <!-- approach -->
-2. **Low-latency AI recommendations** — <!-- approach -->
-3. **Multi-tenant isolation** — <!-- approach -->
+1. **Koordination von 7 Services** — Abhängigkeitsreihenfolge und Rollout-Strategie
+2. **Security Pipeline Integration** — Gates ohne Blockierung der Delivery-Geschwindigkeit
+3. **Keycloak in Microservice-Landschaft** — zentrale Identity über alle Services
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Canary Rollout auf K8s reduziert Risiko für Multi-Service-Bildungsplattformen
+- DevSecOps-Gates funktionieren am besten, wenn sie früh integriert werden — nicht am Ende angeflanscht
+- Freelance DevOps bedeutet: alles dokumentieren — das Kundenteam muss nach der Übergabe selbst betreiben können
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+- [Architektur — Kubernetes](../../04-architecture/kubernetes/)
+
+## Fotos
+
+Siehe [photos/](photos/) für Cluster- und Pipeline-Screenshots.

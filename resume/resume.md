@@ -1,69 +1,46 @@
 # Alex Borissov
 
-**Infrastructure & Automation Engineer**
+**Infrastructure & Automation Engineer** · Köln, Deutschland
 
 ---
 
-## Summary
+## Wer ich bin
 
-Infrastructure & Automation Engineer with 18+ years of experience in enterprise software, system integration, infrastructure, Kubernetes, automation, and cloud technologies.
+Ich bin Ingenieur und betreue geschäftskritische Systeme über ihren gesamten Lebenszyklus.
 
----
+Über 18 Jahre: Enterprise-Software, Krankenhaus-Medizininformationssysteme, Infrastruktur, Integration, Automatisierung. Selbstständig unter [borissov-it.de](https://borissov-it.de/).
 
-## Experience
-
-### Infrastructure & Automation Engineer · <!-- Company --> · YYYY – Present
-
-- <!-- Achievement with metric -->
-- <!-- Achievement with metric -->
-- <!-- Achievement with metric -->
-
-### <!-- Job Title --> · <!-- Company --> · YYYY – YYYY
-
-- <!-- Achievement -->
-- <!-- Achievement -->
-
-### <!-- Job Title --> · <!-- Company --> · YYYY – YYYY
-
-- <!-- Achievement -->
-- <!-- Achievement -->
+Ich positioniere mich nicht für eine bestimmte Rolle oder Stelle. Diese Seite beschreibt **wer ich bin und wie ich arbeite**.
 
 ---
 
-## Skills
+## In einem Absatz
 
-**Infrastructure:** Kubernetes, Docker, Linux, Networking, HA/DR  
-**Automation:** CI/CD, GitOps, Terraform, Ansible, Helm  
-**Cloud:** AWS, Azure, hybrid/on-prem  
-**Integration:** Microservices, APIs, Kafka, RabbitMQ  
-**Monitoring:** Prometheus, Grafana, ELK  
+Ich begann mit der Einführung von Enterprise-ERP, verbrachte zwei Jahrzehnte mit medizinischen Informationssystemen (inkl. einer 20+ Jahre dauernden Produktionspartnerschaft für ein Krankenhaus mit 40.000 Patienten/Jahr), wuchs in Infrastruktur- und Integrationsprojekte hinein und übernehme heute Freelance-Aufträge — von Kubernetes-Plattformen über Self-hosted BI bis zu Systemen, die ich selbst entwerfe und betreibe. Ich kommuniziere mit Klinikpersonal und Fachbereichen genauso selbstverständlich wie mit Entwicklern. Ich bleibe nach dem Go-live.
 
 ---
 
-## Education
+## Was ich tue
 
-**<!-- Degree -->** — <!-- University --> · YYYY  
-**<!-- Degree -->** — <!-- University --> · YYYY  
-
----
-
-## Certifications
-
-- <!-- CKA --> — CNCF · YYYY
-- <!-- Certificate --> — <!-- Issuer --> · YYYY
+- Enterprise- und Kliniksoftware einführen und betreuen
+- Systeme integrieren — MIS, Labor, Histopathologie, Dokumentenerkennung
+- Infrastruktur entwerfen und betreiben — von WildFly-Clustern bis Kubernetes
+- Deployments, Workflows und Betrieb automatisieren, wenn manuelle Arbeit nicht skaliert
+- Dokumentieren und übergeben — damit Teams das Gebaute selbst betreiben können
 
 ---
 
-## Selected Projects
+## Mehr erfahren
 
-- **Microservice Platform** — Kubernetes platform for 50+ microservices, GitOps, observability
-- **Medical Information System** — Healthcare infrastructure, HL7/FHIR integration
-- **Investment Platform** — Low-latency FinTech infrastructure, regulatory compliance
-
-[Full project portfolio →](../03-projects/)
+| | |
+|---|---|
+| [Über mich](../01-about/) | Hintergrund, Philosophie, Kontakt |
+| [Karriere](../02-career/) | Zeitstrahl und Erfahrung |
+| [Projekte](../03-projects/) | Case Studies mit Architektur |
+| [Website](https://borissov-it.de/) | Aktuelle Arbeit und Referenzen |
 
 ---
 
-## Contact
+## Kontakt
 
-Website: [borissov-it.de](https://borissov-it.de/) · LinkedIn: [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc) · Email: [alxboriss@gmail.com](mailto:alxboriss@gmail.com) · GitHub: [github.com/boralekc](https://github.com/boralekc)
+[borissov-it.de](https://borissov-it.de/) · [alxboriss@gmail.com](mailto:alxboriss@gmail.com) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc)

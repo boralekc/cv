@@ -1,26 +1,26 @@
-# Certificates
+# Zertifizierungen
 
-Professional certifications and credentials.
+Berufliche Zertifizierungen und Nachweise.
 
-## Active Certifications
+## Aktive Zertifizierungen
 
-| Certificate | Issuer | Date | Verification |
-|-------------|--------|------|--------------|
-| <!-- CKA --> | CNCF / Linux Foundation | YYYY | [verify](https://...) |
-| <!-- CKAD --> | CNCF / Linux Foundation | YYYY | [verify](https://...) |
-| <!-- AWS Solutions Architect --> | AWS | YYYY | [verify](https://...) |
-| <!-- Terraform Associate --> | HashiCorp | YYYY | [verify](https://...) |
+| Zertifikat | Aussteller | Datum | Verifizierung |
+|------------|------------|-------|---------------|
+| <!-- CKA --> | CNCF / Linux Foundation | JJJJ | [verifizieren](https://...) |
+| <!-- CKAD --> | CNCF / Linux Foundation | JJJJ | [verifizieren](https://...) |
+| <!-- AWS Solutions Architect --> | AWS | JJJJ | [verifizieren](https://...) |
+| <!-- Terraform Associate --> | HashiCorp | JJJJ | [verifizieren](https://...) |
 
-## In Progress
+## In Vorbereitung
 
-| Certificate | Target Date |
-|-------------|-------------|
-| <!-- CKS --> | YYYY |
-| <!-- Cilium Cluster Mesh --> | YYYY |
+| Zertifikat | Zieltermin |
+|------------|------------|
+| <!-- CKS --> | JJJJ |
+| <!-- Cilium Cluster Mesh --> | JJJJ |
 
-## Files
+## Dateien
 
-Store certificate PDFs or badge images in this folder:
+Zertifikat-PDFs oder Badge-Bilder in diesem Ordner ablegen:
 
 ```
 06-certificates/
@@ -30,4 +30,4 @@ Store certificate PDFs or badge images in this folder:
     └── cka-badge.png
 ```
 
-> **Note:** Do not commit sensitive credential IDs. Use verification links only.
+> **Hinweis:** Keine sensiblen Credential-IDs committen. Nur Verifizierungslinks verwenden.

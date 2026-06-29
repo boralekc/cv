@@ -1,65 +1,62 @@
-# Document Recognition
+# Dokumentenerkennungs-System
 
-## Project
+## Projekt
 
-<!-- OCR / document recognition / intelligent document processing -->
-
-Document Recognition system is <!-- description: OCR, document classification, data extraction -->.
+**Dokumentendigitalisierungs-Plattform** für eine Hochdurchsatz-Klinik (40.000 Patienten/Jahr) — browsergesteuerte Scanner, OCR-Erkennungspipeline, strukturierte Datenextraktion und Integration mit dem Medizinischen Informationssystem.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | ~2016 |
+| **Rolle** | Deployment und Produktionssupport |
+| **Klinikgröße** | 40.000 Patienten / Jahr |
+| **Status** | Produktion |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Deployment- & Support-Ingenieur**
 
-## Responsibilities
+Deployment des Dokumentenscan- und Erkennungssystems in Produktion und laufender operativer Support.
 
-- Scalable processing pipeline for document batches
-- ML model deployment and A/B testing infrastructure
-- Queue-based async processing architecture
-- Storage and retention policies for processed documents
-- Performance tuning for high-volume ingestion
+## Aufgaben
 
-## Architecture
+- Produktionsdeployment und Umgebungssetup
+- Support der Scanner-Hardware-Integration
+- Monitoring und Troubleshooting der OCR-Pipeline
+- Wartung der MIS-Integration
+- Produktionssupport für klinische Dokumenten-Workflows
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
+```mermaid
+flowchart LR
+    SCAN[Browsergesteuerter Scanner]
+    OCR[OCR-Pipeline]
+    EXT[Datenextraktion]
+    MIS[Medizinisches Informationssystem]
+    SCAN --> OCR --> EXT --> MIS
+```
 
-- **Ingestion** — <!-- upload, scan, email -->
-- **OCR Engine** — <!-- recognition, classification -->
-- **Extraction API** — <!-- structured data output -->
+## Technologien
 
-## Deployment
+`OCR` `Dokumentenscanning` `Web-Integration` `MIS-APIs` `Windows Server` `MS SQL Server`
 
-![Deployment](deployment.png)
+## Herausforderungen
 
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| ML / OCR | <!-- Tesseract / custom models --> |
-| Messaging | Kafka, RabbitMQ |
-| Storage | Object storage |
-| Databases | PostgreSQL |
-
-## Challenges
-
-1. **Processing latency at scale** — <!-- approach -->
-2. **Accuracy vs. throughput trade-offs** — <!-- approach -->
-3. **Multi-format document support** — <!-- approach -->
+1. **Hohes Dokumentenvolumen** — Klinikgröße erfordert zuverlässige Batch-Verarbeitung
+2. **Hardware + Software Integration** — Scanner aus dem Browser in klinischer Umgebung
+3. **OCR-Genauigkeit vs. Geschwindigkeit** — strukturierte Extraktion für MIS-Verbrauch
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Dokumentendigitalisierung in Krankenhäusern ist ein Betriebsproblem, nicht nur ein Softwareproblem
+- OCR-Pipelines brauchen Monitoring — stille Fehler erzeugen klinische Datenlücken
+- Deployment-Qualität entscheidet, ob Mitarbeiter Scan-Workflows tatsächlich nutzen
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Medizinisches Informationssystem](../02-medical-information-system/)
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+
+## Fotos
+
+Siehe [photos/](photos/) für Screenshots, sofern vorhanden.

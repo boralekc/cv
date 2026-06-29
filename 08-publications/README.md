@@ -1,23 +1,23 @@
-# Publications
+# Publikationen
 
-Academic papers, technical reports, and published works.
+Wissenschaftliche Arbeiten, technische Berichte und veröffentlichte Beiträge.
 
-## Publications
+## Publikationen
 
-| Year | Title | Type | Link |
-|------|-------|------|------|
-| YYYY | <!-- Publication title --> | <!-- Paper / Report --> | [link](https://...) |
-| YYYY | <!-- Publication title --> | <!-- Article --> | [link](https://...) |
+| Jahr | Titel | Typ | Link |
+|------|-------|-----|------|
+| JJJJ | <!-- Publikationstitel --> | <!-- Paper / Bericht --> | [Link](https://...) |
+| JJJJ | <!-- Publikationstitel --> | <!-- Artikel --> | [Link](https://...) |
 
-## Planned
+## Geplant
 
-<!-- Future publications -->
+<!-- Zukünftige Publikationen -->
 
-## Files
+## Dateien
 
 ```
 08-publications/
 ├── README.md
 └── papers/
-    └── <!-- filename.pdf -->
+    └── <!-- dateiname.pdf -->
 ```

@@ -1,72 +1,62 @@
-# Optimum
+# Optimum ERP — Einführung
 
-## Project
+## Projekt
 
-<!-- 2–3 sentences: what the system does, who uses it, business context -->
-
-Optimum is <!-- description of the project, its purpose, and scale -->.
+Einführung des **Optimum**-ERP-Systems bei [CDC](https://cdc.ru/) — erste berufliche Rolle und Einstieg in Enterprise-Software-Delivery.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | ~2007 – ~2009 |
+| **Arbeitgeber** | CDC |
+| **Rolle** | Einführungsspezialist |
+| **Status** | Abgeschlossen |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Spezialist für Enterprise-Software-Einführung**
 
-<!-- Your specific role and scope within the project -->
+Verantwortlich für die Analyse von Geschäftsanforderungen, Konfiguration des Optimum-Systems und Begleitung des Rollouts für Anwender.
 
-## Responsibilities
+## Aufgaben
 
-- Designed and deployed Kubernetes infrastructure
-- Built CI/CD pipelines for automated releases
-- Configured monitoring, logging, and alerting
-- Automated environment provisioning and configuration
-- Ensured high availability and disaster recovery
+- Geschäftsprozessanalyse und Anforderungserhebung
+- Konfiguration und Anpassung des Optimum-Systems
+- Anwenderschulung und Support nach der Einführung
+- Abstimmung zwischen Fachbereichen und technischer Umsetzung
 
-## Architecture
+## Architektur
 
-<!-- Describe the high-level architecture: components, data flow, integrations -->
+```mermaid
+flowchart LR
+    subgraph Fachbereich
+        U[Anwender / Abteilungen]
+    end
+    subgraph Optimum
+        ERP[Optimum ERP]
+        DB[(Datenbank)]
+    end
+    U --> ERP --> DB
+```
 
-![Architecture](architecture.png)
+Enterprise-Monolith-Modell — integrierte Module für organisatorische Workflows.
 
-Key components:
+## Technologien
 
-- **<!-- Component -->** — <!-- description -->
-- **<!-- Component -->** — <!-- description -->
-- **<!-- Component -->** — <!-- description -->
+`Optimum ERP` `MS SQL Server` `Windows Server` `Enterprise Integration`
 
-## Deployment
+## Herausforderungen
 
-![Deployment](deployment.png)
-
-<!-- Describe deployment topology: environments, clusters, regions -->
-
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes, Helm |
-| CI/CD | <!-- GitLab CI / ArgoCD --> |
-| Monitoring | Prometheus, Grafana |
-| Databases | <!-- PostgreSQL, Redis --> |
-| Messaging | <!-- Kafka / RabbitMQ --> |
-| Cloud / Infra | <!-- AWS / on-prem --> |
-
-## Challenges
-
-1. **<!-- Challenge title -->** — <!-- How you addressed it -->
-2. **<!-- Challenge title -->** — <!-- How you addressed it -->
-3. **<!-- Challenge title -->** — <!-- How you addressed it -->
+1. **Brücke zwischen Fachsprache und Systemkonfiguration** — operative Bedürfnisse in ERP-Parameter übersetzen
+2. **Anwenderakzeptanz** — sicherstellen, dass Mitarbeiter nach dem Go-live effektiv arbeiten können
+3. **Erste Produktionsverantwortung** — lernen, dass Einführung nicht mit dem Deployment endet
 
 ## Lessons Learned
 
-- <!-- Lesson 1 -->
-- <!-- Lesson 2 -->
-- <!-- Lesson 3 -->
+- Enterprise-Software betrifft **Organisationen**, nicht nur Technologie
+- Qualität der Einführung entscheidet, ob ein System genutzt oder aufgegeben wird
+- Diese Rolle legte den Grundstein für über 18 Jahre Systemdenken
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Erfahrung — CDC](../../02-career/experience.md)
+- [Karriere-Zeitstrahl](../../02-career/timeline.md)

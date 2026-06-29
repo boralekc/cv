@@ -1,55 +1,52 @@
-# Executive Summary
+# Zusammenfassung
 
-**Alex Borissov** — Infrastructure & Automation Engineer · Cologne, Germany
+**Alex Borissov** — Infrastructure & Automation Engineer · Köln, Deutschland
 
-## Who I Am
+## Wer ich bin
 
-I am an engineer who takes end-to-end responsibility for business-critical IT systems — from understanding requirements and implementing enterprise software to designing infrastructure, automating operations, and supporting production.
+Ein Ingenieur, der Verantwortung für Systeme end-to-end übernimmt — vom Geschäftskontext bis zum Produktionsbetrieb.
 
-This is not a narrow DevOps or Kubernetes profile. It reflects 18+ years of work across the full system lifecycle: enterprise implementation, medical information systems, infrastructure engineering, automation, and cloud-native platforms.
+Dies ist kein Profil für eine konkrete Stellenanzeige. Es ist eine ehrliche Landkarte von über 18 Jahren: Enterprise-Software, medizinische Informationssysteme, Infrastruktur, Integration und Automatisierung — mit DevOps und Kubernetes als Werkzeugen bei Bedarf, nicht als Identität.
 
-## What I Deliver
+## Wie ich arbeite
 
-- **Systems that work in production** — not just deployments, but reliable day-to-day operation
-- **Integration across boundaries** — business, applications, infrastructure, and operations aligned
-- **Automation with purpose** — CI/CD, GitOps, and workflows that reduce manual work and risk
-- **Self-hosted and sovereign setups** — GDPR-aware architectures independent of US cloud lock-in
-- **Clear handover** — documentation and knowledge transfer so internal teams can own the system
+- **Bei Systemen bleiben** — 20+ Jahre MIS-Partnerschaft, kein Projekt-Hopping
+- **Welten verbinden** — Klinikpersonal, Fachbereiche, Engineering-Teams
+- **Für den Betrieb bauen** — Monitoring, Backups, Dokumentation, Übergabe
+- **Pragmatismus wählen** — zuverlässig und wartbar vor modisch
 
-## Career Evolution
+## Karriereentwicklung
 
 ```
-2007 ─ Enterprise Software
-         │
-         ▼
-     Medical Information Systems
-         │
-         ▼
-     Infrastructure
-         │
-         ▼
-     Automation
-         │
-         ▼
-     Cloud & Kubernetes
-         │
-         ▼
-     Freelance Infrastructure Projects
+~2007  CDC — Optimum ERP
+           │
+           ▼
+       Medizinisches IS (Intramed) — 2004–2024
+           │
+           ▼
+       Infrastruktur-Projekte — 2016–2020
+           │
+           ▼
+       Freelance — BORISSOV (2024–heute)
 ```
 
 Details: [timeline.md](timeline.md)
 
-## Highlights
+## Belege (Auswahl)
 
-- 20+ years maintaining and evolving a hospital Medical Information System (40,000 patients/year)
-- Self-hosted BI, automation, and AI platforms for European mid-sized businesses
-- Full-stack ownership: requirements → implementation → infrastructure → operations
-- Long-term partnerships built on reliability, documentation, and practical engineering
+| Bereich | Referenz |
+|---------|----------|
+| Enterprise-Software | [Optimum @ CDC](../03-projects/01-optimum/) |
+| Medizinische Systeme | [MIS — 20+ Jahre](../03-projects/02-medical-information-system/) |
+| Air-gapped Infrastruktur | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) |
+| Self-hosted BI | [BI-Plattform](../03-projects/07-bi-platform/) |
+| Volle Verantwortung | [Investment-Plattform](../03-projects/08-investment-platform/) |
+| Kubernetes & DevSecOps | [KI-Lernplattform](../03-projects/06-ai-learning-platform/) |
 
-## See Also
+## Siehe auch
 
-- [Timeline](timeline.md) — career evolution, not just job titles
-- [Experience](experience.md) — detailed roles and achievements
-- [Skills](skills.md) — technical matrix
-- [Education](education.md)
-- [Projects](../03-projects/)
+- [Wer ich bin](../01-about/)
+- [Zeitstrahl](timeline.md)
+- [Erfahrung](experience.md)
+- [Skills](skills.md)
+- [Projekte](../03-projects/)

@@ -1,77 +1,77 @@
 # Skills
 
-## Infrastructure & Platform
+Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur und Freelance-Plattformarbeit — nicht aus einem einzelnen DevOps-Jobtitel.
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| Kubernetes | Expert | <!-- N --> | Cluster design, operators, Helm |
-| Docker | Expert | <!-- N --> | Multi-stage builds, registries |
-| Linux | Expert | <!-- N --> | RHEL, Ubuntu, administration |
-| Networking | Advanced | <!-- N --> | TCP/IP, DNS, load balancing, VPN |
-| High Availability | Advanced | <!-- N --> | HA clusters, failover, DR |
+## Enterprise- & Kliniksysteme
 
-## Automation & DevOps
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| Enterprise-Software-Einführung | 18+ Jahre | Optimum ERP, Business-Analyse, Rollout |
+| Medizinische Informationssysteme | 20+ Jahre | Intramed (InterSystems Caché), klinische Workflows |
+| Systemintegration | 15+ Jahre | MIS ↔ Labor, Histopathologie, Dokumentensysteme, WCF |
+| Labor- & Krankenhaus-Workflows | 10+ Jahre | LIS, OCR-Pipelines, Hochdurchsatz-Kliniken |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| CI/CD | Expert | <!-- N --> | GitLab CI, GitHub Actions, Jenkins |
-| GitOps | Advanced | <!-- N --> | ArgoCD, Flux |
-| Infrastructure as Code | Advanced | <!-- N --> | Terraform, Ansible |
-| Configuration Management | Advanced | <!-- N --> | Ansible, Helm charts |
+## Infrastruktur & Plattform
 
-## Cloud
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| Linux-Administration | 15+ Jahre | Produktionsserver, Hardening, Betrieb |
+| WildFly / Java EE | 10+ Jahre | Application-Server-Cluster, Enterprise-Deployments |
+| PostgreSQL | 10+ Jahre | HA (Patroni), Anwendungsdatenbanken, Metabase |
+| MS SQL Server | 10+ Jahre | Enterprise- und klinische Datenspeicher |
+| Nginx | 10+ Jahre | Reverse Proxy, TLS-Terminierung |
+| Docker | 5+ Jahre | Compose-Stacks, containerisierte Services |
+| Kubernetes | 3+ Jahre | DigitalOcean, Managed K8s, Microservice-Plattformen |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| AWS | <!-- Level --> | <!-- N --> | EKS, EC2, S3, IAM |
-| Azure | <!-- Level --> | <!-- N --> | AKS, VMs, storage |
-| GCP | <!-- Level --> | <!-- N --> | GKE |
-| Hybrid / On-prem | Advanced | <!-- N --> | Bare metal, VMware |
+## Automatisierung & DevOps
 
-## Integration & Architecture
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| CI/CD | 5+ Jahre | GitLab CI, GitHub Actions, Jenkins |
+| DevSecOps | 3+ Jahre | Security Gates, Semgrep, Trivy, Gitleaks, OWASP ZAP |
+| Infrastructure as Code | 3+ Jahre | Terraform, Helm |
+| Prozessautomatisierung | 3+ Jahre | n8n-Workflows, Scripting |
+| GitOps-Mindset | 3+ Jahre | Inkrementelle Rollouts, Environment Promotion |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| System Integration | Expert | <!-- N --> | ESB, APIs, message queues |
-| Microservices | Advanced | <!-- N --> | Service mesh, API gateways |
-| Enterprise Software | Expert | <!-- N --> | Large-scale business systems |
-| Event-Driven Architecture | Advanced | <!-- N --> | Kafka, RabbitMQ |
+## Identity, Security & Compliance
 
-## Monitoring & Observability
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| Keycloak | 2+ Jahre | IAM für Microservice-Plattformen |
+| TLS / Certbot | 5+ Jahre | Automatisiertes Zertifikatsmanagement |
+| Air-gapped Deployments | 3+ Jahre | Offline K8s, isolierte Netzwerke (Verkehrssektor) |
+| DSGVO-bewusste Architektur | 3+ Jahre | Self-hosted, Datensouveränität (EU-Kunden) |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| Prometheus | Advanced | <!-- N --> | Metrics, alerting |
-| Grafana | Advanced | <!-- N --> | Dashboards, Loki |
-| ELK / EFK | Advanced | <!-- N --> | Log aggregation |
-| Tracing | Intermediate | <!-- N --> | Jaeger, OpenTelemetry |
+## Observability & Betrieb
 
-## Programming & Scripting
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| Prometheus | 3+ Jahre | Metriken, Alerting, Cron Exporters |
+| Grafana | 3+ Jahre | Dashboards, operative Transparenz |
+| Backup-Automatisierung | 5+ Jahre | Geplante Backups, Schema-Sync, Recovery |
+| Produktionssupport | 18+ Jahre | Langlaufende klinische und Enterprise-Systeme |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| Python | Advanced | <!-- N --> | Automation, tooling |
-| Bash | Expert | <!-- N --> | Scripting, automation |
-| Go | Intermediate | <!-- N --> | Operators, CLI tools |
-| YAML / HCL | Expert | <!-- N --> | K8s manifests, Terraform |
+## Entwicklung (selektiv)
 
-## Databases & Messaging
+| Skill | Erfahrung | Kontext |
+|-------|-----------|---------|
+| Next.js / React | 2+ Jahre | Investment-Plattform, Kundenanwendungen |
+| Scripting (Python, Bash) | 10+ Jahre | Automatisierung, Datenpipelines, Ops-Tools |
+| Kotlin / Spring Boot | 1+ Jahr | Microservice-Plattform (Deployment & Integration) |
 
-| Skill | Level | Years | Notes |
-|-------|-------|-------|-------|
-| PostgreSQL | Advanced | <!-- N --> | HA, replication |
-| Redis | Advanced | <!-- N --> | Caching, sessions |
-| Kafka | Advanced | <!-- N --> | Event streaming |
-| RabbitMQ | Advanced | <!-- N --> | Message brokering |
+## Cloud & Hosting
 
-## Soft Skills
+| Anbieter | Einsatz |
+|----------|---------|
+| DigitalOcean | Kubernetes, Produktions-Workloads |
+| Hetzner | VPS, Self-hosted Services |
+| AWS | Infrastrukturprojekte |
+| On-prem / air-gapped | Referenzdaten-Plattform, regulierte Umgebungen |
 
-- Technical leadership and mentoring
-- Cross-team collaboration (Dev, Ops, Business)
-- Incident management and root cause analysis
-- Architecture documentation and knowledge sharing
-- Stakeholder communication
+## Soziale Kompetenzen
 
-## Certifications
-
-See [06-certificates](../06-certificates/) for details.
+- End-to-end Systemverantwortung — von Anforderungen bis Produktionssupport
+- Kommunikation mit Klinikpersonal, Fachbereichen und Engineering-Teams
+- Langfristige Partnerschaften (20+ Jahre MIS-Engagement)
+- Dokumentation und strukturierte Übergabe an Kundenteams
+- Problemlösung in regulierten und hochverfügbaren Umgebungen

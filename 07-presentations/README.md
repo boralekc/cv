@@ -1,22 +1,22 @@
-# Presentations
+# Vorträge
 
-Conference talks, meetup presentations, and internal tech talks.
+Konferenzvorträge, Meetup-Präsentationen und interne Tech Talks.
 
-## Presentations
+## Vorträge
 
-| Date | Title | Event | Slides |
-|------|-------|-------|--------|
-| YYYY-MM-DD | <!-- Presentation title --> | <!-- Conference / Meetup --> | [slides](slides/) |
-| YYYY-MM-DD | <!-- Presentation title --> | <!-- Event --> | [slides](slides/) |
+| Datum | Titel | Veranstaltung | Folien |
+|-------|-------|---------------|--------|
+| JJJJ-MM-TT | <!-- Vortragstitel --> | <!-- Konferenz / Meetup --> | [Folien](slides/) |
+| JJJJ-MM-TT | <!-- Vortragstitel --> | <!-- Veranstaltung --> | [Folien](slides/) |
 
-## Topics
+## Themen
 
-- Kubernetes platform design
-- GitOps in practice
-- Infrastructure automation
-- Migrating to cloud-native
+- Kubernetes Platform Design
+- GitOps in der Praxis
+- Infrastruktur-Automatisierung
+- Migration zu Cloud-native
 
-## Files
+## Dateien
 
 ```
 07-presentations/

@@ -1,65 +1,70 @@
-# Reference Data Platform
+# Referenzdaten-Plattform
 
-## Project
+## Projekt
 
-<!-- Master Data Management / reference data hub -->
-
-Reference Data Platform is <!-- description: centralized reference data, MDM, data quality -->.
+Hochverfügbare **Referenzdaten-Management-Plattform** für einen **nationalen Verkehrsbetreiber** — deployed in einem **air-gapped Netzwerk** an einem staatlichen Eisenbahnforschungsinstitut. Backend auf einem **WildFly-Cluster** mit Integration zur nationalen Bahn-Ticketing-Plattform.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | ~2020 |
+| **Rolle** | Infrastruktur — Cluster-Setup, Deployment, Betrieb |
+| **Umgebung** | Air-gapped Netzwerk |
+| **Status** | Produktion |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Infrastruktur-Ingenieur**
 
-## Responsibilities
+Konfiguration des WildFly Application Server Clusters und Deployment des Referenzdatensystems in einer abgeschotteten, offline-fähigen Umgebung.
 
-- Platform infrastructure for data ingestion and distribution
-- Pipeline automation for ETL/ELT workflows
-- Scalable storage and caching layer
-- API gateway and service mesh configuration
-- Data pipeline monitoring and SLA tracking
+## Aufgaben
 
-## Architecture
+- WildFly-Cluster-Design, Setup und Hardening
+- Anwendungsdeployment auf HA-Backend-Infrastruktur
+- Air-gapped Deployment-Prozeduren
+- Integrationssupport mit nationaler Bahn-Ticketing-Plattform (FTP-basiert)
+- Produktionsmonitoring und operative Stabilität
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
+```mermaid
+flowchart TB
+    subgraph AirGapped["Air-gapped Netzwerk"]
+        subgraph AppTier
+            WF1[WildFly Node 1]
+            WF2[WildFly Node 2]
+            LB[Load Balancer]
+        end
+        RDS[(Referenzdaten-Store)]
+        LB --> WF1 & WF2 --> RDS
+    end
+    subgraph Extern
+        TICKET[Nationale Ticketing-Plattform]
+    end
+    AirGapped <-->|FTP-Sync| TICKET
+```
 
-- **Ingestion Layer** — <!-- sources, connectors -->
-- **Processing Engine** — <!-- validation, transformation -->
-- **Distribution API** — <!-- consumers, subscriptions -->
+## Technologien
 
-## Deployment
+`WildFly` `Java EE` `PostgreSQL` `Patroni HA` `Docker Compose` `FTP-Integration` `Prometheus` `Grafana`
 
-![Deployment](deployment.png)
+## Herausforderungen
 
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| Data Pipeline | <!-- Apache Airflow / custom --> |
-| Databases | PostgreSQL, Redis |
-| Messaging | Kafka |
-| API | REST, GraphQL |
-
-## Challenges
-
-1. **Data consistency across sources** — <!-- approach -->
-2. **High-throughput ingestion** — <!-- approach -->
-3. **Versioning and audit of reference data** — <!-- approach -->
+1. **Air-gapped-Einschränkungen** — kein öffentliches Internet; Offline-Deployment und Update-Prozeduren
+2. **Hochverfügbarkeit in isolierter Umgebung** — Cluster-Failover ohne Cloud-Managed-Services
+3. **Integration auf nationaler Ebene** — zuverlässige Synchronisation mit externen Ticketing-Systemen
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Air-gapped Produktion lehrt Selbstständigkeit — jede Abhängigkeit muss geplant sein
+- HA auf WildFly erfordert operative Disziplin, nicht nur Konfiguration
+- Referenzdaten-Plattformen sind Integrations-Hubs — Infrastruktur und Datenfluss sind gleichermaßen kritisch
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+- [Architektur — air-gapped Muster](../../04-architecture/)
+
+## Fotos
+
+Siehe [photos/](photos/) für Diagramme und Screenshots.

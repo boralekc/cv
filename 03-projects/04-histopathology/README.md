@@ -1,65 +1,67 @@
-# Histopathology
+# Histopathologie-Laborsystem
 
-## Project
+## Projekt
 
-<!-- Digital pathology / histopathology analysis platform -->
-
-Histopathology platform is <!-- description: digital slide analysis, AI-assisted diagnostics, lab workflows -->.
+Individuelles **Histopathologie-Laborinformationssystem** mit **bidirektionaler Integration** zum Krankenhaus-MIS — Verwaltung von Biopsie- und Autopsie-Workflows, Berichtsdruck mit Mikroskopiebildern und Patientendatenaustausch.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | ~2018 |
+| **Rolle** | Test, Deployment, Produktionssupport |
+| **Integration** | Bidirektionale MIS-Sync via WCF |
+| **Status** | Produktion |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Deployment- & Support-Ingenieur**
 
-## Responsibilities
+Verantwortlich für Test, Deployment und Support des Laborsystems in Produktion — zuverlässiger bidirektionaler Datenaustausch mit dem Kern-MIS.
 
-- GPU-enabled Kubernetes nodes for ML inference
-- High-performance storage for digital slide images
-- ML model serving infrastructure
-- Secure data handling for medical images
-- Pipeline automation for model deployment
+## Aufgaben
 
-## Architecture
+- Systemtests vor und nach dem Deployment
+- Produktionsdeployment und Umgebungskonfiguration
+- Support der bidirektionalen MIS-Integration (WCF-Services)
+- Laufender Produktionssupport und Störungsbehebung
+- Abstimmung mit dem Pathologie-Fachpersonal
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
+```mermaid
+flowchart LR
+    subgraph Pathologie
+        LIS[Histopathologie-LIS<br/>WinForms / C#]
+        IMG[Mikroskopiebilder]
+        RPT[Berichtserstellung]
+    end
+    subgraph Krankenhaus
+        MIS[Medizinisches Informationssystem]
+    end
+    LIS <-->|WCF bidirektional| MIS
+    LIS --> IMG --> RPT
+```
 
-- **Image Storage** — <!-- object storage, large files -->
-- **ML Inference** — <!-- model serving, GPU scheduling -->
-- **Workflow Engine** — <!-- lab technician workflows -->
+## Technologien
 
-## Deployment
+`C#` `WinForms` `WCF` `MS SQL Server` `MIS-Integration` `Windows Server`
 
-![Deployment](deployment.png)
+## Herausforderungen
 
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes, GPU operators |
-| ML Serving | <!-- TensorFlow Serving / Triton --> |
-| Storage | <!-- S3-compatible / NFS --> |
-| Databases | PostgreSQL |
-| Monitoring | Prometheus, Grafana |
-
-## Challenges
-
-1. **Large image file handling** — <!-- approach -->
-2. **GPU resource scheduling** — <!-- approach -->
-3. **ML model versioning and rollback** — <!-- approach -->
+1. **Zuverlässigkeit der bidirektionalen Sync** — Patientendaten müssen zwischen LIS und MIS konsistent sein
+2. **Bildlastige Berichte** — Mikroskopiebilder in klinischen Druck-Workflows
+3. **Spezialisierte klinische Domäne** — Pathologie-Workflows unterscheiden sich von allgemeiner Krankenhaus-IT
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Laborsysteme sind Integrationsprobleme genauso wie Anwendungsprobleme
+- WCF-Integrationen betreiben noch immer Krankenhäuser — Legacy respektieren, Schnittstellen dokumentieren
+- Tests in klinischen Umgebungen erfordern Geduld und enge Zusammenarbeit mit dem medizinischen Personal
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Medizinisches Informationssystem](../02-medical-information-system/)
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+
+## Fotos
+
+Siehe [photos/](photos/) für Screenshots, sofern vorhanden.

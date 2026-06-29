@@ -1,65 +1,72 @@
-# Medical Information System
+# Medizinisches Informationssystem (Intramed)
 
-## Project
+## Projekt
 
-<!-- Healthcare information system — EMR, patient records, clinical workflows -->
+**20+ Jahre Wartungs- und Entwicklungspartnerschaft** für ein Krankenhaus-Medizininformationssystem auf Basis von **InterSystems Caché** (Intramed-Plattform) — kontinuierlich angepasst an neue klinische Anforderungen einer Klinik mit **40.000 Patienten pro Jahr**.
 
-Medical Information System is <!-- description: scope, users (doctors, admins), regulatory context (HIPAA, local healthcare standards) -->.
+Zusätzlich Einführung und Betrieb von Intramed an **weiteren großen Kliniken in Russland**. Integration von Labor-, Histopathologie- und Dokumentenerkennungs-Subsystemen.
 
 | | |
 |---|---|
-| **Period** | YYYY – YYYY |
-| **Team size** | <!-- N --> |
-| **Status** | <!-- Production / Completed --> |
+| **Zeitraum** | 2004 – 2024 |
+| **Rolle** | Einführung, Anpassung, langfristiger Support |
+| **Patienten** | 40.000 / Jahr |
+| **Status** | Langfristige Produktionspartnerschaft |
 
-## Role
+## Rolle
 
-**Infrastructure & Automation Engineer**
+**Spezialist für Medizinische Informationssysteme**
 
-## Responsibilities
+Keine kurze Einführung — fortlaufende Verantwortung für eine mission-kritische klinische Plattform: Upgrades, Integrationen, Produktionssupport und Workflow-Anpassung.
 
-- Kubernetes platform for microservices deployment
-- Secure network segmentation and access control
-- Database HA and backup strategies
-- Integration infrastructure for HL7/FHIR APIs
-- Compliance-ready logging and audit trails
+## Aufgaben
 
-## Architecture
+- Intramed-Einführung, Konfiguration und Anpassung
+- Vollständige klinische Workflows und regulatorische Anpassung
+- Integration mit Labor-, Histopathologie- und Dokumentensystemen
+- Produktionssupport, Störungsbehebung und Systemweiterentwicklung
+- Einführungen an weiteren großen Kliniken in Russland
 
-![Architecture](architecture.png)
+## Architektur
 
-Key components:
+```mermaid
+flowchart TB
+    subgraph Klinik
+        REG[Anmeldung]
+        DOC[Krankenakte]
+        LAB[Labor]
+        PATH[Histopathologie]
+        SCAN[Dokumentenerkennung]
+    end
+    subgraph Kern
+        MIS[Intramed MIS<br/>InterSystems Caché]
+    end
+    REG & DOC & LAB & PATH & SCAN <-->|WCF / APIs| MIS
+```
 
-- **<!-- Service -->** — <!-- description -->
-- **<!-- Service -->** — <!-- description -->
-- **Integration Layer** — <!-- HL7, FHIR, legacy systems -->
+## Technologien
 
-## Deployment
+`InterSystems Caché` `Intramed` `WCF` `MS SQL Server` `Windows Server` `Klinische Integrationen`
 
-![Deployment](deployment.png)
+## Herausforderungen
 
-## Technologies
-
-| Category | Stack |
-|----------|-------|
-| Orchestration | Kubernetes |
-| Databases | PostgreSQL |
-| Integration | <!-- HL7, FHIR, REST APIs --> |
-| Security | <!-- Vault, mTLS, RBAC --> |
-| Monitoring | Prometheus, Grafana, ELK |
-
-## Challenges
-
-1. **Regulatory compliance** — <!-- approach -->
-2. **Legacy system integration** — <!-- approach -->
-3. **High availability for critical workflows** — <!-- approach -->
+1. **20 Jahre Systemevolution** — kontinuierliche Anpassung ohne Störung des Klinikbetriebs
+2. **Multi-System-Integration** — Labor, Pathologie und Scanning müssen mit dem MIS synchron bleiben
+3. **Produktion mit hohem Einsatz** — Ausfallzeit wirkt sich direkt auf die Patientenversorgung aus
 
 ## Lessons Learned
 
-- <!-- Lesson -->
-- <!-- Lesson -->
-- <!-- Lesson -->
+- Langfristige Systemverantwortung schafft Tiefe, die kurze Projektzyklen nicht können
+- Klinische Umgebungen verlangen Zuverlässigkeit vor Neuheit
+- Integration ist oft schwieriger als das Kernsystem selbst
+- Vertrauen über Jahrzehnte bedeutet: mit Ärzten und Verwaltung sprechen, nicht nur mit Ingenieuren
 
-## Photos
+## Verwandt
 
-See [photos/](photos/) for screenshots and demos.
+- [Histopathologie-LIS](../04-histopathology/) — bidirektionale MIS-Integration
+- [Dokumentenerkennung](../05-document-recognition/) — OCR-Pipeline-Integration
+- [Case Study auf borissov-it.de](https://borissov-it.de/work)
+
+## Fotos
+
+Siehe [photos/](photos/) für Screenshots, sofern vorhanden.

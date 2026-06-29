@@ -1,23 +1,21 @@
 # Open Source
 
-Open source projects and contributions.
+Open-Source-Projekte und Beiträge.
 
-## Own Projects
+## Eigene Projekte
 
-| Project | Description | Link |
-|---------|-------------|------|
-| <!-- project-name --> | <!-- brief description --> | [github.com/...](https://github.com/...) |
+| Projekt | Beschreibung | Link |
+|---------|--------------|------|
+| <!-- projekt-name --> | <!-- Kurzbeschreibung --> | [github.com/...](https://github.com/...) |
 
-## Contributions
+## Beiträge
 
-| Project | Contribution | Link |
-|---------|-------------|------|
-| <!-- upstream project --> | <!-- PR / issue / maintainer --> | [link](https://github.com/...) |
-| Kubernetes | <!-- contribution --> | [link](https://github.com/kubernetes/...) |
-| Helm | <!-- contribution --> | [link](https://github.com/helm/...) |
+| Projekt | Beitrag | Link |
+|---------|---------|------|
+| <!-- Upstream-Projekt --> | <!-- PR / Issue / Maintainer --> | [Link](https://github.com/...) |
+| Kubernetes | <!-- Beitrag --> | [Link](https://github.com/kubernetes/...) |
+| Helm | <!-- Beitrag --> | [Link](https://github.com/helm/...) |
 
-## GitHub Stats
-
-<!-- Optional: link to your GitHub profile -->
+## GitHub-Profil
 
 [github.com/boralekc](https://github.com/boralekc)

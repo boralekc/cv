@@ -1,21 +1,22 @@
 # GitOps
 
-GitOps workflows and deployment automation.
+GitOps-Workflows und Deployment-Automatisierung.
 
-## Diagrams
+## Diagramme
 
-| File | Description |
-|------|-------------|
-| <!-- argocd-workflow.png --> | <!-- ArgoCD sync flow --> |
-| <!-- environment-promotion.png --> | <!-- dev → stage → prod pipeline --> |
+| Datei | Beschreibung |
+|-------|--------------|
+| <!-- argocd-workflow.png --> | <!-- ArgoCD Sync Flow --> |
+| <!-- environment-promotion.png --> | <!-- dev → stage → prod Pipeline --> |
 
 ## Patterns
 
-- **ArgoCD ApplicationSets** — multi-cluster, multi-env deployments
-- **Helm + Kustomize** — templating and overlays
-- **Environment promotion** — tested artifacts across stages
-- **Rollback strategy** — Git revert + automated sync
+- **ArgoCD ApplicationSets** — Multi-Cluster, Multi-Env Deployments
+- **Helm + Kustomize** — Templating und Overlays
+- **Environment Promotion** — getestete Artefakte über Stages
+- **Rollback-Strategie** — Git Revert + automatischer Sync
 
-## Related Projects
+## Verwandte Projekte
 
-- [Microservice Platform](../03-projects/09-microservice-platform/)
+- [Microservice-Plattform](../../03-projects/09-microservice-platform/)
+- [KI-Lernplattform](../../03-projects/06-ai-learning-platform/)

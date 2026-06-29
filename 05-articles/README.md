@@ -1,26 +1,26 @@
-# Articles
+# Artikel
 
-Technical articles, blog posts, and LinkedIn publications.
+Fachartikel, Blog-Beiträge und LinkedIn-Publikationen.
 
-## Articles
+## Artikel
 
-| Date | Title | Platform | Link |
-|------|-------|----------|------|
-| YYYY-MM-DD | <!-- Article title --> | LinkedIn | [link](https://linkedin.com/...) |
-| YYYY-MM-DD | <!-- Article title --> | <!-- Blog / Medium --> | [link](https://...) |
-| YYYY-MM-DD | <!-- Article title --> | LinkedIn | [link](https://linkedin.com/...) |
+| Datum | Titel | Plattform | Link |
+|-------|-------|-----------|------|
+| JJJJ-MM-TT | <!-- Artikeltitel --> | LinkedIn | [Link](https://linkedin.com/...) |
+| JJJJ-MM-TT | <!-- Artikeltitel --> | <!-- Blog / Medium --> | [Link](https://...) |
+| JJJJ-MM-TT | <!-- Artikeltitel --> | LinkedIn | [Link](https://linkedin.com/...) |
 
-## Topics
+## Themen
 
-- Kubernetes and platform engineering
-- Infrastructure automation and GitOps
-- System integration patterns
-- Cloud-native architecture
-- Lessons from production incidents
+- Kubernetes und Platform Engineering
+- Infrastruktur-Automatisierung und GitOps
+- Systemintegrations-Patterns
+- Cloud-native Architektur
+- Lessons Learned aus dem Produktionsbetrieb
 
-## Local Drafts
+## Lokale Entwürfe
 
-Store article drafts as markdown files in this folder:
+Artikelentwürfe als Markdown-Dateien in diesem Ordner:
 
 ```
 05-articles/

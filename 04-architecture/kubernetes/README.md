@@ -1,23 +1,23 @@
 # Kubernetes
 
-Architecture diagrams and reference designs for Kubernetes deployments.
+Architekturdiagramme und Referenzdesigns für Kubernetes-Deployments.
 
-## Diagrams
+## Diagramme
 
-| File | Description |
-|------|-------------|
-| <!-- cluster-topology.png --> | <!-- Cluster layout: control plane, worker nodes, add-ons --> |
-| <!-- multi-tenant-rbac.png --> | <!-- Namespace isolation, RBAC policies --> |
-| <!-- gpu-node-pool.png --> | <!-- GPU scheduling for ML workloads --> |
+| Datei | Beschreibung |
+|-------|--------------|
+| <!-- cluster-topology.png --> | <!-- Cluster-Layout: Control Plane, Worker Nodes, Add-ons --> |
+| <!-- multi-tenant-rbac.png --> | <!-- Namespace-Isolation, RBAC-Policies --> |
+| <!-- gpu-node-pool.png --> | <!-- GPU-Scheduling für ML-Workloads --> |
 
 ## Patterns
 
-- **Cluster layout** — control plane HA, worker node pools by workload type
-- **Multi-tenancy** — namespace isolation, resource quotas, network policies
-- **Operators** — custom controllers for stateful workloads
-- **Ingress** — NGINX / Traefik / cloud LB integration
+- **Cluster-Layout** — Control Plane HA, Worker Node Pools nach Workload-Typ
+- **Multi-Tenancy** — Namespace-Isolation, Resource Quotas, Network Policies
+- **Operators** — Custom Controller für Stateful Workloads
+- **Ingress** — NGINX / Traefik / Cloud LB Integration
 
-## Related Projects
+## Verwandte Projekte
 
-- [Microservice Platform](../03-projects/09-microservice-platform/)
-- [Histopathology](../03-projects/04-histopathology/)
+- [Microservice-Plattform](../../03-projects/09-microservice-platform/)
+- [KI-Lernplattform](../../03-projects/06-ai-learning-platform/)

@@ -1,27 +1,20 @@
-# Resume
+# Kurzprofil
 
-Downloadable resume versions.
+Dies ist **kein stellenspezifischer Lebenslauf**.
 
-## Available Formats
+Es ist eine kurze Zusammenfassung für alle, die einen Überblick auf einer Seite wünschen. Das vollständige Bild — wer ich bin, wie ich arbeite, Projektdokumentation — steht in diesem Repository.
 
-| Format | File | Description |
-|--------|------|-------------|
-| Markdown | [resume.md](resume.md) | Full resume in Markdown |
-| PDF | [resume.pdf](resume.pdf) | One-page PDF for recruiters |
+| Dokument | Zweck |
+|----------|-------|
+| [resume.md](resume.md) | Kurzprofil auf einer Seite |
+| [01-about/](../01-about/) | Wer ich bin — hier starten |
+| [02-career/](../02-career/) | Karriereverlauf und Erfahrung |
+| [03-projects/](../03-projects/) | Technische Case Studies |
 
-## Quick Links
+## PDF
 
-- [Executive summary](../02-career/executive-summary.md)
-- [Experience](../02-career/experience.md)
-- [Skills](../02-career/skills.md)
-- [Projects](../03-projects/)
+`resume.pdf` — Export aus `resume.md` bei Bedarf. Nicht optimiert für ATS-Keyword-Matching oder einen bestimmten Jobtitel.
 
-## Contact
+## Hinweis zu älteren Lebensläufen
 
-**Alex Borissov**  
-Infrastructure & Automation Engineer
-
-- Website: [borissov-it.de](https://borissov-it.de/)
-- LinkedIn: [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc)
-- Email: [alxboriss@gmail.com](mailto:alxboriss@gmail.com)
-- GitHub: [github.com/boralekc](https://github.com/boralekc)
+Frühere PDF-Versionen betonten DevOps zu stark. Sie spiegeln nicht wider, wie ich tatsächlich arbeite. Dieses Repository ist die aktuelle Quelle der Wahrheit.
