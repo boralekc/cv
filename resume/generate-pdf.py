@@ -20,87 +20,167 @@ MARKER_MAIN = "<!-- pdf-main -->"
 MARKER_FOOTER = "<!-- pdf-footer -->"
 
 CSS = """
-@page { size: A4; margin: 11mm 10mm; }
+@page { size: A4; margin: 10mm 9mm; }
 * { box-sizing: border-box; }
-body {
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-size: 9.6pt;
-  line-height: 1.35;
-  color: #1a1a1a;
-  margin: 0;
+:root {
+  --accent: #1d4ed8;
+  --accent-light: #3b82f6;
+  --accent-soft: #eff6ff;
+  --side-bg: #f8fafc;
+  --side-border: #e2e8f0;
+  --text: #1e293b;
+  --muted: #64748b;
+  --card-bg: #f8fafc;
 }
-a { color: #1a4f8b; text-decoration: none; }
-a:hover { text-decoration: underline; }
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 9.4pt;
+  line-height: 1.38;
+  color: var(--text);
+  margin: 0;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+a { color: var(--accent); text-decoration: none; }
 .cv-header {
-  border-bottom: 2px solid #1a4f8b;
-  padding-bottom: 7pt;
-  margin-bottom: 9pt;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12pt;
+  padding-bottom: 8pt;
+  margin-bottom: 10pt;
+  border-bottom: 3pt solid var(--accent);
 }
 .cv-header h1 {
-  font-size: 21pt;
+  font-size: 22pt;
   font-weight: 700;
   margin: 0;
-  line-height: 1.1;
+  line-height: 1.05;
+  color: #0f172a;
+  letter-spacing: -0.3pt;
 }
 .cv-header p {
-  margin: 3pt 0 0;
+  margin: 4pt 0 0;
   font-size: 10.5pt;
-  color: #444;
+  color: var(--muted);
 }
+.cv-header p strong { color: var(--accent); font-weight: 600; }
 .cv-grid {
   display: grid;
-  grid-template-columns: 30% 1fr;
-  gap: 14pt;
+  grid-template-columns: 28% 1fr;
+  gap: 12pt;
   align-items: start;
 }
 .cv-side {
-  background: #f3f5f8;
-  padding: 9pt 9pt 11pt;
-  border-radius: 3pt;
-  border: 1px solid #e2e8ef;
+  background: var(--side-bg);
+  padding: 10pt 9pt 12pt;
+  border-radius: 5pt;
+  border: 1px solid var(--side-border);
+  border-top: 3pt solid var(--accent-light);
 }
 .cv-side h2 {
-  font-size: 9pt;
+  font-size: 8.2pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6pt;
+  color: #fff;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 100%);
+  margin: 0 0 6pt;
+  padding: 3pt 6pt;
+  border-radius: 3pt;
+}
+.cv-side h2:not(:first-child) { margin-top: 9pt; }
+.cv-side p { margin: 0 0 4pt; font-size: 8.8pt; line-height: 1.4; }
+.cv-side ul { margin: 0; padding-left: 12pt; }
+.cv-side li { margin-bottom: 2pt; font-size: 8.8pt; }
+.cv-main h2 {
+  font-size: 8.8pt;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.55pt;
-  color: #1a4f8b;
-  margin: 0 0 5pt;
-  padding-bottom: 2pt;
-  border-bottom: 1px solid #c5d0dc;
+  color: #fff;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 100%);
+  margin: 0 0 6pt;
+  padding: 3.5pt 7pt;
+  border-radius: 3pt;
+  border: none;
 }
-.cv-side h2:not(:first-child) { margin-top: 10pt; }
-.cv-side p { margin: 0 0 4pt; font-size: 9pt; }
-.cv-side ul { margin: 0; padding-left: 13pt; }
-.cv-side li { margin-bottom: 2pt; font-size: 9pt; }
-.cv-main h2 {
-  font-size: 10.5pt;
-  color: #1a4f8b;
-  margin: 0 0 5pt;
-  padding-bottom: 2pt;
-  border-bottom: 1px solid #d0d8e0;
-}
-.cv-main h2:not(:first-child) { margin-top: 10pt; }
+.cv-main h2:not(:first-child) { margin-top: 9pt; }
 .cv-main h3 {
-  font-size: 9.8pt;
+  font-size: 9.6pt;
   font-weight: 600;
-  margin: 8pt 0 2pt;
-  color: #222;
-  line-height: 1.25;
+  margin: 7pt 0 3pt;
+  padding: 4pt 7pt;
+  color: #0f172a;
+  line-height: 1.28;
+  background: var(--card-bg);
+  border-left: 3pt solid var(--accent-light);
+  border-radius: 0 4pt 4pt 0;
 }
 .cv-main p { margin: 3pt 0 5pt; }
 .cv-main ul { margin: 2pt 0 5pt; padding-left: 14pt; }
-.cv-main li { margin-bottom: 2pt; }
-.cv-main strong { font-weight: 600; }
-.cv-main em { font-style: italic; color: #444; }
-.cv-focus ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2pt 8pt; }
-.cv-focus li { margin: 0; font-size: 9.3pt; }
+.cv-main li { margin-bottom: 2.5pt; }
+.cv-main strong { font-weight: 600; color: #0f172a; }
+.cv-main em { font-style: italic; color: var(--muted); }
+.cv-focus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3pt;
+}
+.cv-focus li {
+  margin: 0;
+  font-size: 8.6pt;
+  background: var(--accent-soft);
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+  padding: 2pt 7pt;
+  border-radius: 10pt;
+  white-space: nowrap;
+}
+.cv-projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4pt;
+}
+.cv-projects li {
+  margin: 0;
+  font-size: 8.8pt;
+  padding: 4pt 6pt;
+  background: #fff;
+  border: 1px solid var(--side-border);
+  border-left: 2.5pt solid var(--accent-light);
+  border-radius: 0 4pt 4pt 0;
+  line-height: 1.3;
+}
+.cv-skills p {
+  margin: 0 0 4pt;
+  padding: 3pt 6pt;
+  background: var(--card-bg);
+  border-radius: 3pt;
+  font-size: 8.8pt;
+  line-height: 1.35;
+}
+.cv-skills strong {
+  display: inline-block;
+  min-width: 78pt;
+  color: var(--accent);
+  font-size: 8.2pt;
+  text-transform: uppercase;
+  letter-spacing: 0.3pt;
+}
 .cv-footer {
-  margin-top: 8pt;
+  margin-top: 7pt;
   padding-top: 5pt;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--side-border);
   text-align: center;
-  font-size: 8pt;
-  color: #666;
+  font-size: 7.8pt;
+  color: var(--muted);
 }
 .cv-footer p { margin: 0; }
 """
@@ -131,25 +211,29 @@ def split_source(text: str) -> tuple[str, str, str, str]:
     )
 
 
-def render_md(fragment: str) -> str:
+def _wrap_section(html: str, heading: str, css_class: str) -> str:
+    needle = f"<h2>{heading}</h2>"
+    if needle not in html:
+        return html
+    html = html.replace(needle, f"{needle}<div class=\"{css_class}\">", 1)
+    return re.sub(
+        rf'(<div class="{css_class}">.*?)(<h2>)',
+        r"\1</div>\2",
+        html,
+        count=1,
+        flags=re.DOTALL,
+    )
+
+
+def render_md(fragment: str, *, is_main: bool = False) -> str:
     html = markdown.markdown(
         fragment,
         extensions=["sane_lists", "nl2br"],
     )
-    # Schwerpunkte: two-column checklist
-    html = html.replace(
-        '<h2>Schwerpunkte</h2>',
-        '<h2>Schwerpunkte</h2><div class="cv-focus">',
-        1,
-    )
-    if '<div class="cv-focus">' in html:
-        html = re.sub(
-            r"(<div class=\"cv-focus\">.*?)(<h2>)",
-            r"\1</div>\2",
-            html,
-            count=1,
-            flags=re.DOTALL,
-        )
+    if is_main:
+        html = _wrap_section(html, "Schwerpunkte", "cv-focus")
+        html = _wrap_section(html, "Ausgewählte Projekte", "cv-projects")
+        html = _wrap_section(html, "Fachkenntnisse", "cv-skills")
     return html
 
 
@@ -157,7 +241,7 @@ def build_html(md_text: str) -> str:
     header_md, sidebar_md, main_md, footer_md = split_source(md_text)
     header_html = render_md(header_md)
     sidebar_html = render_md(sidebar_md)
-    main_html = render_md(main_md)
+    main_html = render_md(main_md, is_main=True)
     footer_html = markdown.markdown(footer_md, extensions=["sane_lists"]) if footer_md else ""
 
     return f"""<!DOCTYPE html>

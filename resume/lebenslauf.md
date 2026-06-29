@@ -55,14 +55,14 @@ Schwerpunkt: Systeme **zuverlässig in den Produktionsbetrieb bringen** und lang
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-hosted-Plattformen, CI/CD, dokumentierte Übergabe.
+Freiberufliche Infrastruktur- und Automatisierungsprojekte für Kunden im deutschen Mittelstand — Kubernetes, Self-hosted-Plattformen, CI/CD, dokumentierte Übergabe.
 
 **Ausgewählte Aufträge (2025):**
 
-- **KI-Lernplattform** — Kubernetes (DigitalOcean), GitLab CI, DevSecOps, Keycloak, 7 Microservices
-- **BI-Plattform** — Self-hosted Metabase, PostgreSQL, Prometheus, Alerting, Backups, Certbot
-- **Investment-Plattform** — Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions
-- **Microservice-Plattform** — Deployment, CI/CD, DevSecOps *(laufend)*
+- **KI-Lernplattform** — Aufbau und Betrieb einer Kubernetes-Plattform für ein KI-gestütztes universitäres Lernsystem (DigitalOcean, GitLab CI, DevSecOps, Keycloak, 7 Microservices)
+- **BI-Plattform** — Self-hosted Analytics-Umgebung mit Produktions-Dashboards und operativem Betrieb (Metabase, PostgreSQL, Prometheus, Alerting, Backups, Certbot)
+- **Investment-Plattform** — Entwicklung und Betrieb einer automatisierten Investment-Plattform (Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions)
+- **Microservice-Plattform** — Deployment und CI/CD für eine Multi-Service-Backend-Plattform *(laufend)* (Managed Kubernetes, GitHub Actions, DevSecOps)
 
 ### 2022 – 2025 · Umzug und berufliche Integration · Köln
 
@@ -72,7 +72,7 @@ Unabhängiges Engineering für den deutschen Mittelstand — Kubernetes, Self-ho
 
 ### 2008 – 2022 · Medcore · Russland
 
-**Spezialist — Einführung und Betrieb medizinischer Informationssysteme**
+**Senior Specialist — Einführung, Integration und Betrieb medizinischer Informationssysteme**
 
 Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
 
@@ -90,10 +90,17 @@ Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb 
 
 **Einführungsspezialist — Optimum ERP**
 
-Einführung des ERP-Systems **Optimum** bei Unternehmenskunden. Mehrwöchige Projekte vor Ort mit Analyse, Installation, Konfiguration, Rollout und Anwenderschulung.
+Einführung des ERP-Systems **Optimum** bei Unternehmenskunden. Mehrwöchige Kundenprojekte in verschiedenen Regionen Russlands — Analyse, Installation, Konfiguration, Rollout und Anwenderschulung vor Ort.
 
 - Anwendersupport nach Go-live
 - Grundlage für langjährige Arbeit mit Enterprise-Software im Produktionsbetrieb
+
+## Ausgewählte Projekte
+
+- **KI-Lernplattform** — Kubernetes-Plattform für universitäres Lernsystem
+- **Medizinische Informationssysteme** — IntraMed, Klinikintegrationen, 40k Patienten/Jahr
+- **Self-hosted BI-Plattform** — Analytics, Monitoring, Backups
+- **Investment-Plattform** — Automatisiertes Portfolio-Management
 
 ## Fachkenntnisse
 
