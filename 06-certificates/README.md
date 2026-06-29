@@ -1,33 +1,23 @@
 # Zertifizierungen
 
-Berufliche Zertifizierungen und Nachweise.
+**Deutsch** · [English](../en/06-certificates/README.md)
 
-## Aktive Zertifizierungen
+Berufliche Zertifikate und Nachweise.
 
-| Zertifikat | Aussteller | Datum | Verifizierung |
-|------------|------------|-------|---------------|
-| <!-- CKA --> | CNCF / Linux Foundation | JJJJ | [verifizieren](https://...) |
-| <!-- CKAD --> | CNCF / Linux Foundation | JJJJ | [verifizieren](https://...) |
-| <!-- AWS Solutions Architect --> | AWS | JJJJ | [verifizieren](https://...) |
-| <!-- Terraform Associate --> | HashiCorp | JJJJ | [verifizieren](https://...) |
+## Zertifikate
 
-## In Vorbereitung
-
-| Zertifikat | Zieltermin |
-|------------|------------|
-| <!-- CKS --> | JJJJ |
-| <!-- Cilium Cluster Mesh --> | JJJJ |
+| Zertifikat | Aussteller | Datum | Nachweis |
+|------------|------------|-------|----------|
+| Kostenloser Online-Kurs | [Yandex](https://yandex.ru/) | — | PDF in diesem Ordner *(optional)* |
 
 ## Dateien
 
-Zertifikat-PDFs oder Badge-Bilder in diesem Ordner ablegen:
+Zertifikat-PDF oder Badge-Bild hier ablegen, z. B.:
 
 ```
 06-certificates/
 ├── README.md
-├── cka-certificate.pdf
-└── badges/
-    └── cka-badge.png
+└── yandex-course-certificate.pdf
 ```
 
-> **Hinweis:** Keine sensiblen Credential-IDs committen. Nur Verifizierungslinks verwenden.
+> **Hinweis:** Keine sensiblen Credential-IDs committen. Nur Verifizierungslinks oder PDF-Kopien ohne persönliche IDs.

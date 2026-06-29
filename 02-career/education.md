@@ -1,18 +1,24 @@
 # Ausbildung
 
+**Deutsch** · [English](../en/02-career/education.md)
+
+Akademischer Hintergrund und berufliche Weiterbildung — Angaben aus dem Lebenslauf.
+
+---
+
 ## Akademische Ausbildung
 
-### <!-- Abschluss, z. B. Master of Science Informatik -->
+### Hochschulabschluss · Wirtschaftsinformatik
 
-**<!-- Hochschule -->** · JJJJ – JJJJ
+**Staatliche Universität Wladimir** · 2006
 
-<!-- Kurzbeschreibung, Thema der Abschlussarbeit, relevante Kurse -->
+Höherer akademischer Abschluss in **Wirtschaftsinformatik**.
 
-### <!-- Abschluss, z. B. Bachelor Ingenieurwesen -->
+### Studium · Informatik
 
-**<!-- Hochschule -->** · JJJJ – JJJJ
+**Universität Ust-Kamenogorsk**, Kasachstan · Ust-Kamenogorsk · 2001
 
-<!-- Kurzbeschreibung -->
+Studium der **Informatik**.
 
 ---
 
@@ -20,21 +26,20 @@
 
 | Jahr | Kurs / Programm | Anbieter |
 |------|-------------------|----------|
-| JJJJ | <!-- z. B. Certified Kubernetes Administrator (CKA) --> | <!-- CNCF / Linux Foundation --> |
-| JJJJ | <!-- Kursname --> | <!-- Anbieter --> |
-| JJJJ | <!-- Kursname --> | <!-- Anbieter --> |
+| — | Kostenloser Online-Kurs (Zertifikat) | [Yandex](https://yandex.ru/) |
 
 ---
 
 ## Kontinuierliches Lernen
 
-- Kubernetes-Ökosystem — Operators, Service Mesh, Security
-- Cloud-native Patterns — 12-Factor Apps, GitOps, Observability
-- AI/ML-Infrastruktur — GPU-Workloads, Model Serving
-- Platform Engineering — interne Developer Platforms
+Praxisnah und projektbezogen — vor allem durch Produktionsbetrieb, Infrastrukturprojekte und Freelance-Aufträge.
 
 ---
 
 ## Zertifizierungen
 
-Vollständige Liste mit Verifizierungslinks: [06-certificates](../06-certificates/)
+| Zertifikat | Aussteller | Datum |
+|------------|------------|-------|
+| Kostenloser Online-Kurs | Yandex | — |
+
+Details und Nachweis: [06-certificates](../06-certificates/)
