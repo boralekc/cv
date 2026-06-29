@@ -1,29 +1,43 @@
-﻿# Kurzprofil
+﻿# Kurzprofil & Lebenslauf
 
 **Deutsch** · [English](../en/resume/README.md)
 
-Dies ist **kein stellenspezifischer Lebenslauf**.
+In diesem Ordner liegen **zwei verschiedene Dokumente**:
 
-Es ist eine **einseitige Zusammenfassung** mit den wichtigsten Fakten — Karriere, Projekte, Ausbildung, Stack. Wer mehr will, folgt den Links ins Repository.
+| Datei | Zweck | Für wen |
+|-------|--------|---------|
+| [resume.md](resume.md) | **Kurzprofil** — eine Seite, Links ins Repo | Besucher GitHub-Portfolio |
+| [lebenslauf.md](lebenslauf.md) | **Lebenslauf** — klassisches CV für Bewerbungen | HR, Recruiter, Arbeitgeber |
 
-| Inhalt in `resume.md` | |
-|-----------------------|---|
-| Positionierung & Kontakt | Wer, wo, wie erreichbar |
-| Karriere (Tabelle) | Phasen mit echten Daten |
-| Ausgewählte Projekte | 4 Highlights mit Links |
-| Ausbildung & Zertifikate | Hochschule + Yandex |
-| Kerntechnologien | Kompakt, Link zu `skills.md` |
+Das [Portfolio](../README.md) (`01-about`, `02-career`, `03-projects` …) bleibt die ausführliche technische Dokumentation.
 
-| Mehr Detail | Link |
-|-------------|------|
-| Philosophie, Hintergrund | [01-about/](../01-about/) |
-| Zeitstrahl, Erfahrung, Skills | [02-career/](../02-career/) |
-| Case Studies mit Architektur | [03-projects/](../03-projects/) |
+---
 
-## PDF
+## Inhalt `lebenslauf.md`
 
-`resume.pdf` — Export aus `resume.md` bei Bedarf. Nicht optimiert für ATS-Keyword-Matching oder einen bestimmten Jobtitel.
+- Persönliche Daten & Kontakt
+- Kurzprofil (Positionierung ohne DevOps-only)
+- Beruflicher Werdegang (CDC → Medcore → Integration → BORISSOV)
+- Ausbildung & Zertifikate
+- Fachkenntnisse & Sprachen
+- Link zum GitHub-Portfolio für Case Studies
+
+Englische Version: [en/resume/cv.md](../en/resume/cv.md)
+
+---
+
+## PDF exportieren
+
+Für Bewerbungen `lebenslauf.md` nach PDF exportieren, z. B.:
+
+- VS Code / Cursor: Markdown PDF Extension
+- [Pandoc](https://pandoc.org/): `pandoc lebenslauf.md -o lebenslauf.pdf`
+- Drucken → „Als PDF speichern“ aus der GitHub-Vorschau
+
+`resume.pdf` / `lebenslauf.pdf` werden nicht ins Repository committed — lokal erzeugen oder bei Bedarf manuell hinzufügen.
+
+---
 
 ## Hinweis zu älteren Lebensläufen
 
-Frühere PDF-Versionen betonten DevOps zu stark. Sie spiegeln nicht wider, wie ich tatsächlich arbeite. Dieses Repository ist die aktuelle Quelle der Wahrheit.
+Frühere PDF-Versionen betonten DevOps zu stark. **`lebenslauf.md` in diesem Repository** ist die aktuelle, zum Portfolio abgestimmte Version.

@@ -1,29 +1,22 @@
-# Summary
+# Summary & CV
 
 [Deutsch](../../resume/README.md) · **English**
 
-This is **not a vacancy-targeted CV**.
+Two documents in this folder:
 
-It is a **one-page summary** with the key facts — career, projects, education, stack. For more detail, follow the links into the repository.
+| File | Purpose |
+|------|---------|
+| [resume.md](resume.md) | **One-page portfolio summary** — links into the repo |
+| [cv.md](cv.md) | **Formal CV** for job applications |
 
-| Content in `resume.md` | |
-|------------------------|---|
-| Positioning & contact | Who, where, how to reach |
-| Career (table) | Phases with real dates |
-| Selected projects | 4 highlights with links |
-| Education & certificates | University + Yandex |
-| Core technologies | Compact, link to `skills.md` |
+German Lebenslauf: [resume/lebenslauf.md](../../resume/lebenslauf.md)
 
-| More detail | Link |
-|--------------|------|
-| Philosophy, background | [01-about/](../01-about/) |
-| Timeline, experience, skills | [02-career/](../02-career/) |
-| Case studies with architecture | [03-projects/](../03-projects/) |
+Full engineering documentation: [README](../README.md)
 
 ## PDF
 
-`resume.pdf` — export from `resume.md` when needed. Not optimised for ATS keyword matching or a specific job title.
+Export `cv.md` or `lebenslauf.md` to PDF locally when applying — not committed to the repo by default.
 
 ## Note on older CVs
 
-Previous PDF versions over-emphasised DevOps. They do not reflect how I actually work. This repository is the current source of truth.
+Previous PDFs over-emphasised DevOps. **`cv.md` / `lebenslauf.md` here** are the current versions aligned with this portfolio.

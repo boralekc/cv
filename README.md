@@ -10,7 +10,7 @@ Ich bringe komplexe Systeme zuverlässig in den produktiven Betrieb — und begl
 
 Dieses Repository dokumentiert **wer ich bin und wie ich arbeite** — keine Bewerbung auf eine bestimmte Stelle.
 
-[Wer ich bin](01-about/) · [Website](https://borissov-it.de/) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc) · [Kurzprofil](resume/resume.md) · [E-Mail](mailto:alxboriss@gmail.com)
+[Wer ich bin](01-about/) · [Website](https://borissov-it.de/) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc) · [Kurzprofil](resume/resume.md) · [Lebenslauf](resume/lebenslauf.md) · [E-Mail](mailto:alxboriss@gmail.com)
 
 ---
 
@@ -73,7 +73,7 @@ gantt
 | [03-projects](03-projects/) | Case Studies mit Architekturdiagrammen |
 | [04-architecture](04-architecture/) | Wiederverwendbare Muster — K8s, GitOps, Netzwerk |
 | [05-certificates](05-certificates/) | Zertifizierungen |
-| [resume](resume/) | Kurzprofil (kein stellenspezifischer Lebenslauf) |
+| [resume](resume/) | Kurzprofil & [Lebenslauf](resume/lebenslauf.md) |
 
 ---
 

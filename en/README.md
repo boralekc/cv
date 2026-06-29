@@ -10,7 +10,7 @@ I bring complex systems reliably into production — and support them from imple
 
 This repository documents **who I am and how I work** — not an application for a specific role.
 
-[Who I am](01-about/) · [Website](https://borissov-it.de/) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc) · [Summary](resume/resume.md) · [Email](mailto:alxboriss@gmail.com)
+[Who I am](01-about/) · [Website](https://borissov-it.de/) · [LinkedIn](https://www.linkedin.com/in/boralekc) · [GitHub](https://github.com/boralekc) · [Summary](resume/resume.md) · [CV](en/resume/cv.md) · [Email](mailto:alxboriss@gmail.com)
 
 ---
 
@@ -73,7 +73,7 @@ gantt
 | [03-projects](03-projects/) | Case studies with architecture diagrams |
 | [04-architecture](04-architecture/) | Reusable patterns — K8s, GitOps, network |
 | [05-certificates](05-certificates/) | Certifications |
-| [resume](resume/) | One-page summary (not a job-targeted CV) |
+| [resume](resume/) | Summary & [CV](resume/cv.md) |
 
 ---
 
