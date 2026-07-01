@@ -19,7 +19,7 @@ Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 
 **Wechsel zu Medcore (2008):** Einführung und Betrieb von **MIS Intramed** (InterSystems Caché) und **weiteren, kleineren Informationssystemen**.
 
-- 14+ Jahre — durchgehender MIS-Betrieb bis zum Umzug nach Deutschland; ab ~2016 **WildFly & Deployment**, ab ~2018 **Infrastruktur, DevOps & CI/CD** im Parallelbetrieb (siehe unten)
+- 14+ Jahre — durchgehender MIS-Betrieb bis zum Umzug nach Deutschland; ab ~2016 **WildFly & Infrastruktur**, ab ~2018 **DevOps & CI/CD** im Parallelbetrieb (siehe unten)
 - Krankenhaus mit **40.000 Patienten pro Jahr**
 - Integration: Labor, Histopathologie, Dokumentenerkennung
 - Einführungen an **weiteren großen Kliniken in Russland**
@@ -28,24 +28,15 @@ Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 
 ---
 
-## ab ~2016 · WildFly & Deployment — parallel zum MIS-Betrieb
+## ab ~2016 · Infrastruktur — parallel zum MIS-Betrieb
 
-**Gleichzeitig** zum laufenden Intramed-Support: **WildFly, Deployment, Application Server** — **je nach Projekt**:
+**Gleichzeitig** zum laufenden Intramed-Support: seit ca. **2016 WildFly**, Deployment und Application Server; ab ca. **2018** zusätzlich DevOps, CI/CD und Linux — **je nach Projekt**:
 
 | Jahr | Projekt | Schwerpunkt |
 |------|---------|-------------|
 | ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment, OCR, MIS-Integration |
-
----
-
-## ab ~2018 · Infrastruktur, DevOps & CI/CD — parallel zum MIS-Betrieb
-
-Ab etwa **2018** vertiefte sich der Schwerpunkt auf **Linux, Infrastruktur, DevOps und CI/CD** — weiterhin projektbezogen, nicht als separater Vollzeit-DevOps-Job:
-
-| Jahr | Projekt | Schwerpunkt |
-|------|---------|-------------|
 | ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Sync |
-| ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped |
+| ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | air-gapped Deployment, Cluster-Betrieb |
 
 Infrastruktur- und DevOps-Kenntnisse wuchsen **schrittweise und projektweise** — nicht über eine dedizierte DevOps-Stelle. Letzte Projekte parallel zum MIS-Betrieb bis **2022**.
 

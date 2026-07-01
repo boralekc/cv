@@ -47,22 +47,15 @@ Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Int
 
 → [Medizinisches Informationssystem](../03-projects/02-medical-information-system/)
 
-### Erweiterung ab 2016 — WildFly & Deployment
+### Erweiterung ab 2016 — Infrastruktur parallel zum MIS
 
-Ab etwa **2016** kamen zusätzliche Aufgaben hinzu — **WildFly, Deployment, Application Server** — **von Projekt zu Projekt**, parallel zur MIS-Arbeit:
+Seit etwa **2016**: **WildFly**, Deployment und Application Server. Ab etwa **2018** zusätzlich DevOps, CI/CD und Linux — weiterhin projektbezogen, parallel zum MIS-Betrieb:
 
-| Projekt | Beteiligung | Zeitraum |
-|---------|-------------|----------|
-| [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment und Produktionssupport | ~2016 |
-
-### Erweiterung ab 2018 — Infrastruktur, DevOps & CI/CD
-
-Ab etwa **2018** vertiefte sich der Schwerpunkt auf **Linux, Infrastruktur, DevOps und CI/CD** — weiterhin projektbezogen, parallel zum MIS-Betrieb:
-
-| Projekt | Beteiligung | Zeitraum |
-|---------|-------------|----------|
-| [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Integration | ~2018 |
-| [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | WildFly-Cluster, air-gapped Deployment | ~2020 |
+| Jahr | Projekt | Beteiligung |
+|------|---------|-------------|
+| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment und Produktionssupport |
+| ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Integration |
+| ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | air-gapped Deployment, Cluster-Betrieb |
 
 Diese Projekte erweiterten das Profil — ohne die Rolle als MIS-Spezialist zu ersetzen.
 
@@ -87,8 +80,7 @@ Erste berufliche Rolle bei [CDC](https://cdc.ru/). Einführung des **Optimum**-S
 ```
 2007–08   CDC · Optimum ERP
 2008–22   Medcore · Intramed MIS + kleinere IS
-              ├─ ab ~2016 parallel: WildFly, Deployment
-              └─ ab ~2018 parallel: Infrastruktur, DevOps, CI/CD
+              └─ ab ~2016 parallel: WildFly; ab ~2018 DevOps & CI/CD
 2022–25   Deutschland · Umzug, Sprache, Integration
 Feb 25–   Freelance · BORISSOV
 ```

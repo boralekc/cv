@@ -25,22 +25,13 @@ First role: **Optimum ERP implementation**.
 
 ---
 
-## from ~2016 · WildFly & deployment — parallel to MIS support
+## from ~2016 · Infrastructure — parallel to MIS support
 
-**Alongside** ongoing Intramed support: **WildFly, deployment, application servers** — **per project**:
+**Alongside** ongoing Intramed support: since **~2016 WildFly**, deployment, and application servers; from **~2018** additionally DevOps, CI/CD, and Linux — **per project**:
 
 | Year | Project |
 |------|---------|
 | ~2016 | [Document Recognition](../03-projects/05-document-recognition/) |
-
----
-
-## from ~2018 · Infrastructure, DevOps & CI/CD — parallel to MIS support
-
-From **~2018**, focus shifted to **Linux, infrastructure, DevOps, and CI/CD** — still project-based, not a separate full-time DevOps role:
-
-| Year | Project |
-|------|---------|
 | ~2018 | [Histopathology](../03-projects/04-histopathology/) |
 | ~2020 | [Reference Data Platform](../03-projects/03-reference-data-platform/) |
 

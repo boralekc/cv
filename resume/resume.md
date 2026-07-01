@@ -22,7 +22,7 @@
 | 2022–2025 | Umzug nach Köln, Deutsch, berufliche Integration |
 | 2008–2022 | **Medcore** — Intramed MIS + kleinere IS · Einführung & Betrieb (40k Patienten/Jahr) |
 | ab ~2016 | parallel: WildFly, Deployment, Application Server |
-| ab ~2018 | parallel: Infrastruktur, DevOps, CI/CD — Linux, air-gapped |
+| ab ~2018 | parallel: DevOps, CI/CD, Linux |
 | 2007–2008 | **CDC** — Optimum ERP Einführung |
 
 ---

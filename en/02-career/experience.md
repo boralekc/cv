@@ -46,22 +46,15 @@ From **2008 at Medcore**: implementation and long-term **operation of Intramed M
 - Integrations: laboratory, histopathology, document recognition
 - Deployments at additional major clinics in Russia
 
-### From ~2016 — WildFly & deployment in parallel with MIS
+### From ~2016 — infrastructure in parallel with MIS
 
-**WildFly, deployment, application servers** — **per project**, **alongside ongoing MIS support**:
+Since **~2016**: **WildFly**, deployment, and application servers. From **~2018** additionally DevOps, CI/CD, and Linux — still project-based, alongside MIS support:
 
-| Project | Involvement | Period |
-|---------|-------------|--------|
-| [Document Recognition](../03-projects/05-document-recognition/) | Deployment, support | ~2016 |
-
-### From ~2018 — infrastructure, DevOps & CI/CD in parallel with MIS
-
-From **~2018**, focus shifted to **Linux, infrastructure, DevOps, and CI/CD** — still project-based, alongside MIS support:
-
-| Project | Involvement | Period |
-|---------|-------------|--------|
-| [Histopathology LIS](../03-projects/04-histopathology/) | Testing, deployment | ~2018 |
-| [Reference Data Platform](../03-projects/03-reference-data-platform/) | WildFly cluster, air-gapped | ~2020 |
+| Year | Project | Involvement |
+|------|---------|-------------|
+| ~2016 | [Document Recognition](../03-projects/05-document-recognition/) | Deployment, support |
+| ~2018 | [Histopathology LIS](../03-projects/04-histopathology/) | Testing, deployment |
+| ~2020 | [Reference Data Platform](../03-projects/03-reference-data-platform/) | air-gapped deployment, cluster operations |
 
 ---
 
@@ -78,8 +71,7 @@ From **~2018**, focus shifted to **Linux, infrastructure, DevOps, and CI/CD** �
 ```
 2007–08   CDC · Optimum ERP
 2008–22   Medcore · Intramed MIS + smaller IS
-              ├─ from ~2016 in parallel: WildFly, deployment
-              └─ from ~2018 in parallel: infrastructure, DevOps, CI/CD
+              └─ from ~2016 in parallel: WildFly; from ~2018 DevOps & CI/CD
 2022–25   Germany · relocation, language, integration
 Feb 25–   Freelance · BORISSOV
 ```

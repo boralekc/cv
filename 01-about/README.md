@@ -32,8 +32,8 @@ Implementieren  →  Integrieren & Betreiben (+ Infra parallel)  →  Integratio
 |-------|-------------|
 | [CDC](https://cdc.ru/) 2007–2008 | **Optimum ERP** — Einführung |
 | Medcore 2008–2022 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
-| ab ~2016 (parallel) | **WildFly & Deployment** — Application Server, projektbezogen, neben laufendem MIS |
-| ab ~2018 (parallel) | **Infrastruktur, DevOps & CI/CD** — Linux, air-gapped u. a., neben laufendem MIS |
+| ab ~2016 (parallel) | **WildFly & Infrastruktur** — Application Server, Deployment, neben laufendem MIS |
+| ab ~2018 (parallel) | **DevOps & CI/CD** — Linux, Automatisierung, neben laufendem MIS |
 | Deutschland 2022–2025 | **Umzug nach Köln**, Deutsch lernen, berufliche Integration |
 | [BORISSOV](https://borissov-it.de/) ab Feb 2025 | **Freelance** — K8s, Self-hosted, Automatisierung |
 
