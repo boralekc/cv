@@ -36,7 +36,7 @@ Yandex Cloud Training
 
 ## Kurzprofil
 
-Infrastructure & Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Linux- und Windows-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.
+Infrastructure & Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Windows- und Linux-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.
 
 ## Kernbereiche
 
@@ -58,8 +58,7 @@ Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, 
 **KI-Lernplattform**
 
 - Aufbau und Betrieb einer Kubernetes-Plattform
-- GitLab CI, DevSecOps
-- Keycloak
+- GitLab CI, DevSecOps, Keycloak
 - Betrieb von 7 Microservices
 
 **BI-Plattform**
@@ -93,7 +92,7 @@ Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, 
 
 Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
 
-Betreuung eines produktiven Krankenhausinformationssystems mit rund **40.000 Patienten pro Jahr**; Einführungen an weiteren großen Kliniken.
+Betreuung eines produktiven Krankenhausinformationssystems mit rund **40.000 Patienten jährlich** sowie Einführungen an weiteren Kliniken.
 
 - Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)
 - Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal

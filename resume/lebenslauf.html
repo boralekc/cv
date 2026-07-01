@@ -107,26 +107,26 @@ a { color: var(--accent); text-decoration: none; }
 .cv-main strong { font-weight: 600; color: #0f172a; }
 .cv-main em { font-style: italic; color: var(--muted); }
 .cv-overview ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 4pt;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2pt 10pt;
+  list-style: disc;
+  padding-left: 15pt;
+  margin: 2pt 0 6pt;
+  display: block;
 }
 .cv-overview li {
-  margin: 0;
+  margin: 0 0 2pt;
   font-size: 8.8pt;
-  padding-left: 10pt;
-  position: relative;
   line-height: 1.35;
+  display: list-item;
 }
-.cv-overview li::before {
-  content: "·";
-  position: absolute;
-  left: 0;
-  color: var(--accent-light);
-  font-weight: 700;
+.cv-project-list {
+  margin: 0 0 5pt 0 !important;
+  padding-left: 15pt !important;
+  list-style-type: disc !important;
+}
+.cv-project-list li {
+  font-size: 8.7pt;
+  margin-bottom: 1.5pt;
+  display: list-item;
 }
 .cv-project-title {
   font-weight: 600;
@@ -135,14 +135,8 @@ a { color: var(--accent); text-decoration: none; }
   margin: 5pt 0 1pt;
 }
 .cv-project-title em { font-weight: 500; }
-.cv-project-list {
-  margin: 0 0 4pt 12pt !important;
-  padding-left: 0 !important;
-  list-style: disc;
-}
-.cv-project-list li {
-  font-size: 8.7pt;
-  margin-bottom: 1pt;
+.cv-overview {
+  break-inside: avoid;
 }
 .cv-projects ul {
   list-style: none;
@@ -215,7 +209,7 @@ Universität Ust-Kamenogorsk, Kasachstan</p>
 <p><strong>März 2024</strong> — <strong>DevSecOps im Cloud-CI/CD</strong><br />
 Yandex Cloud Training</p></aside>
 <main class="cv-main"><h2>Kurzprofil</h2>
-<p>Infrastructure &amp; Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Linux- und Windows-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.</p>
+<p>Infrastructure &amp; Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Windows- und Linux-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.</p>
 <h2>Kernbereiche</h2><div class="cv-overview">
 <ul>
 <li>IT-Infrastruktur &amp; produktiver Systembetrieb</li>
@@ -230,8 +224,7 @@ Yandex Cloud Training</p></aside>
 <p><strong>Ausgewählte Aufträge (2025):</strong></p>
 <p class="cv-project-title"><strong>KI-Lernplattform</strong></p><ul class="cv-project-list">
 <li>Aufbau und Betrieb einer Kubernetes-Plattform</li>
-<li>GitLab CI, DevSecOps</li>
-<li>Keycloak</li>
+<li>GitLab CI, DevSecOps, Keycloak</li>
 <li>Betrieb von 7 Microservices</li>
 </ul>
 <p class="cv-project-title"><strong>BI-Plattform</strong></p><ul class="cv-project-list">
@@ -259,7 +252,7 @@ Yandex Cloud Training</p></aside>
 <h3>2008 – 2022 · Medcore · Russland</h3>
 <p><strong>Senior Specialist — Einführung, Integration und Betrieb medizinischer Informationssysteme</strong></p>
 <p>Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems <strong>IntraMed</strong> (InterSystems Caché) sowie mehrerer integrierter Subsysteme.</p>
-<p>Betreuung eines produktiven Krankenhausinformationssystems mit rund <strong>40.000 Patienten pro Jahr</strong>; Einführungen an weiteren großen Kliniken.</p>
+<p>Betreuung eines produktiven Krankenhausinformationssystems mit rund <strong>40.000 Patienten jährlich</strong> sowie Einführungen an weiteren Kliniken.</p>
 <ul>
 <li>Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)</li>
 <li>Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal</li>

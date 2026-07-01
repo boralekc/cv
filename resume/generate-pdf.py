@@ -123,26 +123,26 @@ a { color: var(--accent); text-decoration: none; }
 .cv-main strong { font-weight: 600; color: #0f172a; }
 .cv-main em { font-style: italic; color: var(--muted); }
 .cv-overview ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 4pt;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2pt 10pt;
+  list-style: disc;
+  padding-left: 15pt;
+  margin: 2pt 0 6pt;
+  display: block;
 }
 .cv-overview li {
-  margin: 0;
+  margin: 0 0 2pt;
   font-size: 8.8pt;
-  padding-left: 10pt;
-  position: relative;
   line-height: 1.35;
+  display: list-item;
 }
-.cv-overview li::before {
-  content: "·";
-  position: absolute;
-  left: 0;
-  color: var(--accent-light);
-  font-weight: 700;
+.cv-project-list {
+  margin: 0 0 5pt 0 !important;
+  padding-left: 15pt !important;
+  list-style-type: disc !important;
+}
+.cv-project-list li {
+  font-size: 8.7pt;
+  margin-bottom: 1.5pt;
+  display: list-item;
 }
 .cv-project-title {
   font-weight: 600;
@@ -151,14 +151,8 @@ a { color: var(--accent); text-decoration: none; }
   margin: 5pt 0 1pt;
 }
 .cv-project-title em { font-weight: 500; }
-.cv-project-list {
-  margin: 0 0 4pt 12pt !important;
-  padding-left: 0 !important;
-  list-style: disc;
-}
-.cv-project-list li {
-  font-size: 8.7pt;
-  margin-bottom: 1pt;
+.cv-overview {
+  break-inside: avoid;
 }
 .cv-projects ul {
   list-style: none;
