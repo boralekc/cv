@@ -28,15 +28,24 @@ Erste Rolle: **Einführung des Optimum-ERP-Systems**.
 
 ---
 
-## ab ~2016 · Infrastruktur — parallel zum MIS-Betrieb
+## ab ~2018 · DevOps, CI/CD & Linux — parallel zum MIS-Betrieb
 
-**Gleichzeitig** zum laufenden Intramed-Support: seit ca. **2016 WildFly**, Deployment und Application Server; ab ca. **2018** zusätzlich DevOps, CI/CD und Linux — **je nach Projekt**:
+Ab etwa **2018** projektbezogen, parallel zum laufenden Intramed-Support:
 
 | Jahr | Projekt | Schwerpunkt |
 |------|---------|-------------|
-| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment, OCR, MIS-Integration |
 | ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Sync |
+
+---
+
+## ab ~2016 · WildFly & Application Server — parallel zum MIS-Betrieb
+
+Seit ca. **2016**: **WildFly**, Deployment, Cluster-Betrieb und Application Server — **je nach Projekt**:
+
+| Jahr | Projekt | Schwerpunkt |
+|------|---------|-------------|
 | ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | air-gapped Deployment, Cluster-Betrieb |
+| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment, OCR, MIS-Integration |
 
 Infrastruktur- und DevOps-Kenntnisse wuchsen **schrittweise und projektweise** — nicht über eine dedizierte DevOps-Stelle. Letzte Projekte parallel zum MIS-Betrieb bis **2022**.
 

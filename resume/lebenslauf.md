@@ -80,13 +80,18 @@ Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb 
 - Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)
 - Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal
 
-**Ab ca. 2016 parallel — Infrastruktur & Application Server:**
+**Ab ca. 2018 parallel — DevOps, CI/CD & Linux:**
 
-Seit **~2016 WildFly** — Deployment, Cluster-Betrieb und Application Server. Ab **~2018** zusätzlich DevOps, CI/CD und Linux — projektbezogen, neben dem MIS-Betrieb:
+Projektbezogen, neben dem MIS-Betrieb:
 
-- **~2016** — **Dokumentenerkennung** — Deployment, Produktionssupport, MIS-Integration
 - **~2018** — **Histopathologie-LIS** — Test, Deployment, MIS-Synchronisation
+
+**Ab ca. 2016 parallel — WildFly & Application Server:**
+
+Seit **~2016**: Deployment, Cluster-Betrieb und Application Server — projektbezogen, neben dem MIS-Betrieb:
+
 - **~2020** — **Referenzdaten-Plattform** — air-gapped Deployment (nationaler Verkehrsbetreiber)
+- **~2016** — **Dokumentenerkennung** — Deployment, Produktionssupport, MIS-Integration
 
 ### 2007 – 2008 · CDC · Russland
 

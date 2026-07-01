@@ -46,15 +46,22 @@ From **2008 at Medcore**: implementation and long-term **operation of Intramed M
 - Integrations: laboratory, histopathology, document recognition
 - Deployments at additional major clinics in Russia
 
-### From ~2016 — infrastructure in parallel with MIS
+### From ~2018 — DevOps, CI/CD & Linux
 
-Since **~2016**: **WildFly**, deployment, and application servers. From **~2018** additionally DevOps, CI/CD, and Linux — still project-based, alongside MIS support:
+From **~2018**, project-based, alongside MIS support:
 
 | Year | Project | Involvement |
 |------|---------|-------------|
-| ~2016 | [Document Recognition](../03-projects/05-document-recognition/) | Deployment, support |
 | ~2018 | [Histopathology LIS](../03-projects/04-histopathology/) | Testing, deployment |
+
+### From ~2016 — WildFly & application servers
+
+Since **~2016**: **WildFly**, deployment, cluster operations, and application servers — project-based, alongside MIS support:
+
+| Year | Project | Involvement |
+|------|---------|-------------|
 | ~2020 | [Reference Data Platform](../03-projects/03-reference-data-platform/) | air-gapped deployment, cluster operations |
+| ~2016 | [Document Recognition](../03-projects/05-document-recognition/) | Deployment, support |
 
 ---
 

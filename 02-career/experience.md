@@ -47,15 +47,22 @@ Ab 2008 bei **Medcore**: Einführung und langfristiger **Betrieb** von **MIS Int
 
 → [Medizinisches Informationssystem](../03-projects/02-medical-information-system/)
 
-### Erweiterung ab 2016 — Infrastruktur parallel zum MIS
+### Erweiterung ab 2018 — DevOps, CI/CD & Linux
 
-Seit etwa **2016**: **WildFly**, Deployment und Application Server. Ab etwa **2018** zusätzlich DevOps, CI/CD und Linux — weiterhin projektbezogen, parallel zum MIS-Betrieb:
+Ab etwa **2018** projektbezogen, parallel zum MIS-Betrieb:
 
 | Jahr | Projekt | Beteiligung |
 |------|---------|-------------|
-| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment und Produktionssupport |
 | ~2018 | [Histopathologie-LIS](../03-projects/04-histopathology/) | Test, Deployment, MIS-Integration |
+
+### Erweiterung ab 2016 — WildFly & Application Server
+
+Seit etwa **2016**: **WildFly**, Deployment, Cluster-Betrieb und Application Server — projektbezogen, parallel zum MIS-Betrieb:
+
+| Jahr | Projekt | Beteiligung |
+|------|---------|-------------|
 | ~2020 | [Referenzdaten-Plattform](../03-projects/03-reference-data-platform/) | air-gapped Deployment, Cluster-Betrieb |
+| ~2016 | [Dokumentenerkennung](../03-projects/05-document-recognition/) | Deployment und Produktionssupport |
 
 Diese Projekte erweiterten das Profil — ohne die Rolle als MIS-Spezialist zu ersetzen.
 
