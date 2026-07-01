@@ -16,7 +16,7 @@ First role: **Optimum ERP implementation**.
 
 **Joined Medcore in 2008:** implementation and support of **Intramed MIS** and **smaller information systems**.
 
-- 14+ years — continuous MIS support until relocation to Germany; from ~2016 **additionally** infrastructure projects in parallel (see below)
+- 14+ years — continuous MIS support until relocation to Germany; from ~2016 **WildFly & deployment**, from ~2018 **infrastructure, DevOps & CI/CD** in parallel (see below)
 - 40,000 patients per year
 - Integrations: lab, histopathology, document recognition
 - Deployments at additional major clinics in Russia
@@ -25,13 +25,22 @@ First role: **Optimum ERP implementation**.
 
 ---
 
-## from ~2016 · Infrastructure — parallel to MIS support
+## from ~2016 · WildFly & deployment — parallel to MIS support
 
-**Alongside** ongoing Intramed support and other systems: **Linux, WildFly, deployment** — **per project**, not a separate full-time Linux role:
+**Alongside** ongoing Intramed support: **WildFly, deployment, application servers** — **per project**:
 
 | Year | Project |
 |------|---------|
 | ~2016 | [Document Recognition](../03-projects/05-document-recognition/) |
+
+---
+
+## from ~2018 · Infrastructure, DevOps & CI/CD — parallel to MIS support
+
+From **~2018**, focus shifted to **Linux, infrastructure, DevOps, and CI/CD** — still project-based, not a separate full-time DevOps role:
+
+| Year | Project |
+|------|---------|
 | ~2018 | [Histopathology](../03-projects/04-histopathology/) |
 | ~2020 | [Reference Data Platform](../03-projects/03-reference-data-platform/) |
 
@@ -75,8 +84,11 @@ gantt
     section Medcore
     Intramed MIS & smaller IS :active, 2008-01-01, 2022-12-31
 
-    section Infrastructure
-    Parallel to MIS — per project :infra, 2016-01-01, 2022-12-31
+    section WildFly & Deployment
+    Parallel to MIS — per project :wildfly, 2016-01-01, 2022-12-31
+
+    section DevOps & Infrastructure
+    Parallel to MIS — per project :infra, 2018-01-01, 2022-12-31
 
     section Germany
     Relocation · language · integration :de, 2022-01-01, 2025-02-01

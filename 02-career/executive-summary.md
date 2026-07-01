@@ -14,7 +14,8 @@ Kern: **Einführung und Betrieb von Enterprise- und Kliniksystemen** — nicht e
 |-------|-------------|
 | CDC (2007–2008) | **Optimum ERP** — Einführung |
 | Medcore (2008–2022) | **Intramed MIS** + kleinere IS — Einführung & Betrieb |
-| ab ~2016 (parallel) | **Infrastruktur projektweise** — Linux, WildFly, Deployment — neben laufendem MIS |
+| ab ~2016 (parallel) | **WildFly & Deployment** — Application Server, projektbezogen — neben laufendem MIS |
+| ab ~2018 (parallel) | **Infrastruktur, DevOps & CI/CD** — Linux, air-gapped — neben laufendem MIS |
 | Deutschland (2022–2025) | **Umzug nach Köln**, Spracherwerb, berufliche Integration |
 | BORISSOV (ab Feb 2025) | **Freelance** — K8s, Self-hosted, Automatisierung |
 
@@ -31,7 +32,8 @@ Kern: **Einführung und Betrieb von Enterprise- und Kliniksystemen** — nicht e
 2007–08   CDC — Optimum ERP
               │
 2008–22   Medcore — Intramed MIS + kleinere IS
-              ├─ ab ~2016 parallel: Infrastruktur
+              ├─ ab ~2016 parallel: WildFly, Deployment
+              └─ ab ~2018 parallel: Infrastruktur, DevOps, CI/CD
               │
 2022–25   Deutschland — Umzug, Sprache, Integration
               │

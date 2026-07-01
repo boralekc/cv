@@ -21,7 +21,8 @@
 | Feb 2025–heute | **Freelance** — BORISSOV Engineering · K8s, Self-hosted, Automatisierung |
 | 2022–2025 | Umzug nach Köln, Deutsch, berufliche Integration |
 | 2008–2022 | **Medcore** — Intramed MIS + kleinere IS · Einführung & Betrieb (40k Patienten/Jahr) |
-| ab ~2016 | parallel: Infrastruktur projektbezogen — Linux, WildFly, air-gapped |
+| ab ~2016 | parallel: WildFly, Deployment, Application Server |
+| ab ~2018 | parallel: Infrastruktur, DevOps, CI/CD — Linux, air-gapped |
 | 2007–2008 | **CDC** — Optimum ERP Einführung |
 
 ---

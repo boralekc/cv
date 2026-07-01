@@ -64,13 +64,14 @@ Independent engineering for the German mid-market — Kubernetes, self-hosted pl
 - Integration: laboratory, histopathology, document recognition (WCF, clinical workflows)
 - Production support, upgrades, workflow adaptation with clinical staff
 
-**From ~2016 in parallel — project-based infrastructure** (not a full-time Linux role):
+**From ~2016 in parallel — WildFly & deployment:**
 
-| Project | Contribution |
-|---------|--------------|
-| Document recognition (~2016) | Deployment, production support, MIS integration |
-| Histopathology LIS (~2018) | Testing, deployment, MIS sync |
-| Reference data platform (~2020) | WildFly cluster, air-gapped deployment (national transport operator) |
+- Document recognition (~2016) — deployment, production support, MIS integration
+
+**From ~2018 in parallel — infrastructure, DevOps & CI/CD:**
+
+- Histopathology LIS (~2018) — testing, deployment, MIS sync
+- Reference data platform (~2020) — WildFly cluster, air-gapped deployment (national transport operator)
 
 ---
 

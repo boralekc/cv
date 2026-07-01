@@ -25,14 +25,15 @@ My value is not in writing as much code as possible. It is in making complex sys
 ```
 Implement  →  Integrate & Operate (+ infra in parallel)  →  Integration  →  Automate
    CDC                    Medcore                              Germany           Freelance
-(Optimum ERP)    (Intramed, smaller IS; from ~2016 infra)   (2022–2025)      (from Feb 2025)
+(Optimum ERP)    (Intramed, smaller IS; from ~2016 WildFly; from ~2018 DevOps)   (2022–2025)      (from Feb 2025)
 ```
 
 | Phase | What I did |
 |-------|------------|
 | CDC 2007–2008 | **Optimum ERP** — implementation |
 | Medcore 2008–2022 | **Intramed MIS** + smaller IS — implementation & support |
-| from ~2016 (parallel) | **Infrastructure per project** — alongside ongoing MIS |
+| from ~2016 (parallel) | **WildFly & deployment** — application servers, per project, alongside ongoing MIS |
+| from ~2018 (parallel) | **Infrastructure, DevOps & CI/CD** — Linux, air-gapped, alongside ongoing MIS |
 | Germany 2022–2025 | **Relocation to Cologne**, learning German, integration |
 | BORISSOV from Feb 2025 | **Freelance** — K8s, self-hosted |
 

@@ -25,14 +25,15 @@ Mein Wert liegt nicht darin, möglichst viel Code zu schreiben. Er liegt darin, 
 ```
 Implementieren  →  Integrieren & Betreiben (+ Infra parallel)  →  Integration  →  Automatisieren
      CDC                      Medcore                              Deutschland         Freelance
-  (Optimum ERP)         (Intramed, kleinere IS; ab ~2016 Infra)   (2022–2025)      (ab Feb 2025)
+  (Optimum ERP)    (Intramed, kleinere IS; ab ~2016 WildFly; ab ~2018 DevOps)   (2022–2025)      (ab Feb 2025)
 ```
 
 | Phase | Was ich tat |
 |-------|-------------|
 | [CDC](https://cdc.ru/) 2007–2008 | **Optimum ERP** — Einführung |
 | Medcore 2008–2022 | **Intramed MIS** + kleinere IS — Einführung und Betrieb |
-| ab ~2016 (parallel) | **Infrastruktur projektbezogen** — Linux, WildFly u. a., neben laufendem MIS |
+| ab ~2016 (parallel) | **WildFly & Deployment** — Application Server, projektbezogen, neben laufendem MIS |
+| ab ~2018 (parallel) | **Infrastruktur, DevOps & CI/CD** — Linux, air-gapped u. a., neben laufendem MIS |
 | Deutschland 2022–2025 | **Umzug nach Köln**, Deutsch lernen, berufliche Integration |
 | [BORISSOV](https://borissov-it.de/) ab Feb 2025 | **Freelance** — K8s, Self-hosted, Automatisierung |
 

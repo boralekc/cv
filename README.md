@@ -28,8 +28,11 @@ gantt
     section Medcore
     Intramed MIS & kleinere IS :active, 2008-01-01, 2022-12-31
 
-    section Infrastruktur
-    Parallel zu MIS — projektbezogen :infra, 2016-01-01, 2022-12-31
+    section WildFly & Deployment
+    Parallel zu MIS — projektbezogen :wildfly, 2016-01-01, 2022-12-31
+
+    section DevOps & Infrastruktur
+    Parallel zu MIS — projektbezogen :infra, 2018-01-01, 2022-12-31
 
     section Deutschland
     Umzug · Sprache · Integration :de, 2022-01-01, 2025-02-01
@@ -42,7 +45,7 @@ gantt
 |-------|-------------|
 | [CDC / Optimum](03-projects/01-optimum/) | 2007–2008 — Optimum-Einführung |
 | [Medcore / Intramed](03-projects/02-medical-information-system/) | 2008–2022 — MIS-Betrieb + kleinere IS |
-| [Infrastruktur-Projekte](03-projects/) | ab ~2016 **parallel** zum MIS — bis 2022 |
+| [Infrastruktur-Projekte](03-projects/) | ab ~2016 WildFly & Deployment · ab ~2018 DevOps & CI/CD — parallel zum MIS bis 2022 |
 | Deutschland | 2022–2025 — Umzug nach Köln, Sprache, Integration |
 | [BORISSOV](https://borissov-it.de/) | ab **Feb 2025** — K8s, Self-hosted BI, Automatisierung |
 

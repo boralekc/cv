@@ -17,8 +17,8 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
-| Linux-Administration | ~6 Jahre | Projektbezogen ~2016–2022, danach Freelance-Projekte |
-| WildFly / Java EE | 3 Jahre | Referenzdaten-Plattform, Application-Server-Cluster |
+| Linux-Administration | ~6 Jahre | Projektbezogen ~2018–2022, danach Freelance-Projekte |
+| WildFly / Java EE | 6 Jahre | Seit ~2016 — Deployment, Application Server, WildFly-Cluster |
 | PostgreSQL | 8 Jahre | Patroni HA, Anwendungsdatenbanken, Metabase |
 | MS SQL Server | 8 Jahre | Optimum, Intramed MIS, LIS/OCR-Projekte |
 | Nginx | 8 Jahre | Reverse Proxy, TLS-Terminierung, Ingress |
@@ -29,8 +29,8 @@ Kompetenzen aus Enterprise-Einführung, medizinischen Systemen, Infrastruktur un
 
 | Skill | Erfahrung | Kontext |
 |-------|-----------|---------|
-| CI/CD | 7 Jahre | GitLab CI, GitHub Actions, Jenkins |
-| DevSecOps | 6 Jahre | Security Gates, Semgrep, Trivy, Gitleaks, OWASP ZAP |
+| CI/CD | 7 Jahre | Seit ~2018 — GitLab CI, GitHub Actions, Jenkins |
+| DevSecOps | 6 Jahre | Seit ~2018 — Security Gates, Semgrep, Trivy, Gitleaks, OWASP ZAP |
 | Infrastructure as Code | 4 Jahre | Terraform, Helm |
 | Prozessautomatisierung (n8n) | 3 Jahre | Workflow-Orchestrierung, Investment-Plattform |
 | GitOps / inkrementelle Rollouts | 6 Jahre | Inkrementelle Deployments, Environment Promotion |
