@@ -36,18 +36,14 @@ Yandex Cloud Training
 
 ## Kurzprofil
 
-Infrastructure- und Automation Engineer mit über 18 Jahren Erfahrung in der **Einführung, Integration und dem Betrieb geschäftskritischer IT-Systeme** — von Enterprise-ERP und medizinischen Informationssystemen bis zu Kubernetes-Plattformen und Self-hosted-Infrastruktur.
+Infrastructure & Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Linux- und Windows-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.
 
-Schwerpunkt: Systeme **zuverlässig in den Produktionsbetrieb bringen** und langfristig begleiten. **DevOps-Kompetenzen aufbauend auf langjähriger Erfahrung in Enterprise-Software, Systemintegration und Infrastruktur** — seit 2025 selbstständig unter BORISSOV Engineering.
+## Kernbereiche
 
-## Schwerpunkte
-
-- ✔ Enterprise Software
-- ✔ Medical IT
-- ✔ Infrastructure
-- ✔ Kubernetes
-- ✔ Automation
-- ✔ System Integration
+- IT-Infrastruktur & produktiver Systembetrieb
+- Systemintegration & Kundenprojekte
+- Linux & Windows Server
+- Kubernetes & Automatisierung
 
 ## Beruflicher Werdegang
 
@@ -55,14 +51,35 @@ Schwerpunkt: Systeme **zuverlässig in den Produktionsbetrieb bringen** und lang
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Freiberufliche Infrastruktur- und Automatisierungsprojekte für Kunden im deutschen Mittelstand — Kubernetes, Self-hosted-Plattformen, CI/CD, dokumentierte Übergabe.
+Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Integration und Automatisierung mit dokumentierter Übergabe.
 
 **Ausgewählte Aufträge (2025):**
 
-- **KI-Lernplattform** — Aufbau und Betrieb einer Kubernetes-Plattform für ein KI-gestütztes universitäres Lernsystem (DigitalOcean, GitLab CI, DevSecOps, Keycloak, 7 Microservices)
-- **BI-Plattform** — Self-hosted Analytics-Umgebung mit Produktions-Dashboards und operativem Betrieb (Metabase, PostgreSQL, Prometheus, Alerting, Backups, Certbot)
-- **Investment-Plattform** — Entwicklung und Betrieb einer automatisierten Investment-Plattform (Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions)
-- **Microservice-Plattform** — Deployment und CI/CD für eine Multi-Service-Backend-Plattform *(laufend)* (Managed Kubernetes, GitHub Actions, DevSecOps)
+**KI-Lernplattform**
+
+- Aufbau und Betrieb einer Kubernetes-Plattform
+- GitLab CI, DevSecOps
+- Keycloak
+- Betrieb von 7 Microservices
+
+**BI-Plattform**
+
+- Self-hosted Analytics (Metabase)
+- Monitoring & Alerting (Prometheus)
+- PostgreSQL, automatisierte Backups
+- SSL-Automatisierung (Certbot)
+
+**Investment-Plattform**
+
+- Entwicklung und Betrieb einer automatisierten Investment-Plattform
+- 16 n8n-Workflows
+- Docker Compose, GitHub Actions
+
+**Microservice-Plattform** *(laufend)*
+
+- Deployment auf Managed Kubernetes
+- GitHub Actions, DevSecOps-Pipeline
+- Multi-Service-Backend (4 Services)
 
 ### 2022 – 2025 · Umzug und berufliche Integration · Köln
 
@@ -76,9 +93,11 @@ Freiberufliche Infrastruktur- und Automatisierungsprojekte für Kunden im deutsc
 
 Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
 
-- Krankenhaus mit **40.000 Patienten pro Jahr**; Einführungen an weiteren großen Kliniken
+Betreuung eines produktiven Krankenhausinformationssystems mit rund **40.000 Patienten pro Jahr**; Einführungen an weiteren großen Kliniken.
+
 - Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)
 - Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal
+- Direkter Kontakt mit Klinikpersonal und Fachbereichen
 
 **Ab ca. 2018 parallel — DevOps, CI/CD & Linux:**
 
@@ -111,13 +130,13 @@ Einführung des ERP-Systems **Optimum** bei Unternehmenskunden. Mehrwöchige Kun
 
 ## Fachkenntnisse
 
-**Infrastructure:** Linux · Docker · Kubernetes · WildFly · PostgreSQL · MS SQL Server · Nginx · Windows Server · Keycloak · TLS/Certbot · air-gapped Deployments
+**Infrastructure:** Windows Server · Linux · Docker · Kubernetes · WildFly · PostgreSQL · MS SQL Server · Nginx · Keycloak · TLS/Certbot · air-gapped Deployments
 
 **Automation:** GitLab CI · GitHub Actions · CI/CD · DevSecOps · Terraform · Helm · n8n · GitOps
 
-**Enterprise Systems:** Optimum ERP · IntraMed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)
-
 **Observability:** Prometheus · Grafana · Metabase · Backup-Automatisierung · Produktionssupport
+
+**Enterprise Systems:** Optimum ERP · IntraMed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)
 
 **Development (selektiv):** Python/Bash · Next.js/React · Kotlin/Spring Boot
 

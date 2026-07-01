@@ -122,23 +122,43 @@ a { color: var(--accent); text-decoration: none; }
 .cv-main li { margin-bottom: 2.5pt; }
 .cv-main strong { font-weight: 600; color: #0f172a; }
 .cv-main em { font-style: italic; color: var(--muted); }
-.cv-focus ul {
+.cv-overview ul {
   list-style: none;
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3pt;
+  margin: 0 0 4pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2pt 10pt;
 }
-.cv-focus li {
+.cv-overview li {
   margin: 0;
-  font-size: 8.6pt;
-  background: var(--accent-soft);
-  border: 1px solid #bfdbfe;
-  color: #1e40af;
-  padding: 2pt 7pt;
-  border-radius: 10pt;
-  white-space: nowrap;
+  font-size: 8.8pt;
+  padding-left: 10pt;
+  position: relative;
+  line-height: 1.35;
+}
+.cv-overview li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+  font-weight: 700;
+}
+.cv-project-title {
+  font-weight: 600;
+  font-size: 9.2pt;
+  color: #0f172a;
+  margin: 5pt 0 1pt;
+}
+.cv-project-title em { font-weight: 500; }
+.cv-project-list {
+  margin: 0 0 4pt 12pt !important;
+  padding-left: 0 !important;
+  list-style: disc;
+}
+.cv-project-list li {
+  font-size: 8.7pt;
+  margin-bottom: 1pt;
 }
 .cv-projects ul {
   list-style: none;
@@ -231,10 +251,23 @@ def render_md(fragment: str, *, is_main: bool = False) -> str:
         extensions=["sane_lists", "nl2br"],
     )
     if is_main:
-        html = _wrap_section(html, "Schwerpunkte", "cv-focus")
+        html = _wrap_section(html, "Kernbereiche", "cv-overview")
         html = _wrap_section(html, "Ausgewählte Projekte", "cv-projects")
         html = _wrap_section(html, "Fachkenntnisse", "cv-skills")
+        html = _style_freelance_projects(html)
     return html
+
+
+def _style_freelance_projects(html: str) -> str:
+    """Turn bold-only paragraphs + following ul into compact project blocks."""
+    pattern = re.compile(
+        r"<p><strong>([^<]+)</strong>(\s*<em>[^<]*</em>)?\s*</p>\s*<ul>",
+        re.IGNORECASE,
+    )
+    return pattern.sub(
+        r'<p class="cv-project-title"><strong>\1</strong>\2</p><ul class="cv-project-list">',
+        html,
+    )
 
 
 def build_html(md_text: str) -> str:

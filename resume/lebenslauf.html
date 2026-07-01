@@ -106,23 +106,43 @@ a { color: var(--accent); text-decoration: none; }
 .cv-main li { margin-bottom: 2.5pt; }
 .cv-main strong { font-weight: 600; color: #0f172a; }
 .cv-main em { font-style: italic; color: var(--muted); }
-.cv-focus ul {
+.cv-overview ul {
   list-style: none;
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3pt;
+  margin: 0 0 4pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2pt 10pt;
 }
-.cv-focus li {
+.cv-overview li {
   margin: 0;
-  font-size: 8.6pt;
-  background: var(--accent-soft);
-  border: 1px solid #bfdbfe;
-  color: #1e40af;
-  padding: 2pt 7pt;
-  border-radius: 10pt;
-  white-space: nowrap;
+  font-size: 8.8pt;
+  padding-left: 10pt;
+  position: relative;
+  line-height: 1.35;
+}
+.cv-overview li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+  font-weight: 700;
+}
+.cv-project-title {
+  font-weight: 600;
+  font-size: 9.2pt;
+  color: #0f172a;
+  margin: 5pt 0 1pt;
+}
+.cv-project-title em { font-weight: 500; }
+.cv-project-list {
+  margin: 0 0 4pt 12pt !important;
+  padding-left: 0 !important;
+  list-style: disc;
+}
+.cv-project-list li {
+  font-size: 8.7pt;
+  margin-bottom: 1pt;
 }
 .cv-projects ul {
   list-style: none;
@@ -195,27 +215,40 @@ Universität Ust-Kamenogorsk, Kasachstan</p>
 <p><strong>März 2024</strong> — <strong>DevSecOps im Cloud-CI/CD</strong><br />
 Yandex Cloud Training</p></aside>
 <main class="cv-main"><h2>Kurzprofil</h2>
-<p>Infrastructure- und Automation Engineer mit über 18 Jahren Erfahrung in der <strong>Einführung, Integration und dem Betrieb geschäftskritischer IT-Systeme</strong> — von Enterprise-ERP und medizinischen Informationssystemen bis zu Kubernetes-Plattformen und Self-hosted-Infrastruktur.</p>
-<p>Schwerpunkt: Systeme <strong>zuverlässig in den Produktionsbetrieb bringen</strong> und langfristig begleiten. <strong>DevOps-Kompetenzen aufbauend auf langjähriger Erfahrung in Enterprise-Software, Systemintegration und Infrastruktur</strong> — seit 2025 selbstständig unter BORISSOV Engineering.</p>
-<h2>Schwerpunkte</h2><div class="cv-focus">
+<p>Infrastructure &amp; Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Linux- und Windows-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.</p>
+<h2>Kernbereiche</h2><div class="cv-overview">
 <ul>
-<li>✔ Enterprise Software</li>
-<li>✔ Medical IT</li>
-<li>✔ Infrastructure</li>
-<li>✔ Kubernetes</li>
-<li>✔ Automation</li>
-<li>✔ System Integration</li>
+<li>IT-Infrastruktur &amp; produktiver Systembetrieb</li>
+<li>Systemintegration &amp; Kundenprojekte</li>
+<li>Linux &amp; Windows Server</li>
+<li>Kubernetes &amp; Automatisierung</li>
 </ul>
 </div><h2>Beruflicher Werdegang</h2>
 <h3>Feb 2025 – heute · Selbstständig · BORISSOV Engineering · Köln</h3>
 <p><strong>Infrastructure &amp; Automation Engineer</strong> · <a href="https://borissov-it.de/">borissov-it.de</a></p>
-<p>Freiberufliche Infrastruktur- und Automatisierungsprojekte für Kunden im deutschen Mittelstand — Kubernetes, Self-hosted-Plattformen, CI/CD, dokumentierte Übergabe.</p>
+<p>Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Integration und Automatisierung mit dokumentierter Übergabe.</p>
 <p><strong>Ausgewählte Aufträge (2025):</strong></p>
-<ul>
-<li><strong>KI-Lernplattform</strong> — Aufbau und Betrieb einer Kubernetes-Plattform für ein KI-gestütztes universitäres Lernsystem (DigitalOcean, GitLab CI, DevSecOps, Keycloak, 7 Microservices)</li>
-<li><strong>BI-Plattform</strong> — Self-hosted Analytics-Umgebung mit Produktions-Dashboards und operativem Betrieb (Metabase, PostgreSQL, Prometheus, Alerting, Backups, Certbot)</li>
-<li><strong>Investment-Plattform</strong> — Entwicklung und Betrieb einer automatisierten Investment-Plattform (Next.js, 16 n8n-Workflows, Docker Compose, GitHub Actions)</li>
-<li><strong>Microservice-Plattform</strong> — Deployment und CI/CD für eine Multi-Service-Backend-Plattform <em>(laufend)</em> (Managed Kubernetes, GitHub Actions, DevSecOps)</li>
+<p class="cv-project-title"><strong>KI-Lernplattform</strong></p><ul class="cv-project-list">
+<li>Aufbau und Betrieb einer Kubernetes-Plattform</li>
+<li>GitLab CI, DevSecOps</li>
+<li>Keycloak</li>
+<li>Betrieb von 7 Microservices</li>
+</ul>
+<p class="cv-project-title"><strong>BI-Plattform</strong></p><ul class="cv-project-list">
+<li>Self-hosted Analytics (Metabase)</li>
+<li>Monitoring &amp; Alerting (Prometheus)</li>
+<li>PostgreSQL, automatisierte Backups</li>
+<li>SSL-Automatisierung (Certbot)</li>
+</ul>
+<p class="cv-project-title"><strong>Investment-Plattform</strong></p><ul class="cv-project-list">
+<li>Entwicklung und Betrieb einer automatisierten Investment-Plattform</li>
+<li>16 n8n-Workflows</li>
+<li>Docker Compose, GitHub Actions</li>
+</ul>
+<p class="cv-project-title"><strong>Microservice-Plattform</strong> <em>(laufend)</em></p><ul class="cv-project-list">
+<li>Deployment auf Managed Kubernetes</li>
+<li>GitHub Actions, DevSecOps-Pipeline</li>
+<li>Multi-Service-Backend (4 Services)</li>
 </ul>
 <h3>2022 – 2025 · Umzug und berufliche Integration · Köln</h3>
 <ul>
@@ -226,10 +259,11 @@ Yandex Cloud Training</p></aside>
 <h3>2008 – 2022 · Medcore · Russland</h3>
 <p><strong>Senior Specialist — Einführung, Integration und Betrieb medizinischer Informationssysteme</strong></p>
 <p>Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems <strong>IntraMed</strong> (InterSystems Caché) sowie mehrerer integrierter Subsysteme.</p>
+<p>Betreuung eines produktiven Krankenhausinformationssystems mit rund <strong>40.000 Patienten pro Jahr</strong>; Einführungen an weiteren großen Kliniken.</p>
 <ul>
-<li>Krankenhaus mit <strong>40.000 Patienten pro Jahr</strong>; Einführungen an weiteren großen Kliniken</li>
 <li>Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)</li>
 <li>Produktionssupport, Upgrades, Anpassung von Workflows mit Klinikpersonal</li>
+<li>Direkter Kontakt mit Klinikpersonal und Fachbereichen</li>
 </ul>
 <p><strong>Ab ca. 2018 parallel — DevOps, CI/CD &amp; Linux:</strong></p>
 <p>Projektbezogen, neben dem MIS-Betrieb:</p>
@@ -257,10 +291,10 @@ Yandex Cloud Training</p></aside>
 <li><strong>Investment-Plattform</strong> — Automatisiertes Portfolio-Management</li>
 </ul>
 </div><h2>Fachkenntnisse</h2><div class="cv-skills">
-<p><strong>Infrastructure:</strong> Linux · Docker · Kubernetes · WildFly · PostgreSQL · MS SQL Server · Nginx · Windows Server · Keycloak · TLS/Certbot · air-gapped Deployments</p>
+<p><strong>Infrastructure:</strong> Windows Server · Linux · Docker · Kubernetes · WildFly · PostgreSQL · MS SQL Server · Nginx · Keycloak · TLS/Certbot · air-gapped Deployments</p>
 <p><strong>Automation:</strong> GitLab CI · GitHub Actions · CI/CD · DevSecOps · Terraform · Helm · n8n · GitOps</p>
-<p><strong>Enterprise Systems:</strong> Optimum ERP · IntraMed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)</p>
 <p><strong>Observability:</strong> Prometheus · Grafana · Metabase · Backup-Automatisierung · Produktionssupport</p>
+<p><strong>Enterprise Systems:</strong> Optimum ERP · IntraMed / InterSystems Caché · MIS-Integration · Labor- und Krankenhaus-Workflows · Systemintegration (WCF)</p>
 <p><strong>Development (selektiv):</strong> Python/Bash · Next.js/React · Kotlin/Spring Boot</p></main>
 </div>
 <footer class="cv-footer"><p><em>Stand: Juni 2026 · Engineering Portfolio und Case Studies: <a href="https://github.com/boralekc/cv">github.com/boralekc/cv</a></em></p></footer>
