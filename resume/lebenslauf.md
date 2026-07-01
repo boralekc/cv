@@ -8,7 +8,7 @@
 
 **Wohnort:** Köln, Deutschland  
 **E-Mail:** [alxboriss@gmail.com](mailto:alxboriss@gmail.com)  
-**Telefon:** auf Anfrage  
+**Telefon:** [+49 157 81556325](tel:+4915781556325)  
 **Website:** [borissov-it.de](https://borissov-it.de/)  
 **LinkedIn:** [linkedin.com/in/boralekc](https://www.linkedin.com/in/boralekc)  
 **Engineering Portfolio:** [github.com/boralekc/cv](https://github.com/boralekc/cv)
@@ -40,9 +40,9 @@ Infrastructure & Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, d
 
 ## Kernbereiche
 
-- IT-Infrastruktur & produktiver Systembetrieb
+- IT-Infrastruktur & Systembetrieb
 - Systemintegration & Kundenprojekte
-- Linux & Windows Server
+- Windows- und Linux-Administration
 - Kubernetes & Automatisierung
 
 ## Beruflicher Werdegang
@@ -51,7 +51,7 @@ Infrastructure & Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, d
 
 **Infrastructure & Automation Engineer** · [borissov-it.de](https://borissov-it.de/)
 
-Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Integration und Automatisierung mit dokumentierter Übergabe.
+Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Systemintegration und Automatisierung mit dokumentierter Übergabe.
 
 **Ausgewählte Aufträge (2025):**
 
@@ -90,7 +90,7 @@ Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, 
 
 **Senior Specialist — Einführung, Integration und Betrieb medizinischer Informationssysteme**
 
-Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
+Verantwortlich für Einführung, Integration und den produktiven Betrieb des Krankenhausinformationssystems **IntraMed** (InterSystems Caché) sowie mehrerer integrierter Subsysteme.
 
 Betreuung eines produktiven Krankenhausinformationssystems mit rund **40.000 Patienten jährlich** sowie Einführungen an weiteren Kliniken.
 

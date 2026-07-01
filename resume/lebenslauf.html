@@ -107,8 +107,8 @@ a { color: var(--accent); text-decoration: none; }
 .cv-main strong { font-weight: 600; color: #0f172a; }
 .cv-main em { font-style: italic; color: var(--muted); }
 .cv-overview ul {
-  list-style: disc;
-  padding-left: 15pt;
+  list-style: none;
+  padding-left: 0;
   margin: 2pt 0 6pt;
   display: block;
 }
@@ -116,17 +116,33 @@ a { color: var(--accent); text-decoration: none; }
   margin: 0 0 2pt;
   font-size: 8.8pt;
   line-height: 1.35;
-  display: list-item;
+  padding-left: 11pt;
+  position: relative;
+}
+.cv-overview li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
 }
 .cv-project-list {
+  list-style: none !important;
   margin: 0 0 5pt 0 !important;
-  padding-left: 15pt !important;
-  list-style-type: disc !important;
+  padding-left: 0 !important;
 }
 .cv-project-list li {
   font-size: 8.7pt;
   margin-bottom: 1.5pt;
-  display: list-item;
+  padding-left: 11pt;
+  position: relative;
+}
+.cv-project-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
 }
 .cv-project-title {
   font-weight: 600;
@@ -190,7 +206,7 @@ a { color: var(--accent); text-decoration: none; }
 <aside class="cv-side"><h2>Persönliche Daten</h2>
 <p><strong>Wohnort:</strong> Köln, Deutschland<br />
 <strong>E-Mail:</strong> <a href="mailto:alxboriss@gmail.com">alxboriss@gmail.com</a><br />
-<strong>Telefon:</strong> auf Anfrage<br />
+<strong>Telefon:</strong> <a href="tel:+4915781556325">+49 157 81556325</a><br />
 <strong>Website:</strong> <a href="https://borissov-it.de/">borissov-it.de</a><br />
 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/boralekc">linkedin.com/in/boralekc</a><br />
 <strong>Engineering Portfolio:</strong> <a href="https://github.com/boralekc/cv">github.com/boralekc/cv</a></p>
@@ -212,15 +228,15 @@ Yandex Cloud Training</p></aside>
 <p>Infrastructure &amp; Automation Engineer mit über 18 Jahren Erfahrung im Betrieb, der Integration und Modernisierung geschäftskritischer IT-Systeme. Erfahrung mit Enterprise-Software, Windows- und Linux-Infrastrukturen, Kubernetes und Automatisierung sowie im direkten Kundenkontakt und produktiven Betrieb komplexer Systeme.</p>
 <h2>Kernbereiche</h2><div class="cv-overview">
 <ul>
-<li>IT-Infrastruktur &amp; produktiver Systembetrieb</li>
+<li>IT-Infrastruktur &amp; Systembetrieb</li>
 <li>Systemintegration &amp; Kundenprojekte</li>
-<li>Linux &amp; Windows Server</li>
+<li>Windows- und Linux-Administration</li>
 <li>Kubernetes &amp; Automatisierung</li>
 </ul>
 </div><h2>Beruflicher Werdegang</h2>
 <h3>Feb 2025 – heute · Selbstständig · BORISSOV Engineering · Köln</h3>
 <p><strong>Infrastructure &amp; Automation Engineer</strong> · <a href="https://borissov-it.de/">borissov-it.de</a></p>
-<p>Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Integration und Automatisierung mit dokumentierter Übergabe.</p>
+<p>Freiberufliche Projekte für Kunden im deutschen Mittelstand — Infrastruktur, Systembetrieb, Systemintegration und Automatisierung mit dokumentierter Übergabe.</p>
 <p><strong>Ausgewählte Aufträge (2025):</strong></p>
 <p class="cv-project-title"><strong>KI-Lernplattform</strong></p><ul class="cv-project-list">
 <li>Aufbau und Betrieb einer Kubernetes-Plattform</li>
@@ -251,7 +267,7 @@ Yandex Cloud Training</p></aside>
 </ul>
 <h3>2008 – 2022 · Medcore · Russland</h3>
 <p><strong>Senior Specialist — Einführung, Integration und Betrieb medizinischer Informationssysteme</strong></p>
-<p>Langjährige Verantwortung für Einführung, Integration und Produktionsbetrieb des medizinischen Informationssystems <strong>IntraMed</strong> (InterSystems Caché) sowie mehrerer integrierter Subsysteme.</p>
+<p>Verantwortlich für Einführung, Integration und den produktiven Betrieb des Krankenhausinformationssystems <strong>IntraMed</strong> (InterSystems Caché) sowie mehrerer integrierter Subsysteme.</p>
 <p>Betreuung eines produktiven Krankenhausinformationssystems mit rund <strong>40.000 Patienten jährlich</strong> sowie Einführungen an weiteren Kliniken.</p>
 <ul>
 <li>Integration: Labor, Histopathologie, Dokumentenerkennung (WCF, klinische Workflows)</li>
